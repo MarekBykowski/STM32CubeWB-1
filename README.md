@@ -1,9 +1,3 @@
-# How to get into it is:
-- go to [P-NUCLEO-WB55](https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html)
-- click on STM32CubeWB and scroll down to get SW
-
-There are zip archives (with STM32CubeWB and a patch for) and a github repo for it (forked what you are on now).
-
 # STM32CubeWB MCU Firmware Package
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/STM32CubeWB.svg?color=brightgreen)
