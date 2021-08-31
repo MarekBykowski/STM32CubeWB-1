@@ -34,7 +34,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define TRANSMITTER_BOARD
+/*#define TRANSMITTER_BOARD*/
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,10 +50,10 @@ __IO ITStatus UartReady = RESET;
 __IO uint32_t UserButtonStatus = 0;  /* set to 1 after User Button interrupt  */
 
 /* Buffer used for transmission */
-uint8_t aTxBuffer[] = " ****UART_TwoBoards_ComIT****  ****UART_TwoBoards_ComIT****  ****UART_TwoBoards_ComIT**** ";
+uint8_t aTxBuffer[5] = {0};
 
 /* Buffer used for reception */
-uint8_t aRxBuffer[RXBUFFERSIZE];
+uint8_t aRxBuffer[5] = {0};
 
 /* USER CODE END PV */
 
@@ -76,6 +76,7 @@ static uint16_t Buffercmp(uint8_t* pBuffer1, uint8_t* pBuffer2, uint16_t BufferL
   */
 int main(void)
 {
+	*(volatile uint32_t *)(aTxBuffer) = 0xdeadbeef;
   /* USER CODE BEGIN 1 */
   /* STM32WBxx HAL library initialization:
        - Configure the Flash prefetch
