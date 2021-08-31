@@ -3,7 +3,7 @@
 
   @verbatim
   ******************************************************************************
-  * @file    UART/UART_TwoBoards_ComIT/readme.txt 
+  * @file    UART/UART_TwoBoards_ComIT/readme.txt
   * @author  MCD Application Team
   * @brief   Description of the UART Two Boards Communication IT example.
   ******************************************************************************
@@ -18,15 +18,22 @@
   ******************************************************************************
   @endverbatim
 
-@par Example Description 
+@amendments
+1. P-NUCLEO-WB55 is a receiver board
+2. P-NUCLEO-WB55 connects to Cypress (to tp185 (Rx), and tp186 (Tx))
+2. Cypress sends 0xdeadbeef, P-NUCLEO-WB55 receives and transmits back to
+Cypress
+@endamendments
 
-UART transmission (transmit/receive) in Interrupt mode 
+@par Example Description
+
+UART transmission (transmit/receive) in Interrupt mode
 between two boards.
 
 Board: P-NUCLEO-WB55 (embeds a STM32WB55RGVx device)
 Tx Pin: PB.06 (Pin 34 in CN10)
 Rx Pin: PB.07 (Pin 6 in CN10)
-   _________________________                       _________________________ 
+   _________________________                       _________________________
   |           ______________|                     |______________           |
   |          |USART         |                     |         USART|          |
   |          |              |                     |              |          |
@@ -49,7 +56,7 @@ Board 1: transmitting then receiving board
 Board 2: receiving then transmitting board
 
 The user presses the User push-button (SW1) on board 1.
-Then, board 1 sends in interrupt mode a message to board 2 that sends it back to 
+Then, board 1 sends in interrupt mode a message to board 2 that sends it back to
 board 1 in interrupt mode as well.
 Finally, board 1 and 2 compare the received message to that sent.
 If the messages are the same, the test passes.
@@ -60,7 +67,7 @@ switch is defined in /Src/main.c and must be enabled
 at compilation time before loading the executable in the board that first transmits
 then receives.
 The receiving then transmitting board needs to be loaded with an executable
-software obtained with TRANSMITTER_BOARD disabled. 
+software obtained with TRANSMITTER_BOARD disabled.
 
 P-NUCLEO-WB55 board LEDs are used to monitor the transfer status:
 - While board 1 is waiting for the user to press the User push-button (SW1), its LED2 is
@@ -70,14 +77,14 @@ P-NUCLEO-WB55 board LEDs are used to monitor the transfer status:
 - When the test passes, LED2 is turned on.
 - If there is an initialization or transfer error, LED3 is turned on.
 
-At the beginning of the main program the HAL_Init() function is called to reset 
+At the beginning of the main program the HAL_Init() function is called to reset
 all the peripherals, initialize the Flash interface and the systick.
 Then the SystemClock_Config() function is used to configure the system
 clock (SYSCLK) to run at 64 MHz.
 
 
 The UART is configured as follows:
-    - BaudRate = 9600 baud  
+    - BaudRate = 9600 baud
     - Word Length = 8 bits (8 data bits, no parity bit)
     - One Stop Bit
     - No parity
@@ -95,7 +102,7 @@ position of the transmitted data.
       a peripheral ISR process, then the SysTick interrupt must have higher priority (numerically lower)
       than the peripheral interrupt. Otherwise the caller ISR process will be blocked.
       To change the SysTick interrupt priority you have to use HAL_NVIC_SetPriority() function.
-      
+
 @note The application need to ensure that the SysTick time base is always set to 1 millisecond
       to have correct HAL operation.
 
@@ -103,22 +110,22 @@ position of the transmitted data.
 
 Connectivity, UART, Baud rate, RS-232, Full-duplex, DMA, Parity, Stop bit, Transmission, Reception, interrupt
 
-@par Directory contents 
+@par Directory contents
 
   - UART/UART_TwoBoards_ComIT/Inc/stm32wbxx_hal_conf.h    HAL configuration file
   - UART/UART_TwoBoards_ComIT/Inc/stm32wbxx_it.h          IT interrupt handlers header file
-  - UART/UART_TwoBoards_ComIT/Inc/main.h                  Header for main.c module  
+  - UART/UART_TwoBoards_ComIT/Inc/main.h                  Header for main.c module
   - UART/UART_TwoBoards_ComIT/Src/stm32wbxx_it.c          IT interrupt handlers
   - UART/UART_TwoBoards_ComIT/Src/main.c                  Main program
   - UART/UART_TwoBoards_ComIT/Src/stm32wbxx_hal_msp.c     HAL MSP module
   - UART/UART_TwoBoards_ComIT/Src/system_stm32wbxx.c      STM32WBxx system source file
 
 
-@par Hardware and Software environment 
+@par Hardware and Software environment
 
-  - This example runs on STM32WB55xx devices.    
+  - This example runs on STM32WB55xx devices.
   - This example has been tested with two P-NUCLEO-WB55 boards embedding
-    a STM32WB55RGVx device and can be easily tailored to any other supported device 
+    a STM32WB55RGVx device and can be easily tailored to any other supported device
     and development board.
 
   - P-NUCLEO-WB55 set-up
@@ -126,7 +133,7 @@ Connectivity, UART, Baud rate, RS-232, Full-duplex, DMA, Parity, Stop bit, Trans
     - Connect a wire between 1st board PB7 pin (Uart Rx) and 2nd board PB6 pin (Uart Tx)
     - Connect 1st board GND to 2nd Board GND
 
-@par How to use it ? 
+@par How to use it ?
 
 In order to make the program work, you must do the following :
  - Open your preferred toolchain

@@ -50,10 +50,10 @@ __IO ITStatus UartReady = RESET;
 __IO uint32_t UserButtonStatus = 0;  /* set to 1 after User Button interrupt  */
 
 /* Buffer used for transmission */
-uint8_t aTxBuffer[5] = {0};
+uint8_t aTxBuffer[4] = {0};
 
 /* Buffer used for reception */
-uint8_t aRxBuffer[5] = {0};
+uint8_t aRxBuffer[4] = {0};
 
 /* USER CODE END PV */
 
