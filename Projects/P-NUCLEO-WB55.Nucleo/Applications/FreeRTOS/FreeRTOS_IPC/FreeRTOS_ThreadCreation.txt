@@ -1,0 +1,54 @@
+Configuration	FreeRTOS_ThreadCreation
+STM32CubeMX 	6.3.0
+Date	10/09/2021
+MCU	STM32WB55RGVx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	TIM1	SYS_VS_tim1	VP_SYS_VS_tim1
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+24	PA9	USART1_TX	
+51	PA10	USART1_RX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	TIM1	SYS_VS_tim1	VP_SYS_VS_tim1
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+24	PA9	USART1_TX	
+51	PA10	USART1_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : FreeRTOS_ThreadCreation
+Project Folder : C:\Users\bykowmar\Downloads\PASA\BLE_module\STmicro\stmicro_eval\STM32CubeWB-1\Projects\P-NUCLEO-WB55.Nucleo\Applications\FreeRTOS\FreeRTOS_IPC
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_WB V1.12.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Add necessary library files as reference in the toolchain project configuration file
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

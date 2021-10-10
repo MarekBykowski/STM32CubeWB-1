@@ -1,0 +1,15279 @@
+cscope 15 /cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC               0000085647
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/EWARM/startup_stm32wb55xx_cm4.s
+
+2 ;* 
+Fže
+ 
+	gName
+ : 
+¡¬tup_¡m32wb55xx_cm4
+.
+s
+
+
+3 ;* 
+	gAuthÜ
+ : 
+MCD
+ 
+AµliÿtiÚ
+ 
+T—m
+
+
+4 ;* 
+	gDesütiÚ
+ : 
+M4
+ 
+cÜe
+ 
+veùÜ
+ 
+bË
+ 
+of
+ 
+the
+ 
+STM32WB55xx
+ 
+deviûs
+ the
+
+5 ;* 
+	$IAR
+ (
+EWARM
+è
+toÞchaš
+.
+
+7 ;* 
+This
+ 
+moduË
+ 
+³rfÜms
+:
+
+8 ;* - 
+S‘
+ 
+the
+ 
+š™Ÿl
+ 
+SP
+
+
+9 ;* - 
+S‘
+ 
+the
+ 
+š™Ÿl
+ 
+PC
+ =ð
+_Ÿr_´og¿m_¡¬t
+,
+
+10 ;* - 
+S‘
+ 
+the
+ 
+veùÜ
+ 
+bË
+ 
+’Œ›s
+ 
+w™h
+h
+exû±iÚs
+ 
+ISR
+
+
+11 ;* 
+add»ss
+.
+
+12 ;* - 
+B¿nches
+ 
+to
+ 
+maš
+ 
+š
+ 
+the
+ 
+C
+ 
+	`lib¿ry
+ (
+which
+ 
+ev’tu®ly
+
+
+13 ;* 
+ÿÎs
+ 
+	`maš
+()).
+
+14 ;* 
+Aá”
+ 
+Re£t
+ 
+the
+ 
+CÜ‹x
+-
+M4
+ 
+´oûssÜ
+ 
+is
+ 
+š
+ 
+Th»ad
+ 
+mode
+,
+
+15 ;* 
+´iÜ™y
+ 
+is
+ 
+Privžeged
+, 
+ªd
+ 
+the
+ 
+Sck
+ i 
+£t
+ 
+to
+ 
+Maš
+.
+
+17 ;* @
+©‹ÁiÚ
+
+
+19 ;* <
+h2
+><
+ûÁ”
+>&
+cÝy
+; 
+	`CÝyright
+ (
+c
+è2019 
+STMiüÛËùrÚics
+.
+
+20 ;* 
+AÎ
+ 
+rights
+ 
+»£rved
+.</
+ûÁ”
+></
+h2
+>
+
+22 ;* 
+This
+ 
+soáw¬e
+ 
+compÚ’t
+ 
+is
+ 
+liûn£d
+ 
+by
+ 
+ST
+ 
+und”
+ 
+A·che
+ 
+Liûn£
+, 
+V”siÚ
+ 2.0,
+
+23 ;* 
+the
+ "Liûn£"; 
+You
+ 
+may
+ 
+nÙ
+ 
+u£
+ 
+this
+ 
+fže
+ 
+exû±
+ 
+š
+ 
+com¶Ÿnû
+ 
+w™h
+he
+
+24 ;* 
+Liûn£
+. 
+You
+ 
+may
+ 
+obš
+ 
+a
+ 
+cÝy
+ 
+of
+ 
+the
+ Liûn£ 
+©
+:
+
+25 ;* 
+Ý’sourû
+.
+Üg
+/
+liûn£s
+/
+A·che
+-2.0
+
+30 ; 
+The
+ 
+moduËs
+ 
+š
+ 
+this
+ 
+fže
+ 
+¬e
+ 
+šþuded
+ iÀ
+the
+ 
+lib¿r›s
+, 
+ªd
+ 
+may
+ 
+be
+ 
+»¶aûd
+
+
+31 ; 
+by
+ 
+ªy
+ 
+u£r
+-
+defšed
+ 
+moduËs
+ 
+th©
+ 
+defše
+ 
+the
+ 
+PUBLIC
+ 
+symbÞ
+ 
+_´og¿m_¡¬t
+ 
+Ü
+
+
+32 ; 
+a
+ 
+u£r
+ 
+defšed
+ 
+¡¬t
+ 
+symbÞ
+.
+
+33 ; 
+To
+ 
+ov”ride
+ 
+the
+ 
+c¡¬tup
+ 
+defšed
+ 
+š
+h
+lib¿ry
+, 
+sim¶y
+ 
+add
+ 
+your
+ 
+modif›d
+
+
+34 ; 
+v”siÚ
+ 
+to
+ 
+the
+ 
+wÜkb’ch
+ 
+´ojeù
+.
+
+36 ; 
+The
+ 
+veùÜ
+ 
+bË
+ 
+is
+ 
+nÜm®ly
+ 
+loÿ‹d
+ 
+©
+ 
+add»ss
+ 0.
+
+37 ; 
+Wh’
+ 
+debuggšg
+ 
+š
+ 
+RAM
+, 
+™
+ 
+ÿn
+ 
+be
+ 
+loÿ‹d
+ iÀRAM, 
+®igÃd
+ 
+to
+ 
+©
+ 
+Ëa¡
+ 2^6.
+
+38 ; 
+The
+ 
+Çme
+ "__veùÜ_bË" 
+has
+ 
+¥ecŸl
+ 
+m—nšg
+ 
+C
+-
+SPY
+:
+
+39 ; 
+™
+ 
+is
+ 
+wh”e
+ 
+the
+ 
+SP
+ 
+¡¬t
+ 
+v®ue
+ i 
+found
+, 
+ªd
+h
+NVIC
+ 
+veùÜ
+
+
+40 ; 
+bË
+ (
+VTOR
+è
+is
+ 
+š™Ÿlized
+ 
+to
+ 
+this
+ 
+add»ss
+ != 0.
+
+42 ; 
+CÜ‹x
+-
+M
+ 
+v”siÚ
+
+
+45 
+MODULE
+ ?
+c¡¬tup
+
+
+47 ;; 
+FÜw¬d
+ 
+deþ¬©iÚ
+ 
+of
+ 
+£ùiÚs
+.
+
+48 
+SECTION
+ 
+CSTACK
+:
+DATA
+:
+	$NOROOT
+(3)
+
+50 
+SECTION
+ .
+štvec
+:
+CODE
+:
+	$NOROOT
+(2)
+
+52 
+EXTERN
+ 
+__Ÿr_´og¿m_¡¬t
+
+
+53 
+EXTERN
+ 
+Sy¡emIn™
+
+
+54 
+PUBLIC
+ 
+__veùÜ_bË
+
+
+56 
+DATA
+
+
+57 
+__veùÜ_bË
+
+
+58 
+DCD
+ 
+	$sã
+(
+CSTACK
+)
+
+59 
+DCD
+ 
+Re£t_HªdËr
+ ; 
+Re£t
+ 
+HªdËr
+
+
+61 
+DCD
+ 
+NMI_HªdËr
+ ; 
+NMI
+ 
+HªdËr
+
+
+62 
+DCD
+ 
+H¬dFauÉ_HªdËr
+ ; 
+H¬d
+ 
+FauÉ
+ 
+HªdËr
+
+
+63 
+DCD
+ 
+MemMªage_HªdËr
+ ; 
+MPU
+ 
+FauÉ
+ 
+HªdËr
+
+
+64 
+DCD
+ 
+BusFauÉ_HªdËr
+ ; 
+Bus
+ 
+FauÉ
+ 
+HªdËr
+
+
+65 
+DCD
+ 
+U§geFauÉ_HªdËr
+ ; 
+U§ge
+ 
+FauÉ
+ 
+HªdËr
+
+
+66 
+DCD
+ 0 ; 
+Re£rved
+
+
+67 
+DCD
+ 0 ; 
+Re£rved
+
+
+68 
+DCD
+ 0 ; 
+Re£rved
+
+
+69 
+DCD
+ 0 ; 
+Re£rved
+
+
+70 
+DCD
+ 
+SVC_HªdËr
+ ; 
+SVC®l
+ 
+HªdËr
+
+
+71 
+DCD
+ 
+DebugMÚ_HªdËr
+ ; 
+Debug
+ 
+MÚ™Ü
+ 
+HªdËr
+
+
+72 
+DCD
+ 0 ; 
+Re£rved
+
+
+73 
+DCD
+ 
+P’dSV_HªdËr
+ ; 
+P’dSV
+ 
+HªdËr
+
+
+74 
+DCD
+ 
+SysTick_HªdËr
+ ; 
+SysTick
+ 
+HªdËr
+
+
+76 ; 
+Ex‹º®
+ 
+IÁ”ru±s
+
+
+77 
+DCD
+ 
+WWDG_IRQHªdËr
+ ; 
+Wšdow
+ 
+W©chDog
+
+
+78 
+DCD
+ 
+PVD_PVM_IRQHªdËr
+ ; 
+PVD
+ 
+ªd
+ 
+PVM
+ 
+IÁ”ru±
+
+
+79 
+DCD
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+ ; 
+RTC
+ 
+Tam³r
+, 
+TimeSmp
+ 
+IÁ”ru±s
+ 
+ªd
+ 
+LSECSS
+ Interrupts
+
+80 
+DCD
+ 
+RTC_WKUP_IRQHªdËr
+ ; 
+RTC
+ 
+Wakeup
+ 
+IÁ”ru±
+
+
+81 
+DCD
+ 
+FLASH_IRQHªdËr
+ ; 
+FLASH
+ 
+glob®
+ 
+IÁ”ru±
+
+
+82 
+DCD
+ 
+RCC_IRQHªdËr
+ ; 
+RCC
+ 
+IÁ”ru±
+
+
+83 
+DCD
+ 
+EXTI0_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 0 
+IÁ”ru±
+
+
+84 
+DCD
+ 
+EXTI1_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 1 
+IÁ”ru±
+
+
+85 
+DCD
+ 
+EXTI2_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 2 
+IÁ”ru±
+
+
+86 
+DCD
+ 
+EXTI3_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 3 
+IÁ”rup
+
+
+87 
+DCD
+ 
+EXTI4_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 4 
+IÁ”ru±
+
+
+88 
+DCD
+ 
+DMA1_ChªÃl1_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 1 
+IÁ”ru±
+
+
+89 
+DCD
+ 
+DMA1_ChªÃl2_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 2 
+IÁ”ru±
+
+
+90 
+DCD
+ 
+DMA1_ChªÃl3_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 3 
+IÁ”ru±
+
+
+91 
+DCD
+ 
+DMA1_ChªÃl4_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 4 
+IÁ”ru±
+
+
+92 
+DCD
+ 
+DMA1_ChªÃl5_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 5 
+IÁ”ru±
+
+
+93 
+DCD
+ 
+DMA1_ChªÃl6_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 6 
+IÁ”ru±
+
+
+94 
+DCD
+ 
+DMA1_ChªÃl7_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 7 
+IÁ”ru±
+
+
+95 
+DCD
+ 
+ADC1_IRQHªdËr
+ ; 
+ADC1
+ 
+IÁ”ru±
+
+
+96 
+DCD
+ 
+USB_HP_IRQHªdËr
+ ; 
+USB
+ 
+High
+ 
+PriÜ™y
+ 
+IÁ”ru±
+
+
+97 
+DCD
+ 
+USB_LP_IRQHªdËr
+ ; 
+USB
+ 
+Low
+ 
+PriÜ™y
+ 
+IÁ”ru±
+
+
+98 
+DCD
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+ ; 
+CPU
+ 
+M0
++ 
+SEV
+ 
+IÁ”ru±
+
+
+99 
+DCD
+ 
+COMP_IRQHªdËr
+ ; 
+COMP1
+ 
+ªd
+ 
+COMP2
+ 
+IÁ”ru±s
+
+
+100 
+DCD
+ 
+EXTI9_5_IRQHªdËr
+ ; 
+EXTI
+ 
+Lšes
+ [9:5] 
+IÁ”ru±
+
+
+101 
+DCD
+ 
+TIM1_BRK_IRQHªdËr
+ ; 
+TIM1
+ 
+B»ak
+ 
+IÁ”ru±
+
+
+102 
+DCD
+ 
+TIM1_UP_TIM16_IRQHªdËr
+ ; 
+TIM1
+ 
+Upd©e
+ 
+ªd
+ 
+TIM16
+ 
+glob®
+ 
+IÁ”ru±s
+
+
+103 
+DCD
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+ ; 
+TIM1
+ 
+Trigg”
+ 
+ªd
+ 
+CommuniÿtiÚ
+‡nd 
+TIM17
+ 
+glob®
+ 
+IÁ”ru±s
+
+
+104 
+DCD
+ 
+TIM1_CC_IRQHªdËr
+ ; 
+TIM1
+ 
+C­tu»
+ 
+Com·»
+ 
+IÁ”ru±
+
+
+105 
+DCD
+ 
+TIM2_IRQHªdËr
+ ; 
+TIM2
+ 
+Glob®
+ 
+IÁ”ru±
+
+
+106 
+DCD
+ 
+PKA_IRQHªdËr
+ ; 
+PKA
+ 
+IÁ”ru±
+
+
+107 
+DCD
+ 
+I2C1_EV_IRQHªdËr
+ ; 
+I2C1
+ 
+Ev’t
+ 
+IÁ”ru±
+
+
+108 
+DCD
+ 
+I2C1_ER_IRQHªdËr
+ ; 
+I2C1
+ 
+E¼Ü
+ 
+IÁ”ru±
+
+
+109 
+DCD
+ 
+I2C3_EV_IRQHªdËr
+ ; 
+I2C3
+ 
+Ev’t
+ 
+IÁ”ru±
+
+
+110 
+DCD
+ 
+I2C3_ER_IRQHªdËr
+ ; 
+I2C3
+ 
+E¼Ü
+ 
+IÁ”ru±
+
+
+111 
+DCD
+ 
+SPI1_IRQHªdËr
+ ; 
+SPI1
+ 
+IÁ”ru±
+
+
+112 
+DCD
+ 
+SPI2_IRQHªdËr
+ ; 
+SPI2
+ 
+IÁ”ru±
+
+
+113 
+DCD
+ 
+USART1_IRQHªdËr
+ ; 
+USART1
+ 
+IÁ”ru±
+
+
+114 
+DCD
+ 
+LPUART1_IRQHªdËr
+ ; 
+LPUART1
+ 
+IÁ”ru±
+
+
+115 
+DCD
+ 
+SAI1_IRQHªdËr
+ ; 
+SAI
+ 
+IÁ”ru±
+
+
+116 
+DCD
+ 
+TSC_IRQHªdËr
+ ; 
+TSC
+ 
+IÁ”ru±
+
+
+117 
+DCD
+ 
+EXTI15_10_IRQHªdËr
+ ; 
+EXTI
+ 
+Lšes1
+[15:10 ]
+IÁ”ru±s
+
+
+118 
+DCD
+ 
+RTC_AÏrm_IRQHªdËr
+ ; 
+RTC
+ 
+	$AÏrms
+ (
+A
+ 
+ªd
+ 
+B
+è
+IÁ”ru±
+
+
+119 
+DCD
+ 
+CRS_IRQHªdËr
+ ; 
+CRS
+ 
+š‹¼u±
+
+
+120 
+DCD
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+ ; 
+WKUP
+ 
+IÁ”ru±
+ 
+äom
+ 
+PWR
+
+
+121 
+DCD
+ 
+IPCC_C1_RX_IRQHªdËr
+ ; 
+IPCC
+ 
+CPU1
+ 
+RX
+ 
+occup›d
+ 
+š‹¼u±
+
+
+122 
+DCD
+ 
+IPCC_C1_TX_IRQHªdËr
+ ; 
+IPCC
+ 
+CPU1
+ 
+RX
+ 
+ä“
+ 
+š‹¼u±
+
+
+123 
+DCD
+ 
+HSEM_IRQHªdËr
+ ; 
+HSEM0
+ 
+IÁ”ru±
+
+
+124 
+DCD
+ 
+LPTIM1_IRQHªdËr
+ ; 
+LPTIM1
+ 
+IÁ”ru±
+
+
+125 
+DCD
+ 
+LPTIM2_IRQHªdËr
+ ; 
+LPTIM2
+ 
+IÁ”ru±
+
+
+126 
+DCD
+ 
+LCD_IRQHªdËr
+ ; 
+LCD
+ 
+IÁ”ru±
+
+
+127 
+DCD
+ 
+QUADSPI_IRQHªdËr
+ ; 
+QUADSPI
+ 
+IÁ”ru±
+
+
+128 
+DCD
+ 
+AES1_IRQHªdËr
+ ; 
+AES1
+ 
+IÁ”ru±
+
+
+129 
+DCD
+ 
+AES2_IRQHªdËr
+ ; 
+AES2
+ 
+IÁ”ru±
+
+
+130 
+DCD
+ 
+RNG_IRQHªdËr
+ ; 
+RNG1
+ 
+IÁ”ru±
+
+
+131 
+DCD
+ 
+FPU_IRQHªdËr
+ ; 
+FPU
+ 
+IÁ”ru±
+
+
+132 
+DCD
+ 
+DMA2_ChªÃl1_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 1 
+IÁ”ru±
+
+
+133 
+DCD
+ 
+DMA2_ChªÃl2_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 2 
+IÁ”ru±
+
+
+134 
+DCD
+ 
+DMA2_ChªÃl3_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 3 
+IÁ”ru±
+
+
+135 
+DCD
+ 
+DMA2_ChªÃl4_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 4 
+IÁ”ru±
+
+
+136 
+DCD
+ 
+DMA2_ChªÃl5_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 5 
+IÁ”ru±
+
+
+137 
+DCD
+ 
+DMA2_ChªÃl6_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 6 
+IÁ”ru±
+
+
+138 
+DCD
+ 
+DMA2_ChªÃl7_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 7 
+IÁ”ru±
+
+
+139 
+DCD
+ 
+DMAMUX1_OVR_IRQHªdËr
+ ; 
+DMAMUX
+ 
+ov”run
+ 
+IÁ”ru±
+
+
+143 ;; 
+DeçuÉ
+ 
+š‹¼u±
+ 
+hªdËrs
+.
+
+145 
+THUMB
+
+
+147 
+PUBWEAK
+ 
+Re£t_HªdËr
+
+
+148 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(2)
+
+149 
+Re£t_HªdËr
+
+
+150 
+LDR
+ 
+R0
+, =
+Sy¡emIn™
+
+
+151 
+BLX
+ 
+R0
+
+
+152 
+LDR
+ 
+R0
+, =
+__Ÿr_´og¿m_¡¬t
+
+
+153 
+BX
+ 
+R0
+
+
+155 
+PUBWEAK
+ 
+NMI_HªdËr
+
+
+156 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+157 
+NMI_HªdËr
+
+
+158 
+B
+ 
+NMI_HªdËr
+
+
+160 
+PUBWEAK
+ 
+H¬dFauÉ_HªdËr
+
+
+161 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+162 
+H¬dFauÉ_HªdËr
+
+
+163 
+B
+ 
+H¬dFauÉ_HªdËr
+
+
+165 
+PUBWEAK
+ 
+MemMªage_HªdËr
+
+
+166 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+167 
+MemMªage_HªdËr
+
+
+168 
+B
+ 
+MemMªage_HªdËr
+
+
+170 
+PUBWEAK
+ 
+BusFauÉ_HªdËr
+
+
+171 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+172 
+BusFauÉ_HªdËr
+
+
+173 
+B
+ 
+BusFauÉ_HªdËr
+
+
+175 
+PUBWEAK
+ 
+U§geFauÉ_HªdËr
+
+
+176 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+177 
+U§geFauÉ_HªdËr
+
+
+178 
+B
+ 
+U§geFauÉ_HªdËr
+
+
+180 
+PUBWEAK
+ 
+SVC_HªdËr
+
+
+181 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+182 
+SVC_HªdËr
+
+
+183 
+B
+ 
+SVC_HªdËr
+
+
+185 
+PUBWEAK
+ 
+DebugMÚ_HªdËr
+
+
+186 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+187 
+DebugMÚ_HªdËr
+
+
+188 
+B
+ 
+DebugMÚ_HªdËr
+
+
+190 
+PUBWEAK
+ 
+P’dSV_HªdËr
+
+
+191 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+192 
+P’dSV_HªdËr
+
+
+193 
+B
+ 
+P’dSV_HªdËr
+
+
+195 
+PUBWEAK
+ 
+SysTick_HªdËr
+
+
+196 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+197 
+SysTick_HªdËr
+
+
+198 
+B
+ 
+SysTick_HªdËr
+
+
+200 
+PUBWEAK
+ 
+WWDG_IRQHªdËr
+
+
+201 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+202 
+WWDG_IRQHªdËr
+
+
+203 
+B
+ 
+WWDG_IRQHªdËr
+
+
+205 
+PUBWEAK
+ 
+PVD_PVM_IRQHªdËr
+
+
+206 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+207 
+PVD_PVM_IRQHªdËr
+
+
+208 
+B
+ 
+PVD_PVM_IRQHªdËr
+
+
+210 
+PUBWEAK
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+
+
+211 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+212 
+TAMP_STAMP_LSECSS_IRQHªdËr
+
+
+213 
+B
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+
+
+215 
+PUBWEAK
+ 
+RTC_WKUP_IRQHªdËr
+
+
+216 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+217 
+RTC_WKUP_IRQHªdËr
+
+
+218 
+B
+ 
+RTC_WKUP_IRQHªdËr
+
+
+220 
+PUBWEAK
+ 
+FLASH_IRQHªdËr
+
+
+221 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+222 
+FLASH_IRQHªdËr
+
+
+223 
+B
+ 
+FLASH_IRQHªdËr
+
+
+225 
+PUBWEAK
+ 
+RCC_IRQHªdËr
+
+
+226 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+227 
+RCC_IRQHªdËr
+
+
+228 
+B
+ 
+RCC_IRQHªdËr
+
+
+230 
+PUBWEAK
+ 
+EXTI0_IRQHªdËr
+
+
+231 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+232 
+EXTI0_IRQHªdËr
+
+
+233 
+B
+ 
+EXTI0_IRQHªdËr
+
+
+235 
+PUBWEAK
+ 
+EXTI1_IRQHªdËr
+
+
+236 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+237 
+EXTI1_IRQHªdËr
+
+
+238 
+B
+ 
+EXTI1_IRQHªdËr
+
+
+240 
+PUBWEAK
+ 
+EXTI2_IRQHªdËr
+
+
+241 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+242 
+EXTI2_IRQHªdËr
+
+
+243 
+B
+ 
+EXTI2_IRQHªdËr
+
+
+245 
+PUBWEAK
+ 
+EXTI3_IRQHªdËr
+
+
+246 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+247 
+EXTI3_IRQHªdËr
+
+
+248 
+B
+ 
+EXTI3_IRQHªdËr
+
+
+250 
+PUBWEAK
+ 
+EXTI4_IRQHªdËr
+
+
+251 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+252 
+EXTI4_IRQHªdËr
+
+
+253 
+B
+ 
+EXTI4_IRQHªdËr
+
+
+255 
+PUBWEAK
+ 
+DMA1_ChªÃl1_IRQHªdËr
+
+
+256 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+257 
+DMA1_ChªÃl1_IRQHªdËr
+
+
+258 
+B
+ 
+DMA1_ChªÃl1_IRQHªdËr
+
+
+260 
+PUBWEAK
+ 
+DMA1_ChªÃl2_IRQHªdËr
+
+
+261 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+262 
+DMA1_ChªÃl2_IRQHªdËr
+
+
+263 
+B
+ 
+DMA1_ChªÃl2_IRQHªdËr
+
+
+265 
+PUBWEAK
+ 
+DMA1_ChªÃl3_IRQHªdËr
+
+
+266 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+267 
+DMA1_ChªÃl3_IRQHªdËr
+
+
+268 
+B
+ 
+DMA1_ChªÃl3_IRQHªdËr
+
+
+270 
+PUBWEAK
+ 
+DMA1_ChªÃl4_IRQHªdËr
+
+
+271 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+272 
+DMA1_ChªÃl4_IRQHªdËr
+
+
+273 
+B
+ 
+DMA1_ChªÃl4_IRQHªdËr
+
+
+275 
+PUBWEAK
+ 
+DMA1_ChªÃl5_IRQHªdËr
+
+
+276 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+277 
+DMA1_ChªÃl5_IRQHªdËr
+
+
+278 
+B
+ 
+DMA1_ChªÃl5_IRQHªdËr
+
+
+280 
+PUBWEAK
+ 
+DMA1_ChªÃl6_IRQHªdËr
+
+
+281 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+282 
+DMA1_ChªÃl6_IRQHªdËr
+
+
+283 
+B
+ 
+DMA1_ChªÃl6_IRQHªdËr
+
+
+285 
+PUBWEAK
+ 
+DMA1_ChªÃl7_IRQHªdËr
+
+
+286 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+287 
+DMA1_ChªÃl7_IRQHªdËr
+
+
+288 
+B
+ 
+DMA1_ChªÃl7_IRQHªdËr
+
+
+290 
+PUBWEAK
+ 
+ADC1_IRQHªdËr
+
+
+291 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+292 
+ADC1_IRQHªdËr
+
+
+293 
+B
+ 
+ADC1_IRQHªdËr
+
+
+295 
+PUBWEAK
+ 
+USB_HP_IRQHªdËr
+
+
+296 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+297 
+USB_HP_IRQHªdËr
+
+
+298 
+B
+ 
+USB_HP_IRQHªdËr
+
+
+300 
+PUBWEAK
+ 
+USB_LP_IRQHªdËr
+
+
+301 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+302 
+USB_LP_IRQHªdËr
+
+
+303 
+B
+ 
+USB_LP_IRQHªdËr
+
+
+305 
+PUBWEAK
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+
+
+306 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+307 
+C2SEV_PWR_C2H_IRQHªdËr
+
+
+308 
+B
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+
+
+310 
+PUBWEAK
+ 
+COMP_IRQHªdËr
+
+
+311 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+312 
+COMP_IRQHªdËr
+
+
+313 
+B
+ 
+COMP_IRQHªdËr
+
+
+315 
+PUBWEAK
+ 
+EXTI9_5_IRQHªdËr
+
+
+316 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+317 
+EXTI9_5_IRQHªdËr
+
+
+318 
+B
+ 
+EXTI9_5_IRQHªdËr
+
+
+320 
+PUBWEAK
+ 
+TIM1_BRK_IRQHªdËr
+
+
+321 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+322 
+TIM1_BRK_IRQHªdËr
+
+
+323 
+B
+ 
+TIM1_BRK_IRQHªdËr
+
+
+325 
+PUBWEAK
+ 
+TIM1_UP_TIM16_IRQHªdËr
+
+
+326 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+327 
+TIM1_UP_TIM16_IRQHªdËr
+
+
+328 
+B
+ 
+TIM1_UP_TIM16_IRQHªdËr
+
+
+330 
+PUBWEAK
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+331 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+332 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+333 
+B
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+335 
+PUBWEAK
+ 
+TIM1_CC_IRQHªdËr
+
+
+336 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+337 
+TIM1_CC_IRQHªdËr
+
+
+338 
+B
+ 
+TIM1_CC_IRQHªdËr
+
+
+340 
+PUBWEAK
+ 
+TIM2_IRQHªdËr
+
+
+341 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+342 
+TIM2_IRQHªdËr
+
+
+343 
+B
+ 
+TIM2_IRQHªdËr
+
+
+345 
+PUBWEAK
+ 
+PKA_IRQHªdËr
+
+
+346 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+347 
+PKA_IRQHªdËr
+
+
+348 
+B
+ 
+PKA_IRQHªdËr
+
+
+350 
+PUBWEAK
+ 
+I2C1_EV_IRQHªdËr
+
+
+351 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+352 
+I2C1_EV_IRQHªdËr
+
+
+353 
+B
+ 
+I2C1_EV_IRQHªdËr
+
+
+355 
+PUBWEAK
+ 
+I2C1_ER_IRQHªdËr
+
+
+356 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+357 
+I2C1_ER_IRQHªdËr
+
+
+358 
+B
+ 
+I2C1_ER_IRQHªdËr
+
+
+360 
+PUBWEAK
+ 
+I2C3_EV_IRQHªdËr
+
+
+361 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+362 
+I2C3_EV_IRQHªdËr
+
+
+363 
+B
+ 
+I2C3_EV_IRQHªdËr
+
+
+365 
+PUBWEAK
+ 
+I2C3_ER_IRQHªdËr
+
+
+366 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+367 
+I2C3_ER_IRQHªdËr
+
+
+368 
+B
+ 
+I2C3_ER_IRQHªdËr
+
+
+370 
+PUBWEAK
+ 
+SPI1_IRQHªdËr
+
+
+371 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+372 
+SPI1_IRQHªdËr
+
+
+373 
+B
+ 
+SPI1_IRQHªdËr
+
+
+375 
+PUBWEAK
+ 
+SPI2_IRQHªdËr
+
+
+376 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+377 
+SPI2_IRQHªdËr
+
+
+378 
+B
+ 
+SPI2_IRQHªdËr
+
+
+380 
+PUBWEAK
+ 
+USART1_IRQHªdËr
+
+
+381 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+382 
+USART1_IRQHªdËr
+
+
+383 
+B
+ 
+USART1_IRQHªdËr
+
+
+385 
+PUBWEAK
+ 
+LPUART1_IRQHªdËr
+
+
+386 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+387 
+LPUART1_IRQHªdËr
+
+
+388 
+B
+ 
+LPUART1_IRQHªdËr
+
+
+390 
+PUBWEAK
+ 
+SAI1_IRQHªdËr
+
+
+391 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+392 
+SAI1_IRQHªdËr
+
+
+393 
+B
+ 
+SAI1_IRQHªdËr
+
+
+395 
+PUBWEAK
+ 
+TSC_IRQHªdËr
+
+
+396 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+397 
+TSC_IRQHªdËr
+
+
+398 
+B
+ 
+TSC_IRQHªdËr
+
+
+400 
+PUBWEAK
+ 
+EXTI15_10_IRQHªdËr
+
+
+401 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+402 
+EXTI15_10_IRQHªdËr
+
+
+403 
+B
+ 
+EXTI15_10_IRQHªdËr
+
+
+405 
+PUBWEAK
+ 
+RTC_AÏrm_IRQHªdËr
+
+
+406 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+407 
+RTC_AÏrm_IRQHªdËr
+
+
+408 
+B
+ 
+RTC_AÏrm_IRQHªdËr
+
+
+410 
+PUBWEAK
+ 
+CRS_IRQHªdËr
+
+
+411 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+412 
+CRS_IRQHªdËr
+
+
+413 
+B
+ 
+CRS_IRQHªdËr
+
+
+415 
+PUBWEAK
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+416 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+417 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+418 
+B
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+420 
+PUBWEAK
+ 
+IPCC_C1_RX_IRQHªdËr
+
+
+421 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+422 
+IPCC_C1_RX_IRQHªdËr
+
+
+423 
+B
+ 
+IPCC_C1_RX_IRQHªdËr
+
+
+425 
+PUBWEAK
+ 
+IPCC_C1_TX_IRQHªdËr
+
+
+426 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+427 
+IPCC_C1_TX_IRQHªdËr
+
+
+428 
+B
+ 
+IPCC_C1_TX_IRQHªdËr
+
+
+430 
+PUBWEAK
+ 
+HSEM_IRQHªdËr
+
+
+431 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+432 
+HSEM_IRQHªdËr
+
+
+433 
+B
+ 
+HSEM_IRQHªdËr
+
+
+435 
+PUBWEAK
+ 
+LPTIM1_IRQHªdËr
+
+
+436 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+437 
+LPTIM1_IRQHªdËr
+
+
+438 
+B
+ 
+LPTIM1_IRQHªdËr
+
+
+440 
+PUBWEAK
+ 
+LPTIM2_IRQHªdËr
+
+
+441 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+442 
+LPTIM2_IRQHªdËr
+
+
+443 
+B
+ 
+LPTIM2_IRQHªdËr
+
+
+445 
+PUBWEAK
+ 
+LCD_IRQHªdËr
+
+
+446 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+447 
+LCD_IRQHªdËr
+
+
+448 
+B
+ 
+LCD_IRQHªdËr
+
+
+450 
+PUBWEAK
+ 
+QUADSPI_IRQHªdËr
+
+
+451 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+452 
+QUADSPI_IRQHªdËr
+
+
+453 
+B
+ 
+QUADSPI_IRQHªdËr
+
+
+455 
+PUBWEAK
+ 
+AES1_IRQHªdËr
+
+
+456 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+457 
+AES1_IRQHªdËr
+
+
+458 
+B
+ 
+AES1_IRQHªdËr
+
+
+460 
+PUBWEAK
+ 
+AES2_IRQHªdËr
+
+
+461 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+462 
+AES2_IRQHªdËr
+
+
+463 
+B
+ 
+AES2_IRQHªdËr
+
+
+465 
+PUBWEAK
+ 
+RNG_IRQHªdËr
+
+
+466 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+467 
+RNG_IRQHªdËr
+
+
+468 
+B
+ 
+RNG_IRQHªdËr
+
+
+470 
+PUBWEAK
+ 
+FPU_IRQHªdËr
+
+
+471 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+472 
+FPU_IRQHªdËr
+
+
+473 
+B
+ 
+FPU_IRQHªdËr
+
+
+475 
+PUBWEAK
+ 
+DMA2_ChªÃl1_IRQHªdËr
+
+
+476 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+477 
+DMA2_ChªÃl1_IRQHªdËr
+
+
+478 
+B
+ 
+DMA2_ChªÃl1_IRQHªdËr
+
+
+480 
+PUBWEAK
+ 
+DMA2_ChªÃl2_IRQHªdËr
+
+
+481 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+482 
+DMA2_ChªÃl2_IRQHªdËr
+
+
+483 
+B
+ 
+DMA2_ChªÃl2_IRQHªdËr
+
+
+485 
+PUBWEAK
+ 
+DMA2_ChªÃl3_IRQHªdËr
+
+
+486 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+487 
+DMA2_ChªÃl3_IRQHªdËr
+
+
+488 
+B
+ 
+DMA2_ChªÃl3_IRQHªdËr
+
+
+490 
+PUBWEAK
+ 
+DMA2_ChªÃl4_IRQHªdËr
+
+
+491 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+492 
+DMA2_ChªÃl4_IRQHªdËr
+
+
+493 
+B
+ 
+DMA2_ChªÃl4_IRQHªdËr
+
+
+495 
+PUBWEAK
+ 
+DMA2_ChªÃl5_IRQHªdËr
+
+
+496 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+497 
+DMA2_ChªÃl5_IRQHªdËr
+
+
+498 
+B
+ 
+DMA2_ChªÃl5_IRQHªdËr
+
+
+500 
+PUBWEAK
+ 
+DMA2_ChªÃl6_IRQHªdËr
+
+
+501 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+502 
+DMA2_ChªÃl6_IRQHªdËr
+
+
+503 
+B
+ 
+DMA2_ChªÃl6_IRQHªdËr
+
+
+505 
+PUBWEAK
+ 
+DMA2_ChªÃl7_IRQHªdËr
+
+
+506 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+507 
+DMA2_ChªÃl7_IRQHªdËr
+
+
+508 
+B
+ 
+DMA2_ChªÃl7_IRQHªdËr
+
+
+510 
+PUBWEAK
+ 
+DMAMUX1_OVR_IRQHªdËr
+
+
+511 
+SECTION
+ .
+‹xt
+:
+CODE
+:
+NOROOT
+:
+	$REORDER
+(1)
+
+512 
+DMAMUX1_OVR_IRQHªdËr
+
+
+513 
+B
+ 
+DMAMUX1_OVR_IRQHªdËr
+
+
+515 
+END
+
+
+517 ;************************ (
+C
+è
+COPYRIGHT
+ 
+STMiüÛËùrÚics
+ *****
+END
+ 
+OF
+ 
+FILE
+*****
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/FreeRTOSConfig.h
+
+30 #iâdeà
+FREERTOS_CONFIG_H
+
+
+31 
+	#FREERTOS_CONFIG_H
+
+
+	)
+
+50 #ià
+defšed
+(
+__ICCARM__
+è|| defšed(
+__CC_ARM
+è|| defšed(
+__GNUC__
+)
+
+51 
+	~<¡dšt.h
+>
+
+52 
+ušt32_t
+ 
+Sy¡emCÜeClock
+;
+
+54 
+	#cÚfigENABLE_FPU
+ 0
+
+	)
+
+55 
+	#cÚfigENABLE_MPU
+ 0
+
+	)
+
+57 
+	#cÚfigUSE_PREEMPTION
+ 1
+
+	)
+
+58 
+	#cÚfigSUPPORT_STATIC_ALLOCATION
+ 0
+
+	)
+
+59 
+	#cÚfigSUPPORT_DYNAMIC_ALLOCATION
+ 1
+
+	)
+
+60 
+	#cÚfigUSE_IDLE_HOOK
+ 0
+
+	)
+
+61 
+	#cÚfigUSE_TICK_HOOK
+ 0
+
+	)
+
+62 
+	#cÚfigCPU_CLOCK_HZ
+ ( 
+Sy¡emCÜeClock
+ )
+
+	)
+
+63 
+	#cÚfigTICK_RATE_HZ
+ ((
+TickTy³_t
+)1000)
+
+	)
+
+64 
+	#cÚfigMAX_PRIORITIES
+ ( 7 )
+
+	)
+
+65 
+	#cÚfigMINIMAL_STACK_SIZE
+ ((
+ušt16_t
+)128)
+
+	)
+
+66 
+	#cÚfigTOTAL_HEAP_SIZE
+ ((
+size_t
+)3072)
+
+	)
+
+67 
+	#cÚfigMAX_TASK_NAME_LEN
+ ( 16 )
+
+	)
+
+68 
+	#cÚfigUSE_16_BIT_TICKS
+ 0
+
+	)
+
+69 
+	#cÚfigUSE_MUTEXES
+ 1
+
+	)
+
+70 
+	#cÚfigQUEUE_REGISTRY_SIZE
+ 8
+
+	)
+
+71 
+	#cÚfigUSE_PORT_OPTIMISED_TASK_SELECTION
+ 1
+
+	)
+
+75 
+	#cÚfigMESSAGE_BUFFER_LENGTH_TYPE
+ 
+size_t
+
+
+	)
+
+79 
+	#cÚfigUSE_CO_ROUTINES
+ 0
+
+	)
+
+80 
+	#cÚfigMAX_CO_ROUTINE_PRIORITIES
+ ( 2 )
+
+	)
+
+84 
+	#INCLUDE_vTaskPriÜ™yS‘
+ 1
+
+	)
+
+85 
+	#INCLUDE_uxTaskPriÜ™yG‘
+ 1
+
+	)
+
+86 
+	#INCLUDE_vTaskD–‘e
+ 1
+
+	)
+
+87 
+	#INCLUDE_vTaskCËªUpResourûs
+ 0
+
+	)
+
+88 
+	#INCLUDE_vTaskSu¥’d
+ 1
+
+	)
+
+89 
+	#INCLUDE_vTaskD–ayUÁž
+ 0
+
+	)
+
+90 
+	#INCLUDE_vTaskD–ay
+ 1
+
+	)
+
+91 
+	#INCLUDE_xTaskG‘ScheduËrS‹
+ 1
+
+	)
+
+94 #ifdeà
+__NVIC_PRIO_BITS
+
+
+96 
+	#cÚfigPRIO_BITS
+ 
+__NVIC_PRIO_BITS
+
+
+	)
+
+98 
+	#cÚfigPRIO_BITS
+ 4
+
+	)
+
+103 
+	#cÚfigLIBRARY_LOWEST_INTERRUPT_PRIORITY
+ 15
+
+	)
+
+109 
+	#cÚfigLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY
+ 5
+
+	)
+
+113 
+	#cÚfigKERNEL_INTERRUPT_PRIORITY
+ ( 
+cÚfigLIBRARY_LOWEST_INTERRUPT_PRIORITY
+ << (8 - 
+cÚfigPRIO_BITS
+è)
+
+	)
+
+116 
+	#cÚfigMAX_SYSCALL_INTERRUPT_PRIORITY
+ ( 
+cÚfigLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY
+ << (8 - 
+cÚfigPRIO_BITS
+è)
+
+	)
+
+121 
+	#cÚfigASSERT
+Ð
+x
+ ) ifÐÐx ) =ð0 ) { 
+	`skDISABLE_INTERRUPTS
+();  ;; ); }
+
+	)
+
+126 
+	#vPÜtSVCHªdËr
+ 
+SVC_HªdËr
+
+
+	)
+
+127 
+	#xPÜtP’dSVHªdËr
+ 
+P’dSV_HªdËr
+
+
+	)
+
+132 
+	#xPÜtSysTickHªdËr
+ 
+SysTick_HªdËr
+
+
+	)
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/main.h
+
+50 #iâdeà
+__MAIN_H
+
+
+51 
+	#__MAIN_H
+
+
+	)
+
+53 #ifdeà
+__ýlu¥lus
+
+
+58 
+	~"¡m32wbxx_h®.h
+"
+
+62 
+	~"¡m32wbxx_nuþeo.h
+"
+
+81 
+E¼Ü_HªdËr
+();
+
+92 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/stm32wbxx_hal_conf.h
+
+21 #iâdeà
+__STM32WBxx_HAL_CONF_H
+
+
+22 
+	#__STM32WBxx_HAL_CONF_H
+
+
+	)
+
+24 #ifdeà
+__ýlu¥lus
+
+
+35 
+	#HAL_MODULE_ENABLED
+
+
+	)
+
+56 
+	#HAL_TIM_MODULE_ENABLED
+
+
+	)
+
+58 
+	#HAL_UART_MODULE_ENABLED
+
+
+	)
+
+61 
+	#HAL_EXTI_MODULE_ENABLED
+
+
+	)
+
+62 
+	#HAL_CORTEX_MODULE_ENABLED
+
+
+	)
+
+63 
+	#HAL_DMA_MODULE_ENABLED
+
+
+	)
+
+64 
+	#HAL_FLASH_MODULE_ENABLED
+
+
+	)
+
+65 
+	#HAL_GPIO_MODULE_ENABLED
+
+
+	)
+
+66 
+	#HAL_PWR_MODULE_ENABLED
+
+
+	)
+
+67 
+	#HAL_RCC_MODULE_ENABLED
+
+
+	)
+
+69 
+	#USE_HAL_ADC_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+70 
+	#USE_HAL_COMP_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+71 
+	#USE_HAL_CRYP_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+72 
+	#USE_HAL_I2C_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+73 
+	#USE_HAL_IRDA_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+74 
+	#USE_HAL_LPTIM_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+75 
+	#USE_HAL_PCD_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+76 
+	#USE_HAL_PKA_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+77 
+	#USE_HAL_QSPI_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+78 
+	#USE_HAL_RNG_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+79 
+	#USE_HAL_RTC_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+80 
+	#USE_HAL_SAI_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+81 
+	#USE_HAL_SMARTCARD_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+82 
+	#USE_HAL_SMBUS_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+83 
+	#USE_HAL_SPI_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+84 
+	#USE_HAL_TIM_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+85 
+	#USE_HAL_TSC_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+86 
+	#USE_HAL_UART_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+87 
+	#USE_HAL_USART_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+88 
+	#USE_HAL_WWDG_REGISTER_CALLBACKS
+ 0u
+
+	)
+
+96 #ià!
+defšed
+ (
+HSE_VALUE
+)
+
+97 
+	#HSE_VALUE
+ 8000000U
+
+	)
+
+100 #ià!
+defšed
+ (
+HSE_STARTUP_TIMEOUT
+)
+
+101 
+	#HSE_STARTUP_TIMEOUT
+ ((
+ušt32_t
+)100è
+
+	)
+
+108 #ià!
+defšed
+ (
+MSI_VALUE
+)
+
+109 
+	#MSI_VALUE
+ ((
+ušt32_t
+)4000000è
+
+	)
+
+117 #ià!
+defšed
+ (
+HSI_VALUE
+)
+
+118 
+	#HSI_VALUE
+ 16000000U
+
+	)
+
+124 #ià!
+defšed
+ (
+LSI1_VALUE
+)
+
+125 
+	#LSI1_VALUE
+ ((
+ušt32_t
+)32000è
+
+	)
+
+127 
+The
+ 
+»®
+ 
+v®ue
+ 
+may
+ 
+v¬y
+ 
+d•’dšg
+ 
+Ú
+ 
+the
+ 
+v¬ŸtiÚs
+
+
+128 
+š
+ 
+vÞge
+ 
+ªd
+ 
+‹m³¿tu»
+.*/
+
+132 #ià!
+defšed
+ (
+LSI2_VALUE
+)
+
+133 
+	#LSI2_VALUE
+ ((
+ušt32_t
+)32000è
+
+	)
+
+135 
+The
+ 
+»®
+ 
+v®ue
+ 
+may
+ 
+v¬y
+ 
+d•’dšg
+ 
+Ú
+ 
+the
+ 
+v¬ŸtiÚs
+
+
+136 
+š
+ 
+vÞge
+ 
+ªd
+ 
+‹m³¿tu»
+.*/
+
+142 #ià!
+defšed
+ (
+LSE_VALUE
+)
+
+143 
+	#LSE_VALUE
+ 32768U
+
+	)
+
+150 #ià!
+defšed
+ (
+HSI48_VALUE
+)
+
+151 
+	#HSI48_VALUE
+ ((
+ušt32_t
+)48000000è
+
+	)
+
+154 #ià!
+defšed
+ (
+LSE_STARTUP_TIMEOUT
+)
+
+155 
+	#LSE_STARTUP_TIMEOUT
+ 5000U
+
+	)
+
+163 #ià!
+defšed
+ (
+EXTERNAL_SAI1_CLOCK_VALUE
+)
+
+164 
+	#EXTERNAL_SAI1_CLOCK_VALUE
+ ((
+ušt32_t
+)2097000è
+
+	)
+
+175 
+	#VDD_VALUE
+ 3300U
+
+	)
+
+176 
+	#TICK_INT_PRIORITY
+ 15U
+
+	)
+
+177 
+	#USE_RTOS
+ 0U
+
+	)
+
+178 
+	#PREFETCH_ENABLE
+ 1U
+
+	)
+
+179 
+	#INSTRUCTION_CACHE_ENABLE
+ 1U
+
+	)
+
+180 
+	#DATA_CACHE_ENABLE
+ 1U
+
+	)
+
+196 
+	#USE_SPI_CRC
+ 0U
+
+	)
+
+202 #ifdeà
+HAL_DMA_MODULE_ENABLED
+
+
+203 
+	~"¡m32wbxx_h®_dma.h
+"
+
+206 #ifdeà
+HAL_ADC_MODULE_ENABLED
+
+
+207 
+	~"¡m32wbxx_h®_adc.h
+"
+
+210 #ifdeà
+HAL_COMP_MODULE_ENABLED
+
+
+211 
+	~"¡m32wbxx_h®_comp.h
+"
+
+214 #ifdeà
+HAL_CORTEX_MODULE_ENABLED
+
+
+215 
+	~"¡m32wbxx_h®_cÜ‹x.h
+"
+
+218 #ifdeà
+HAL_CRC_MODULE_ENABLED
+
+
+219 
+	~"¡m32wbxx_h®_üc.h
+"
+
+222 #ifdeà
+HAL_CRYP_MODULE_ENABLED
+
+
+223 
+	~"¡m32wbxx_h®_üyp.h
+"
+
+226 #ifdeà
+HAL_EXTI_MODULE_ENABLED
+
+
+227 
+	~"¡m32wbxx_h®_exti.h
+"
+
+230 #ifdeà
+HAL_FLASH_MODULE_ENABLED
+
+
+231 
+	~"¡m32wbxx_h®_æash.h
+"
+
+234 #ifdeà
+HAL_GPIO_MODULE_ENABLED
+
+
+235 
+	~"¡m32wbxx_h®_gpio.h
+"
+
+238 #ifdeà
+HAL_HSEM_MODULE_ENABLED
+
+
+239 
+	~"¡m32wbxx_h®_h£m.h
+"
+
+242 #ifdeà
+HAL_I2C_MODULE_ENABLED
+
+
+243 
+	~"¡m32wbxx_h®_i2c.h
+"
+
+246 #ifdeà
+HAL_IPCC_MODULE_ENABLED
+
+
+247 
+	~"¡m32wbxx_h®_cc.h
+"
+
+250 #ifdeà
+HAL_IRDA_MODULE_ENABLED
+
+
+251 
+	~"¡m32wbxx_h®_œda.h
+"
+
+254 #ifdeà
+HAL_IWDG_MODULE_ENABLED
+
+
+255 
+	~"¡m32wbxx_h®_iwdg.h
+"
+
+258 #ifdeà
+HAL_LCD_MODULE_ENABLED
+
+
+259 
+	~"¡m32wbxx_h®_lcd.h
+"
+
+262 #ifdeà
+HAL_LPTIM_MODULE_ENABLED
+
+
+263 
+	~"¡m32wbxx_h®_Ítim.h
+"
+
+266 #ifdeà
+HAL_PCD_MODULE_ENABLED
+
+
+267 
+	~"¡m32wbxx_h®_pcd.h
+"
+
+270 #ifdeà
+HAL_PKA_MODULE_ENABLED
+
+
+271 
+	~"¡m32wbxx_h®_pka.h
+"
+
+274 #ifdeà
+HAL_PWR_MODULE_ENABLED
+
+
+275 
+	~"¡m32wbxx_h®_pwr.h
+"
+
+278 #ifdeà
+HAL_QSPI_MODULE_ENABLED
+
+
+279 
+	~"¡m32wbxx_h®_q¥i.h
+"
+
+282 #ifdeà
+HAL_RCC_MODULE_ENABLED
+
+
+283 
+	~"¡m32wbxx_h®_rcc.h
+"
+
+286 #ifdeà
+HAL_RNG_MODULE_ENABLED
+
+
+287 
+	~"¡m32wbxx_h®_ºg.h
+"
+
+290 #ifdeà
+HAL_RTC_MODULE_ENABLED
+
+
+291 
+	~"¡m32wbxx_h®_¹c.h
+"
+
+294 #ifdeà
+HAL_SAI_MODULE_ENABLED
+
+
+295 
+	~"¡m32wbxx_h®_§i.h
+"
+
+298 #ifdeà
+HAL_SMARTCARD_MODULE_ENABLED
+
+
+299 
+	~"¡m32wbxx_h®_sm¬tÿrd.h
+"
+
+302 #ifdeà
+HAL_SMBUS_MODULE_ENABLED
+
+
+303 
+	~"¡m32wbxx_h®_smbus.h
+"
+
+306 #ifdeà
+HAL_SPI_MODULE_ENABLED
+
+
+307 
+	~"¡m32wbxx_h®_¥i.h
+"
+
+310 #ifdeà
+HAL_TIM_MODULE_ENABLED
+
+
+311 
+	~"¡m32wbxx_h®_tim.h
+"
+
+314 #ifdeà
+HAL_TSC_MODULE_ENABLED
+
+
+315 
+	~"¡m32wbxx_h®_tsc.h
+"
+
+318 #ifdeà
+HAL_UART_MODULE_ENABLED
+
+
+319 
+	~"¡m32wbxx_h®_u¬t.h
+"
+
+322 #ifdeà
+HAL_USART_MODULE_ENABLED
+
+
+323 
+	~"¡m32wbxx_h®_u§¹.h
+"
+
+326 #ifdeà
+HAL_WWDG_MODULE_ENABLED
+
+
+327 
+	~"¡m32wbxx_h®_wwdg.h
+"
+
+331 #ifdeà 
+USE_FULL_ASSERT
+
+
+340 
+	#as£¹_·¿m
+(
+ex´
+è(Óx´è? ()0U : 
+	`as£¹_çžed
+((
+ušt8_t
+ *)
+__FILE__
+, 
+__LINE__
+))
+
+	)
+
+342 
+as£¹_çžed
+(
+ušt8_t
+* 
+fže
+, 
+ušt32_t
+ 
+lše
+);
+
+344 
+	#as£¹_·¿m
+(
+ex´
+è(()0U)
+
+	)
+
+347 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/stm32wbxx_it.h
+
+23 #iâdeà
+__STM32WBxx_IT_H
+
+
+24 
+	#__STM32WBxx_IT_H
+
+
+	)
+
+26 #ifdeà
+__ýlu¥lus
+
+
+51 
+NMI_HªdËr
+();
+
+52 
+H¬dFauÉ_HªdËr
+();
+
+53 
+MemMªage_HªdËr
+();
+
+54 
+BusFauÉ_HªdËr
+();
+
+55 
+U§geFauÉ_HªdËr
+();
+
+56 
+DebugMÚ_HªdËr
+();
+
+57 
+TIM1_UP_TIM16_IRQHªdËr
+();
+
+58 
+USART1_IRQHªdËr
+();
+
+63 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/MDK-ARM/startup_stm32wb55xx_cm4.s
+
+2 ;* 
+Fže
+ 
+	gName
+ : 
+¡¬tup_¡m32wb55xx_cm4
+.
+s
+
+
+3 ;* 
+	gAuthÜ
+ : 
+MCD
+ 
+AµliÿtiÚ
+ 
+T—m
+
+
+4 ;* 
+	gDesütiÚ
+ : 
+STM32WB55xx
+ 
+deviûs
+ 
+veùÜ
+ 
+bË
+ 
+MDK
+-
+ARM
+ 
+toÞchaš
+.
+
+5 ;* 
+This
+ 
+moduË
+ 
+	g³rfÜms
+:
+
+6 ;* - 
+S‘
+ 
+the
+ 
+š™Ÿl
+ 
+	gSP
+
+
+7 ;* - 
+S‘
+ 
+the
+ 
+š™Ÿl
+ 
+	gPC
+ =ð
+Re£t_HªdËr
+
+
+8 ;* - 
+S‘
+ 
+the
+ 
+veùÜ
+ 
+bË
+ 
+’Œ›s
+ 
+w™h
+h
+exû±iÚs
+ 
+ISR
+ 
+	gadd»ss
+
+
+9 ;* - 
+B¿nches
+ 
+to
+ 
+__maš
+ 
+š
+ 
+the
+ 
+C
+ 
+lib¿ry
+ (
+which
+ 
+ev’tu®ly
+
+
+10 ;* 
+ÿÎs
+ 
+maš
+()).
+
+11 ;* 
+Aá”
+ 
+Re£t
+ 
+the
+ 
+CÜ‹xM4
+ 
+´oûssÜ
+ 
+is
+ 
+š
+ 
+Th»ad
+ 
+	gmode
+,
+
+12 ;* 
+´iÜ™y
+ 
+is
+ 
+	gPrivžeged
+, 
+ªd
+ 
+the
+ 
+Sck
+ i 
+£t
+ 
+to
+ 
+	gMaš
+.
+
+13 ;* <<< 
+U£
+ 
+CÚfigu¿tiÚ
+ 
+Wiz¬d
+ 
+š
+ 
+CÚ‹xt
+ 
+	gM’u
+ >>>
+
+15 ;* @
+	g©‹ÁiÚ
+
+
+17 ;* 
+CÝyright
+ (
+c
+è2019 
+	gSTMiüÛËùrÚics
+. 
+AÎ
+ 
+rights
+ 
+	g»£rved
+.
+
+19 ;* 
+This
+ 
+soáw¬e
+ 
+compÚ’t
+ 
+is
+ 
+liûn£d
+ 
+by
+ 
+ST
+ 
+und”
+ 
+A·che
+ 
+	gLiûn£
+, 
+	gV”siÚ
+ 2.0,
+
+20 ;* 
+	gthe
+ "Liûn£"; 
+You
+ 
+may
+ 
+nÙ
+ 
+u£
+ 
+this
+ 
+fže
+ 
+exû±
+ 
+š
+ 
+com¶Ÿnû
+ 
+w™h
+he
+
+21 ;* 
+	gLiûn£
+. 
+You
+ 
+may
+ 
+obš
+ 
+a
+ 
+cÝy
+ 
+of
+ 
+the
+ 
+Liûn£
+ 
+	g©
+:
+
+22 ;* 
+	gÝ’sourû
+.
+	gÜg
+/
+	gliûn£s
+/
+	gA·che
+-2.0
+
+26 ; 
+AmouÁ
+ 
+of
+ 
+	$memÜy
+ (
+š
+ 
+by‹s
+è
+®loÿ‹d
+ 
+Sck
+
+
+27 ; 
+TažÜ
+ 
+this
+ 
+v®ue
+ 
+to
+ 
+your
+ 
+­¶iÿtiÚ
+ 
+Ãeds
+
+
+28 ; <
+h
+> 
+Sck
+ 
+CÚfigu¿tiÚ
+
+
+29 ; <
+o
+> 
+Sck
+ 
+	`Size
+ (
+š
+ 
+By‹s
+) <0x0-0xFFFFFFFF:8>
+
+30 ; </
+h
+>
+
+32 
+Sck_Size
+ 
+EQU
+ 0x00000400
+
+34 
+AREA
+ 
+STACK
+, 
+NOINIT
+, 
+READWRITE
+, 
+ALIGN
+=3
+
+35 
+Sck_Mem
+ 
+SPACE
+ 
+Sck_Size
+
+
+36 
+__š™Ÿl_¥
+
+
+39 ; <
+h
+> 
+H—p
+ 
+CÚfigu¿tiÚ
+
+
+40 ; <
+o
+> 
+H—p
+ 
+	`Size
+ (
+š
+ 
+By‹s
+) <0x0-0xFFFFFFFF:8>
+
+41 ; </
+h
+>
+
+43 
+H—p_Size
+ 
+EQU
+ 0x00000200
+
+45 
+AREA
+ 
+HEAP
+, 
+NOINIT
+, 
+READWRITE
+, 
+ALIGN
+=3
+
+46 
+__h—p_ba£
+
+
+47 
+H—p_Mem
+ 
+SPACE
+ 
+H—p_Size
+
+
+48 
+__h—p_lim™
+
+
+50 
+PRESERVE8
+
+
+51 
+THUMB
+
+
+54 ; 
+VeùÜ
+ 
+TabË
+ 
+M­³d
+ 
+to
+ 
+Add»ss
+ 0 
+©
+ 
+Re£t
+
+
+55 
+AREA
+ 
+RESET
+, 
+DATA
+, 
+READONLY
+
+
+56 
+EXPORT
+ 
+__VeùÜs
+
+
+57 
+EXPORT
+ 
+__VeùÜs_End
+
+
+58 
+EXPORT
+ 
+__VeùÜs_Size
+
+
+60 
+__VeùÜs
+ 
+DCD
+ 
+__š™Ÿl_¥
+ ; 
+TÝ
+ 
+of
+ 
+Sck
+
+
+61 
+DCD
+ 
+Re£t_HªdËr
+ ; 
+Re£t
+ 
+HªdËr
+
+
+62 
+DCD
+ 
+NMI_HªdËr
+ ; 
+NMI
+ 
+HªdËr
+
+
+63 
+DCD
+ 
+H¬dFauÉ_HªdËr
+ ; 
+H¬d
+ 
+FauÉ
+ 
+HªdËr
+
+
+64 
+DCD
+ 
+MemMªage_HªdËr
+ ; 
+MPU
+ 
+FauÉ
+ 
+HªdËr
+
+
+65 
+DCD
+ 
+BusFauÉ_HªdËr
+ ; 
+Bus
+ 
+FauÉ
+ 
+HªdËr
+
+
+66 
+DCD
+ 
+U§geFauÉ_HªdËr
+ ; 
+U§ge
+ 
+FauÉ
+ 
+HªdËr
+
+
+67 
+DCD
+ 0 ; 
+Re£rved
+
+
+68 
+DCD
+ 0 ; 
+Re£rved
+
+
+69 
+DCD
+ 0 ; 
+Re£rved
+
+
+70 
+DCD
+ 0 ; 
+Re£rved
+
+
+71 
+DCD
+ 
+SVC_HªdËr
+ ; 
+SVC®l
+ 
+HªdËr
+
+
+72 
+DCD
+ 
+DebugMÚ_HªdËr
+ ; 
+Debug
+ 
+MÚ™Ü
+ 
+HªdËr
+
+
+73 
+DCD
+ 0 ; 
+Re£rved
+
+
+74 
+DCD
+ 
+P’dSV_HªdËr
+ ; 
+P’dSV
+ 
+HªdËr
+
+
+75 
+DCD
+ 
+SysTick_HªdËr
+ ; 
+SysTick
+ 
+HªdËr
+
+
+77 ; 
+Ex‹º®
+ 
+IÁ”ru±s
+
+
+78 
+DCD
+ 
+WWDG_IRQHªdËr
+ ; 
+Wšdow
+ 
+W©chDog
+
+
+79 
+DCD
+ 
+PVD_PVM_IRQHªdËr
+ ; 
+PVD
+ 
+ªd
+ 
+PVM
+ 
+d‘eùÜ
+
+
+80 
+DCD
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+ ; 
+RTC
+ 
+Tam³r
+ 
+ªd
+ 
+TimeSmp
+ 
+IÁ”ru±s
+‡nd 
+LSECSS
+ Interrupts
+
+81 
+DCD
+ 
+RTC_WKUP_IRQHªdËr
+ ; 
+RTC
+ 
+Wakeup
+ 
+IÁ”ru±
+
+
+82 
+DCD
+ 
+FLASH_IRQHªdËr
+ ; 
+FLASH
+ 
+glob®
+ 
+IÁ”ru±
+
+
+83 
+DCD
+ 
+RCC_IRQHªdËr
+ ; 
+RCC
+ 
+IÁ”ru±
+
+
+84 
+DCD
+ 
+EXTI0_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 0 
+IÁ”ru±
+
+
+85 
+DCD
+ 
+EXTI1_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 1 
+IÁ”ru±
+
+
+86 
+DCD
+ 
+EXTI2_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 2 
+IÁ”ru±
+
+
+87 
+DCD
+ 
+EXTI3_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 3 
+IÁ”rup
+
+
+88 
+DCD
+ 
+EXTI4_IRQHªdËr
+ ; 
+EXTI
+ 
+Lše
+ 4 
+IÁ”ru±
+
+
+89 
+DCD
+ 
+DMA1_ChªÃl1_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 1 
+IÁ”ru±
+
+
+90 
+DCD
+ 
+DMA1_ChªÃl2_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 2 
+IÁ”ru±
+
+
+91 
+DCD
+ 
+DMA1_ChªÃl3_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 3 
+IÁ”ru±
+
+
+92 
+DCD
+ 
+DMA1_ChªÃl4_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 4 
+IÁ”ru±
+
+
+93 
+DCD
+ 
+DMA1_ChªÃl5_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 5 
+IÁ”ru±
+
+
+94 
+DCD
+ 
+DMA1_ChªÃl6_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 6 
+IÁ”ru±
+
+
+95 
+DCD
+ 
+DMA1_ChªÃl7_IRQHªdËr
+ ; 
+DMA1
+ 
+ChªÃl
+ 7 
+IÁ”ru±
+
+
+96 
+DCD
+ 
+ADC1_IRQHªdËr
+ ; 
+ADC1
+ 
+IÁ”ru±
+
+
+97 
+DCD
+ 
+USB_HP_IRQHªdËr
+ ; 
+USB
+ 
+High
+ 
+PriÜ™y
+ 
+IÁ”ru±
+
+
+98 
+DCD
+ 
+USB_LP_IRQHªdËr
+ ; 
+USB
+ 
+Low
+ 
+PriÜ™y
+ 
+IÁ”ru±
+
+
+99 
+DCD
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+ ; 
+CPU
+ 
+M0
++ 
+SEV
+ 
+IÁ”ru±
+
+
+100 
+DCD
+ 
+COMP_IRQHªdËr
+ ; 
+COMP1
+ 
+ªd
+ 
+COMP2
+ 
+IÁ”ru±s
+
+
+101 
+DCD
+ 
+EXTI9_5_IRQHªdËr
+ ; 
+EXTI
+ 
+Lšes
+ [9:5] 
+IÁ”ru±
+
+
+102 
+DCD
+ 
+TIM1_BRK_IRQHªdËr
+ ; 
+TIM1
+ 
+B»ak
+ 
+IÁ”ru±
+
+
+103 
+DCD
+ 
+TIM1_UP_TIM16_IRQHªdËr
+ ; 
+TIM1
+ 
+Upd©e
+ 
+ªd
+ 
+TIM16
+ 
+glob®
+ 
+IÁ”ru±s
+
+
+104 
+DCD
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+ ; 
+TIM1
+ 
+Trigg”
+ 
+ªd
+ 
+CommuniÿtiÚ
+‡nd 
+TIM17
+ 
+glob®
+ 
+IÁ”ru±s
+
+
+105 
+DCD
+ 
+TIM1_CC_IRQHªdËr
+ ; 
+TIM1
+ 
+C­tu»
+ 
+Com·»
+ 
+IÁ”ru±
+
+
+106 
+DCD
+ 
+TIM2_IRQHªdËr
+ ; 
+TIM2
+ 
+Glob®
+ 
+IÁ”ru±
+
+
+107 
+DCD
+ 
+PKA_IRQHªdËr
+ ; 
+PKA
+ 
+IÁ”ru±
+
+
+108 
+DCD
+ 
+I2C1_EV_IRQHªdËr
+ ; 
+I2C1
+ 
+Ev’t
+ 
+IÁ”ru±
+
+
+109 
+DCD
+ 
+I2C1_ER_IRQHªdËr
+ ; 
+I2C1
+ 
+E¼Ü
+ 
+IÁ”ru±
+
+
+110 
+DCD
+ 
+I2C3_EV_IRQHªdËr
+ ; 
+I2C3
+ 
+Ev’t
+ 
+IÁ”ru±
+
+
+111 
+DCD
+ 
+I2C3_ER_IRQHªdËr
+ ; 
+I2C3
+ 
+E¼Ü
+ 
+IÁ”ru±
+
+
+112 
+DCD
+ 
+SPI1_IRQHªdËr
+ ; 
+SPI1
+ 
+IÁ”ru±
+
+
+113 
+DCD
+ 
+SPI2_IRQHªdËr
+ ; 
+SPI2
+ 
+IÁ”ru±
+
+
+114 
+DCD
+ 
+USART1_IRQHªdËr
+ ; 
+USART1
+ 
+IÁ”ru±
+
+
+115 
+DCD
+ 
+LPUART1_IRQHªdËr
+ ; 
+LPUART1
+ 
+IÁ”ru±
+
+
+116 
+DCD
+ 
+SAI1_IRQHªdËr
+ ; 
+SAI
+ 
+IÁ”ru±
+
+
+117 
+DCD
+ 
+TSC_IRQHªdËr
+ ; 
+TSC
+ 
+IÁ”ru±
+
+
+118 
+DCD
+ 
+EXTI15_10_IRQHªdËr
+ ; 
+EXTI
+ 
+Lšes1
+[15:10 ]
+IÁ”ru±s
+
+
+119 
+DCD
+ 
+RTC_AÏrm_IRQHªdËr
+ ; 
+RTC
+ 
+	$AÏrms
+ (
+A
+ 
+ªd
+ 
+B
+è
+IÁ”ru±
+
+
+120 
+DCD
+ 
+CRS_IRQHªdËr
+ ; 
+CRS
+ 
+š‹¼u±
+
+
+121 
+DCD
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+ ; 
+WKUP
+ 
+IÁ”ru±
+ 
+äom
+ 
+PWR
+
+
+122 
+DCD
+ 
+IPCC_C1_RX_IRQHªdËr
+ ; 
+IPCC
+ 
+CPU1
+ 
+RX
+ 
+occup›d
+ 
+š‹¼u±
+
+
+123 
+DCD
+ 
+IPCC_C1_TX_IRQHªdËr
+ ; 
+IPCC
+ 
+CPU1
+ 
+RX
+ 
+ä“
+ 
+š‹¼u±
+
+
+124 
+DCD
+ 
+HSEM_IRQHªdËr
+ ; 
+HSEM0
+ 
+IÁ”ru±
+
+
+125 
+DCD
+ 
+LPTIM1_IRQHªdËr
+ ; 
+LPTIM1
+ 
+IÁ”ru±
+
+
+126 
+DCD
+ 
+LPTIM2_IRQHªdËr
+ ; 
+LPTIM2
+ 
+IÁ”ru±
+
+
+127 
+DCD
+ 
+LCD_IRQHªdËr
+ ; 
+LCD
+ 
+IÁ”ru±
+
+
+128 
+DCD
+ 
+QUADSPI_IRQHªdËr
+ ; 
+QUADSPI
+ 
+IÁ”ru±
+
+
+129 
+DCD
+ 
+AES1_IRQHªdËr
+ ; 
+AES1
+ 
+IÁ”ru±
+
+
+130 
+DCD
+ 
+AES2_IRQHªdËr
+ ; 
+AES2
+ 
+IÁ”ru±
+
+
+131 
+DCD
+ 
+RNG_IRQHªdËr
+ ; 
+RNG1
+ 
+IÁ”ru±
+
+
+132 
+DCD
+ 
+FPU_IRQHªdËr
+ ; 
+FPU
+ 
+IÁ”ru±
+
+
+133 
+DCD
+ 
+DMA2_ChªÃl1_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 1 
+IÁ”ru±
+
+
+134 
+DCD
+ 
+DMA2_ChªÃl2_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 2 
+IÁ”ru±
+
+
+135 
+DCD
+ 
+DMA2_ChªÃl3_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 3 
+IÁ”ru±
+
+
+136 
+DCD
+ 
+DMA2_ChªÃl4_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 4 
+IÁ”ru±
+
+
+137 
+DCD
+ 
+DMA2_ChªÃl5_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 5 
+IÁ”ru±
+
+
+138 
+DCD
+ 
+DMA2_ChªÃl6_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 6 
+IÁ”ru±
+
+
+139 
+DCD
+ 
+DMA2_ChªÃl7_IRQHªdËr
+ ; 
+DMA2
+ 
+ChªÃl
+ 7 
+IÁ”ru±
+
+
+140 
+DCD
+ 
+DMAMUX1_OVR_IRQHªdËr
+ ; 
+DMAMUX
+ 
+ov”run
+ 
+IÁ”ru±
+
+
+142 
+__VeùÜs_End
+
+
+144 
+__VeùÜs_Size
+ 
+EQU
+ 
+__VeùÜs_End
+ - 
+__VeùÜs
+
+
+146 
+AREA
+ |.
+‹xt
+|, 
+CODE
+, 
+READONLY
+
+
+148 ; 
+Re£t
+ 
+hªdËr
+
+
+149 
+Re£t_HªdËr
+ 
+PROC
+
+
+150 
+EXPORT
+ 
+Re£t_HªdËr
+ [
+WEAK
+]
+
+151 
+IMPORT
+ 
+Sy¡emIn™
+
+
+152 
+IMPORT
+ 
+__maš
+
+
+154 
+LDR
+ 
+R0
+, =
+Sy¡emIn™
+
+
+155 
+BLX
+ 
+R0
+
+
+156 
+LDR
+ 
+R0
+, =
+__maš
+
+
+157 
+BX
+ 
+R0
+
+
+158 
+ENDP
+
+
+160 ; 
+Dummy
+ 
+Exû±iÚ
+ 
+	$HªdËrs
+ (
+šfš™e
+ 
+loÝs
+ 
+which
+ 
+ÿn
+ 
+be
+ 
+modif›d
+)
+
+162 
+NMI_HªdËr
+ 
+PROC
+
+
+163 
+EXPORT
+ 
+NMI_HªdËr
+ [
+WEAK
+]
+
+164 
+B
+ .
+
+165 
+ENDP
+
+
+166 
+H¬dFauÉ_HªdËr
+\
+
+167 
+PROC
+
+
+168 
+EXPORT
+ 
+H¬dFauÉ_HªdËr
+ [
+WEAK
+]
+
+169 
+B
+ .
+
+170 
+ENDP
+
+
+171 
+MemMªage_HªdËr
+\
+
+172 
+PROC
+
+
+173 
+EXPORT
+ 
+MemMªage_HªdËr
+ [
+WEAK
+]
+
+174 
+B
+ .
+
+175 
+ENDP
+
+
+176 
+BusFauÉ_HªdËr
+\
+
+177 
+PROC
+
+
+178 
+EXPORT
+ 
+BusFauÉ_HªdËr
+ [
+WEAK
+]
+
+179 
+B
+ .
+
+180 
+ENDP
+
+
+181 
+U§geFauÉ_HªdËr
+\
+
+182 
+PROC
+
+
+183 
+EXPORT
+ 
+U§geFauÉ_HªdËr
+ [
+WEAK
+]
+
+184 
+B
+ .
+
+185 
+ENDP
+
+
+186 
+SVC_HªdËr
+ 
+PROC
+
+
+187 
+EXPORT
+ 
+SVC_HªdËr
+ [
+WEAK
+]
+
+188 
+B
+ .
+
+189 
+ENDP
+
+
+190 
+DebugMÚ_HªdËr
+\
+
+191 
+PROC
+
+
+192 
+EXPORT
+ 
+DebugMÚ_HªdËr
+ [
+WEAK
+]
+
+193 
+B
+ .
+
+194 
+ENDP
+
+
+195 
+P’dSV_HªdËr
+ 
+PROC
+
+
+196 
+EXPORT
+ 
+P’dSV_HªdËr
+ [
+WEAK
+]
+
+197 
+B
+ .
+
+198 
+ENDP
+
+
+199 
+SysTick_HªdËr
+ 
+PROC
+
+
+200 
+EXPORT
+ 
+SysTick_HªdËr
+ [
+WEAK
+]
+
+201 
+B
+ .
+
+202 
+ENDP
+
+
+204 
+DeçuÉ_HªdËr
+ 
+PROC
+
+
+206 
+EXPORT
+ 
+WWDG_IRQHªdËr
+ [
+WEAK
+]
+
+207 
+EXPORT
+ 
+PVD_PVM_IRQHªdËr
+ [
+WEAK
+]
+
+208 
+EXPORT
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+ [
+WEAK
+]
+
+209 
+EXPORT
+ 
+RTC_WKUP_IRQHªdËr
+ [
+WEAK
+]
+
+210 
+EXPORT
+ 
+FLASH_IRQHªdËr
+ [
+WEAK
+]
+
+211 
+EXPORT
+ 
+RCC_IRQHªdËr
+ [
+WEAK
+]
+
+212 
+EXPORT
+ 
+EXTI0_IRQHªdËr
+ [
+WEAK
+]
+
+213 
+EXPORT
+ 
+EXTI1_IRQHªdËr
+ [
+WEAK
+]
+
+214 
+EXPORT
+ 
+EXTI2_IRQHªdËr
+ [
+WEAK
+]
+
+215 
+EXPORT
+ 
+EXTI3_IRQHªdËr
+ [
+WEAK
+]
+
+216 
+EXPORT
+ 
+EXTI4_IRQHªdËr
+ [
+WEAK
+]
+
+217 
+EXPORT
+ 
+DMA1_ChªÃl1_IRQHªdËr
+ [
+WEAK
+]
+
+218 
+EXPORT
+ 
+DMA1_ChªÃl2_IRQHªdËr
+ [
+WEAK
+]
+
+219 
+EXPORT
+ 
+DMA1_ChªÃl3_IRQHªdËr
+ [
+WEAK
+]
+
+220 
+EXPORT
+ 
+DMA1_ChªÃl4_IRQHªdËr
+ [
+WEAK
+]
+
+221 
+EXPORT
+ 
+DMA1_ChªÃl5_IRQHªdËr
+ [
+WEAK
+]
+
+222 
+EXPORT
+ 
+DMA1_ChªÃl6_IRQHªdËr
+ [
+WEAK
+]
+
+223 
+EXPORT
+ 
+DMA1_ChªÃl7_IRQHªdËr
+ [
+WEAK
+]
+
+224 
+EXPORT
+ 
+ADC1_IRQHªdËr
+ [
+WEAK
+]
+
+225 
+EXPORT
+ 
+USB_HP_IRQHªdËr
+ [
+WEAK
+]
+
+226 
+EXPORT
+ 
+USB_LP_IRQHªdËr
+ [
+WEAK
+]
+
+227 
+EXPORT
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+ [
+WEAK
+]
+
+228 
+EXPORT
+ 
+COMP_IRQHªdËr
+ [
+WEAK
+]
+
+229 
+EXPORT
+ 
+EXTI9_5_IRQHªdËr
+ [
+WEAK
+]
+
+230 
+EXPORT
+ 
+TIM1_BRK_IRQHªdËr
+ [
+WEAK
+]
+
+231 
+EXPORT
+ 
+TIM1_UP_TIM16_IRQHªdËr
+ [
+WEAK
+]
+
+232 
+EXPORT
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+ [
+WEAK
+]
+
+233 
+EXPORT
+ 
+TIM1_CC_IRQHªdËr
+ [
+WEAK
+]
+
+234 
+EXPORT
+ 
+TIM2_IRQHªdËr
+ [
+WEAK
+]
+
+235 
+EXPORT
+ 
+PKA_IRQHªdËr
+ [
+WEAK
+]
+
+236 
+EXPORT
+ 
+I2C1_EV_IRQHªdËr
+ [
+WEAK
+]
+
+237 
+EXPORT
+ 
+I2C1_ER_IRQHªdËr
+ [
+WEAK
+]
+
+238 
+EXPORT
+ 
+I2C3_EV_IRQHªdËr
+ [
+WEAK
+]
+
+239 
+EXPORT
+ 
+I2C3_ER_IRQHªdËr
+ [
+WEAK
+]
+
+240 
+EXPORT
+ 
+SPI1_IRQHªdËr
+ [
+WEAK
+]
+
+241 
+EXPORT
+ 
+SPI2_IRQHªdËr
+ [
+WEAK
+]
+
+242 
+EXPORT
+ 
+USART1_IRQHªdËr
+ [
+WEAK
+]
+
+243 
+EXPORT
+ 
+LPUART1_IRQHªdËr
+ [
+WEAK
+]
+
+244 
+EXPORT
+ 
+SAI1_IRQHªdËr
+ [
+WEAK
+]
+
+245 
+EXPORT
+ 
+TSC_IRQHªdËr
+ [
+WEAK
+]
+
+246 
+EXPORT
+ 
+EXTI15_10_IRQHªdËr
+ [
+WEAK
+]
+
+247 
+EXPORT
+ 
+RTC_AÏrm_IRQHªdËr
+ [
+WEAK
+]
+
+248 
+EXPORT
+ 
+CRS_IRQHªdËr
+ [
+WEAK
+]
+
+249 
+EXPORT
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+ [
+WEAK
+]
+
+250 
+EXPORT
+ 
+IPCC_C1_RX_IRQHªdËr
+ [
+WEAK
+]
+
+251 
+EXPORT
+ 
+IPCC_C1_TX_IRQHªdËr
+ [
+WEAK
+]
+
+252 
+EXPORT
+ 
+HSEM_IRQHªdËr
+ [
+WEAK
+]
+
+253 
+EXPORT
+ 
+LPTIM1_IRQHªdËr
+ [
+WEAK
+]
+
+254 
+EXPORT
+ 
+LPTIM2_IRQHªdËr
+ [
+WEAK
+]
+
+255 
+EXPORT
+ 
+LCD_IRQHªdËr
+ [
+WEAK
+]
+
+256 
+EXPORT
+ 
+QUADSPI_IRQHªdËr
+ [
+WEAK
+]
+
+257 
+EXPORT
+ 
+AES1_IRQHªdËr
+ [
+WEAK
+]
+
+258 
+EXPORT
+ 
+AES2_IRQHªdËr
+ [
+WEAK
+]
+
+259 
+EXPORT
+ 
+RNG_IRQHªdËr
+ [
+WEAK
+]
+
+260 
+EXPORT
+ 
+FPU_IRQHªdËr
+ [
+WEAK
+]
+
+261 
+EXPORT
+ 
+DMA2_ChªÃl1_IRQHªdËr
+ [
+WEAK
+]
+
+262 
+EXPORT
+ 
+DMA2_ChªÃl2_IRQHªdËr
+ [
+WEAK
+]
+
+263 
+EXPORT
+ 
+DMA2_ChªÃl3_IRQHªdËr
+ [
+WEAK
+]
+
+264 
+EXPORT
+ 
+DMA2_ChªÃl4_IRQHªdËr
+ [
+WEAK
+]
+
+265 
+EXPORT
+ 
+DMA2_ChªÃl5_IRQHªdËr
+ [
+WEAK
+]
+
+266 
+EXPORT
+ 
+DMA2_ChªÃl6_IRQHªdËr
+ [
+WEAK
+]
+
+267 
+EXPORT
+ 
+DMA2_ChªÃl7_IRQHªdËr
+ [
+WEAK
+]
+
+268 
+EXPORT
+ 
+DMAMUX1_OVR_IRQHªdËr
+ [
+WEAK
+]
+
+270 
+WWDG_IRQHªdËr
+
+
+271 
+PVD_PVM_IRQHªdËr
+
+
+272 
+TAMP_STAMP_LSECSS_IRQHªdËr
+
+
+273 
+RTC_WKUP_IRQHªdËr
+
+
+274 
+FLASH_IRQHªdËr
+
+
+275 
+RCC_IRQHªdËr
+
+
+276 
+EXTI0_IRQHªdËr
+
+
+277 
+EXTI1_IRQHªdËr
+
+
+278 
+EXTI2_IRQHªdËr
+
+
+279 
+EXTI3_IRQHªdËr
+
+
+280 
+EXTI4_IRQHªdËr
+
+
+281 
+DMA1_ChªÃl1_IRQHªdËr
+
+
+282 
+DMA1_ChªÃl2_IRQHªdËr
+
+
+283 
+DMA1_ChªÃl3_IRQHªdËr
+
+
+284 
+DMA1_ChªÃl4_IRQHªdËr
+
+
+285 
+DMA1_ChªÃl5_IRQHªdËr
+
+
+286 
+DMA1_ChªÃl6_IRQHªdËr
+
+
+287 
+DMA1_ChªÃl7_IRQHªdËr
+
+
+288 
+ADC1_IRQHªdËr
+
+
+289 
+USB_HP_IRQHªdËr
+
+
+290 
+USB_LP_IRQHªdËr
+
+
+291 
+C2SEV_PWR_C2H_IRQHªdËr
+
+
+292 
+COMP_IRQHªdËr
+
+
+293 
+EXTI9_5_IRQHªdËr
+
+
+294 
+TIM1_BRK_IRQHªdËr
+
+
+295 
+TIM1_UP_TIM16_IRQHªdËr
+
+
+296 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+297 
+TIM1_CC_IRQHªdËr
+
+
+298 
+TIM2_IRQHªdËr
+
+
+299 
+PKA_IRQHªdËr
+
+
+300 
+I2C1_EV_IRQHªdËr
+
+
+301 
+I2C1_ER_IRQHªdËr
+
+
+302 
+I2C3_EV_IRQHªdËr
+
+
+303 
+I2C3_ER_IRQHªdËr
+
+
+304 
+SPI1_IRQHªdËr
+
+
+305 
+SPI2_IRQHªdËr
+
+
+306 
+USART1_IRQHªdËr
+
+
+307 
+LPUART1_IRQHªdËr
+
+
+308 
+SAI1_IRQHªdËr
+
+
+309 
+TSC_IRQHªdËr
+
+
+310 
+EXTI15_10_IRQHªdËr
+
+
+311 
+RTC_AÏrm_IRQHªdËr
+
+
+312 
+CRS_IRQHªdËr
+
+
+313 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+314 
+IPCC_C1_RX_IRQHªdËr
+
+
+315 
+IPCC_C1_TX_IRQHªdËr
+
+
+316 
+HSEM_IRQHªdËr
+
+
+317 
+LPTIM1_IRQHªdËr
+
+
+318 
+LPTIM2_IRQHªdËr
+
+
+319 
+LCD_IRQHªdËr
+
+
+320 
+QUADSPI_IRQHªdËr
+
+
+321 
+AES1_IRQHªdËr
+
+
+322 
+AES2_IRQHªdËr
+
+
+323 
+RNG_IRQHªdËr
+
+
+324 
+FPU_IRQHªdËr
+
+
+325 
+DMA2_ChªÃl1_IRQHªdËr
+
+
+326 
+DMA2_ChªÃl2_IRQHªdËr
+
+
+327 
+DMA2_ChªÃl3_IRQHªdËr
+
+
+328 
+DMA2_ChªÃl4_IRQHªdËr
+
+
+329 
+DMA2_ChªÃl5_IRQHªdËr
+
+
+330 
+DMA2_ChªÃl6_IRQHªdËr
+
+
+331 
+DMA2_ChªÃl7_IRQHªdËr
+
+
+332 
+DMAMUX1_OVR_IRQHªdËr
+
+
+334 
+B
+ .
+
+336 
+ENDP
+
+
+338 
+ALIGN
+
+
+341 ; 
+U£r
+ 
+Sck
+ 
+ªd
+ 
+H—p
+ 
+š™Ÿliz©iÚ
+
+
+343 
+IF
+ :
+DEF
+:
+__MICROLIB
+
+
+345 
+EXPORT
+ 
+__š™Ÿl_¥
+
+
+346 
+EXPORT
+ 
+__h—p_ba£
+
+
+347 
+EXPORT
+ 
+__h—p_lim™
+
+
+349 
+ELSE
+
+
+351 
+IMPORT
+ 
+__u£_two_»giÚ_memÜy
+
+
+352 
+EXPORT
+ 
+__u£r_š™Ÿl_¡ackh—p
+
+
+354 
+__u£r_š™Ÿl_¡ackh—p
+
+
+356 
+LDR
+ 
+R0
+, = 
+H—p_Mem
+
+
+357 
+LDR
+ 
+R1
+, =(
+Sck_Mem
+ + 
+Sck_Size
+)
+
+358 
+LDR
+ 
+R2
+, = (
+H—p_Mem
+ + 
+H—p_Size
+)
+
+359 
+LDR
+ 
+R3
+, = 
+Sck_Mem
+
+
+360 
+BX
+ 
+LR
+
+
+362 
+ALIGN
+
+
+364 
+ENDIF
+
+
+366 
+END
+
+
+368 ;************************ (
+C
+è
+COPYRIGHT
+ 
+STMiüÛËùrÚics
+ *****
+END
+ 
+OF
+ 
+FILE
+*****
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/Startup/startup_stm32wb55rgvx.s
+
+28 .
+syÁax
+ 
+	gunif›d
+
+
+29 .
+ýu
+ 
+	gcÜ‹x
+-
+	gm4
+
+
+30 .
+åu
+ 
+	gsoávå
+
+
+31 .
+	gthumb
+
+
+33 .
+glob®
+ 
+	gg_pâVeùÜs
+
+
+34 .
+glob®
+ 
+	gDeçuÉ_HªdËr
+
+
+38 .
+wÜd
+ 
+	g_sid©a
+
+
+40 .
+wÜd
+ 
+	g_sd©a
+
+
+42 .
+wÜd
+ 
+	g_ed©a
+
+
+44 .
+wÜd
+ 
+	g_sbss
+
+
+46 .
+wÜd
+ 
+	g_ebss
+
+
+48 .
+wÜd
+ 
+	g_sMB_MEM2
+
+
+50 .
+wÜd
+ 
+	g_eMB_MEM2
+
+
+53 .
+maüo
+ 
+INIT_BSS
+ 
+	g¡¬t
+, 
+’d
+
+
+54 
+ldr
+ 
+	gr0
+, =\
+¡¬t
+
+
+55 
+ldr
+ 
+r1
+, =\
+’d
+
+
+56 
+movs
+ 
+r3
+, #0
+
+57 
+bl
+ 
+	gLoÝFžlZ”obss
+
+
+58 .
+	g’dm
+
+
+61 .
+maüo
+ 
+INIT_DATA
+ 
+	g¡¬t
+, 
+	g’d
+, 
+¤c
+
+
+62 
+ldr
+ 
+	gr0
+, =\
+¡¬t
+
+
+63 
+ldr
+ 
+r1
+, =\
+’d
+
+
+64 
+ldr
+ 
+r2
+, =\
+¤c
+
+
+65 
+movs
+ 
+r3
+, #0
+
+66 
+bl
+ 
+	gLoÝCÝyD©aIn™
+
+
+67 .
+	g’dm
+
+
+69 .
+	g£ùiÚ
+ .
+	g‹xt
+.
+d©a_š™Ÿliz”s
+
+
+70 
+	gCÝyD©aIn™
+:
+
+71 
+ldr
+ 
+r4
+, [
+r2
+, 
+r3
+]
+
+72 
+¡r
+ 
+	gr4
+, [
+r0
+, 
+r3
+]
+
+73 
+adds
+ 
+	gr3
+,„3, #4
+
+75 
+	gLoÝCÝyD©aIn™
+:
+
+76 
+adds
+ 
+r4
+, 
+	gr0
+, 
+r3
+
+
+77 
+cmp
+ 
+	gr4
+, 
+r1
+
+
+78 
+bcc
+ 
+CÝyD©aIn™
+
+
+79 
+bx
+ 
+Ì
+
+
+81 
+	gFžlZ”obss
+:
+
+82 
+¡r
+ 
+r3
+, [
+r0
+]
+
+83 
+adds
+ 
+	gr0
+,„0, #4
+
+85 
+	gLoÝFžlZ”obss
+:
+
+86 
+cmp
+ 
+r0
+, 
+r1
+
+
+87 
+bcc
+ 
+FžlZ”obss
+
+
+88 
+bx
+ 
+	gÌ
+
+
+90 .
+	g£ùiÚ
+ .
+	g‹xt
+.
+	gRe£t_HªdËr
+
+
+91 .
+w—k
+ 
+	gRe£t_HªdËr
+
+
+92 .
+ty³
+ 
+	gRe£t_HªdËr
+, %
+funùiÚ
+
+
+93 
+	gRe£t_HªdËr
+:
+
+94 
+ldr
+ 
+r0
+, =
+_e¡ack
+
+
+95 
+mov
+ 
+¥
+, 
+r0
+
+
+97 
+bl
+ 
+Sy¡emIn™
+
+
+100 
+INIT_DATA
+ 
+	g_sd©a
+, 
+	g_ed©a
+, 
+_sid©a
+
+
+103 
+INIT_BSS
+ 
+	g_sbss
+, 
+_ebss
+
+
+104 
+INIT_BSS
+ 
+	g_sMB_MEM2
+, 
+_eMB_MEM2
+
+
+107 
+bl
+ 
+__libc_š™_¬¿y
+
+
+109 
+bl
+ 
+maš
+
+
+111 
+	gLoÝFÜev”
+:
+
+112 
+b
+ 
+LoÝFÜev”
+
+
+114 .
+size
+ 
+Re£t_HªdËr
+, .-
+	gRe£t_HªdËr
+
+
+124 .
+	g£ùiÚ
+ .
+	g‹xt
+.
+	gDeçuÉ_HªdËr
+,"ax",%
+´ogb™s
+
+
+125 
+	gDeçuÉ_HªdËr
+:
+
+126 
+Infš™e_LoÝ
+:
+
+127 
+b
+ 
+Infš™e_LoÝ
+
+
+128 .
+size
+ 
+DeçuÉ_HªdËr
+, .-
+	gDeçuÉ_HªdËr
+
+
+136 .
+	g£ùiÚ
+ .
+	gi¤_veùÜ
+,"a",%
+	g´ogb™s
+
+
+137 .
+ty³
+ 
+	gg_pâVeùÜs
+, %
+	gobjeù
+
+
+138 .
+size
+ 
+	gg_pâVeùÜs
+, .-
+g_pâVeùÜs
+
+
+141 
+	gg_pâVeùÜs
+:
+
+142 .
+wÜd
+ 
+_e¡ack
+
+
+143 .
+wÜd
+ 
+Re£t_HªdËr
+
+
+144 .
+wÜd
+ 
+NMI_HªdËr
+
+
+145 .
+wÜd
+ 
+H¬dFauÉ_HªdËr
+
+
+146 .
+wÜd
+ 
+MemMªage_HªdËr
+
+
+147 .
+wÜd
+ 
+BusFauÉ_HªdËr
+
+
+148 .
+wÜd
+ 
+U§geFauÉ_HªdËr
+
+
+149 .
+wÜd
+ 0
+
+150 .
+wÜd
+ 0
+
+151 .
+wÜd
+ 0
+
+152 .
+wÜd
+ 0
+
+153 .
+wÜd
+ 
+SVC_HªdËr
+
+
+154 .
+wÜd
+ 
+DebugMÚ_HªdËr
+
+
+155 .
+wÜd
+ 0
+
+156 .
+wÜd
+ 
+P’dSV_HªdËr
+
+
+157 .
+wÜd
+ 
+SysTick_HªdËr
+
+
+158 .
+wÜd
+ 
+WWDG_IRQHªdËr
+
+
+159 .
+wÜd
+ 
+PVD_PVM_IRQHªdËr
+
+
+160 .
+wÜd
+ 
+TAMP_STAMP_LSECSS_IRQHªdËr
+
+
+161 .
+wÜd
+ 
+RTC_WKUP_IRQHªdËr
+
+
+162 .
+wÜd
+ 
+FLASH_IRQHªdËr
+
+
+163 .
+wÜd
+ 
+RCC_IRQHªdËr
+
+
+164 .
+wÜd
+ 
+EXTI0_IRQHªdËr
+
+
+165 .
+wÜd
+ 
+EXTI1_IRQHªdËr
+
+
+166 .
+wÜd
+ 
+EXTI2_IRQHªdËr
+
+
+167 .
+wÜd
+ 
+EXTI3_IRQHªdËr
+
+
+168 .
+wÜd
+ 
+EXTI4_IRQHªdËr
+
+
+169 .
+wÜd
+ 
+DMA1_ChªÃl1_IRQHªdËr
+
+
+170 .
+wÜd
+ 
+DMA1_ChªÃl2_IRQHªdËr
+
+
+171 .
+wÜd
+ 
+DMA1_ChªÃl3_IRQHªdËr
+
+
+172 .
+wÜd
+ 
+DMA1_ChªÃl4_IRQHªdËr
+
+
+173 .
+wÜd
+ 
+DMA1_ChªÃl5_IRQHªdËr
+
+
+174 .
+wÜd
+ 
+DMA1_ChªÃl6_IRQHªdËr
+
+
+175 .
+wÜd
+ 
+DMA1_ChªÃl7_IRQHªdËr
+
+
+176 .
+wÜd
+ 
+ADC1_IRQHªdËr
+
+
+177 .
+wÜd
+ 
+USB_HP_IRQHªdËr
+
+
+178 .
+wÜd
+ 
+USB_LP_IRQHªdËr
+
+
+179 .
+wÜd
+ 
+C2SEV_PWR_C2H_IRQHªdËr
+
+
+180 .
+wÜd
+ 
+COMP_IRQHªdËr
+
+
+181 .
+wÜd
+ 
+EXTI9_5_IRQHªdËr
+
+
+182 .
+wÜd
+ 
+TIM1_BRK_IRQHªdËr
+
+
+183 .
+wÜd
+ 
+TIM1_UP_TIM16_IRQHªdËr
+
+
+184 .
+wÜd
+ 
+TIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+185 .
+wÜd
+ 
+TIM1_CC_IRQHªdËr
+
+
+186 .
+wÜd
+ 
+TIM2_IRQHªdËr
+
+
+187 .
+wÜd
+ 
+PKA_IRQHªdËr
+
+
+188 .
+wÜd
+ 
+I2C1_EV_IRQHªdËr
+
+
+189 .
+wÜd
+ 
+I2C1_ER_IRQHªdËr
+
+
+190 .
+wÜd
+ 
+I2C3_EV_IRQHªdËr
+
+
+191 .
+wÜd
+ 
+I2C3_ER_IRQHªdËr
+
+
+192 .
+wÜd
+ 
+SPI1_IRQHªdËr
+
+
+193 .
+wÜd
+ 
+SPI2_IRQHªdËr
+
+
+194 .
+wÜd
+ 
+USART1_IRQHªdËr
+
+
+195 .
+wÜd
+ 
+LPUART1_IRQHªdËr
+
+
+196 .
+wÜd
+ 
+SAI1_IRQHªdËr
+
+
+197 .
+wÜd
+ 
+TSC_IRQHªdËr
+
+
+198 .
+wÜd
+ 
+EXTI15_10_IRQHªdËr
+
+
+199 .
+wÜd
+ 
+RTC_AÏrm_IRQHªdËr
+
+
+200 .
+wÜd
+ 
+CRS_IRQHªdËr
+
+
+201 .
+wÜd
+ 
+PWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+202 .
+wÜd
+ 
+IPCC_C1_RX_IRQHªdËr
+
+
+203 .
+wÜd
+ 
+IPCC_C1_TX_IRQHªdËr
+
+
+204 .
+wÜd
+ 
+HSEM_IRQHªdËr
+
+
+205 .
+wÜd
+ 
+LPTIM1_IRQHªdËr
+
+
+206 .
+wÜd
+ 
+LPTIM2_IRQHªdËr
+
+
+207 .
+wÜd
+ 
+LCD_IRQHªdËr
+
+
+208 .
+wÜd
+ 
+QUADSPI_IRQHªdËr
+
+
+209 .
+wÜd
+ 
+AES1_IRQHªdËr
+
+
+210 .
+wÜd
+ 
+AES2_IRQHªdËr
+
+
+211 .
+wÜd
+ 
+RNG_IRQHªdËr
+
+
+212 .
+wÜd
+ 
+FPU_IRQHªdËr
+
+
+213 .
+wÜd
+ 
+DMA2_ChªÃl1_IRQHªdËr
+
+
+214 .
+wÜd
+ 
+DMA2_ChªÃl2_IRQHªdËr
+
+
+215 .
+wÜd
+ 
+DMA2_ChªÃl3_IRQHªdËr
+
+
+216 .
+wÜd
+ 
+DMA2_ChªÃl4_IRQHªdËr
+
+
+217 .
+wÜd
+ 
+DMA2_ChªÃl5_IRQHªdËr
+
+
+218 .
+wÜd
+ 
+DMA2_ChªÃl6_IRQHªdËr
+
+
+219 .
+wÜd
+ 
+DMA2_ChªÃl7_IRQHªdËr
+
+
+220 .
+wÜd
+ 
+DMAMUX1_OVR_IRQHªdËr
+
+
+229 .
+w—k
+ 
+NMI_HªdËr
+
+
+230 .
+thumb_£t
+ 
+NMI_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+232 .
+w—k
+ 
+	gH¬dFauÉ_HªdËr
+
+
+233 .
+thumb_£t
+ 
+	gH¬dFauÉ_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+235 .
+w—k
+ 
+	gMemMªage_HªdËr
+
+
+236 .
+thumb_£t
+ 
+	gMemMªage_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+238 .
+w—k
+ 
+	gBusFauÉ_HªdËr
+
+
+239 .
+thumb_£t
+ 
+	gBusFauÉ_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+241 .
+w—k
+ 
+	gU§geFauÉ_HªdËr
+
+
+242 .
+thumb_£t
+ 
+	gU§geFauÉ_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+244 .
+w—k
+ 
+	gSVC_HªdËr
+
+
+245 .
+thumb_£t
+ 
+	gSVC_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+247 .
+w—k
+ 
+	gDebugMÚ_HªdËr
+
+
+248 .
+thumb_£t
+ 
+	gDebugMÚ_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+250 .
+w—k
+ 
+	gP’dSV_HªdËr
+
+
+251 .
+thumb_£t
+ 
+	gP’dSV_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+253 .
+w—k
+ 
+	gSysTick_HªdËr
+
+
+254 .
+thumb_£t
+ 
+	gSysTick_HªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+256 .
+w—k
+ 
+	gWWDG_IRQHªdËr
+
+
+257 .
+thumb_£t
+ 
+	gWWDG_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+259 .
+w—k
+ 
+	gPVD_PVM_IRQHªdËr
+
+
+260 .
+thumb_£t
+ 
+	gPVD_PVM_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+262 .
+w—k
+ 
+	gTAMP_STAMP_LSECSS_IRQHªdËr
+
+
+263 .
+thumb_£t
+ 
+	gTAMP_STAMP_LSECSS_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+265 .
+w—k
+ 
+	gRTC_WKUP_IRQHªdËr
+
+
+266 .
+thumb_£t
+ 
+	gRTC_WKUP_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+268 .
+w—k
+ 
+	gFLASH_IRQHªdËr
+
+
+269 .
+thumb_£t
+ 
+	gFLASH_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+271 .
+w—k
+ 
+	gRCC_IRQHªdËr
+
+
+272 .
+thumb_£t
+ 
+	gRCC_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+274 .
+w—k
+ 
+	gEXTI0_IRQHªdËr
+
+
+275 .
+thumb_£t
+ 
+	gEXTI0_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+277 .
+w—k
+ 
+	gEXTI1_IRQHªdËr
+
+
+278 .
+thumb_£t
+ 
+	gEXTI1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+280 .
+w—k
+ 
+	gEXTI2_IRQHªdËr
+
+
+281 .
+thumb_£t
+ 
+	gEXTI2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+283 .
+w—k
+ 
+	gEXTI3_IRQHªdËr
+
+
+284 .
+thumb_£t
+ 
+	gEXTI3_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+286 .
+w—k
+ 
+	gEXTI4_IRQHªdËr
+
+
+287 .
+thumb_£t
+ 
+	gEXTI4_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+289 .
+w—k
+ 
+	gDMA1_ChªÃl1_IRQHªdËr
+
+
+290 .
+thumb_£t
+ 
+	gDMA1_ChªÃl1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+292 .
+w—k
+ 
+	gDMA1_ChªÃl2_IRQHªdËr
+
+
+293 .
+thumb_£t
+ 
+	gDMA1_ChªÃl2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+295 .
+w—k
+ 
+	gDMA1_ChªÃl3_IRQHªdËr
+
+
+296 .
+thumb_£t
+ 
+	gDMA1_ChªÃl3_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+298 .
+w—k
+ 
+	gDMA1_ChªÃl4_IRQHªdËr
+
+
+299 .
+thumb_£t
+ 
+	gDMA1_ChªÃl4_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+301 .
+w—k
+ 
+	gDMA1_ChªÃl5_IRQHªdËr
+
+
+302 .
+thumb_£t
+ 
+	gDMA1_ChªÃl5_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+304 .
+w—k
+ 
+	gDMA1_ChªÃl6_IRQHªdËr
+
+
+305 .
+thumb_£t
+ 
+	gDMA1_ChªÃl6_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+307 .
+w—k
+ 
+	gDMA1_ChªÃl7_IRQHªdËr
+
+
+308 .
+thumb_£t
+ 
+	gDMA1_ChªÃl7_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+310 .
+w—k
+ 
+	gADC1_IRQHªdËr
+
+
+311 .
+thumb_£t
+ 
+	gADC1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+313 .
+w—k
+ 
+	gUSB_HP_IRQHªdËr
+
+
+314 .
+thumb_£t
+ 
+	gUSB_HP_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+316 .
+w—k
+ 
+	gUSB_LP_IRQHªdËr
+
+
+317 .
+thumb_£t
+ 
+	gUSB_LP_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+319 .
+w—k
+ 
+	gC2SEV_PWR_C2H_IRQHªdËr
+
+
+320 .
+thumb_£t
+ 
+	gC2SEV_PWR_C2H_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+322 .
+w—k
+ 
+	gCOMP_IRQHªdËr
+
+
+323 .
+thumb_£t
+ 
+	gCOMP_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+325 .
+w—k
+ 
+	gEXTI9_5_IRQHªdËr
+
+
+326 .
+thumb_£t
+ 
+	gEXTI9_5_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+328 .
+w—k
+ 
+	gTIM1_BRK_IRQHªdËr
+
+
+329 .
+thumb_£t
+ 
+	gTIM1_BRK_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+331 .
+w—k
+ 
+	gTIM1_UP_TIM16_IRQHªdËr
+
+
+332 .
+thumb_£t
+ 
+	gTIM1_UP_TIM16_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+334 .
+w—k
+ 
+	gTIM1_TRG_COM_TIM17_IRQHªdËr
+
+
+335 .
+thumb_£t
+ 
+	gTIM1_TRG_COM_TIM17_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+337 .
+w—k
+ 
+	gTIM1_CC_IRQHªdËr
+
+
+338 .
+thumb_£t
+ 
+	gTIM1_CC_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+340 .
+w—k
+ 
+	gTIM2_IRQHªdËr
+
+
+341 .
+thumb_£t
+ 
+	gTIM2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+343 .
+w—k
+ 
+	gPKA_IRQHªdËr
+
+
+344 .
+thumb_£t
+ 
+	gPKA_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+346 .
+w—k
+ 
+	gI2C1_EV_IRQHªdËr
+
+
+347 .
+thumb_£t
+ 
+	gI2C1_EV_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+349 .
+w—k
+ 
+	gI2C1_ER_IRQHªdËr
+
+
+350 .
+thumb_£t
+ 
+	gI2C1_ER_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+352 .
+w—k
+ 
+	gI2C3_EV_IRQHªdËr
+
+
+353 .
+thumb_£t
+ 
+	gI2C3_EV_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+355 .
+w—k
+ 
+	gI2C3_ER_IRQHªdËr
+
+
+356 .
+thumb_£t
+ 
+	gI2C3_ER_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+358 .
+w—k
+ 
+	gSPI1_IRQHªdËr
+
+
+359 .
+thumb_£t
+ 
+	gSPI1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+361 .
+w—k
+ 
+	gSPI2_IRQHªdËr
+
+
+362 .
+thumb_£t
+ 
+	gSPI2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+364 .
+w—k
+ 
+	gUSART1_IRQHªdËr
+
+
+365 .
+thumb_£t
+ 
+	gUSART1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+367 .
+w—k
+ 
+	gLPUART1_IRQHªdËr
+
+
+368 .
+thumb_£t
+ 
+	gLPUART1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+370 .
+w—k
+ 
+	gSAI1_IRQHªdËr
+
+
+371 .
+thumb_£t
+ 
+	gSAI1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+373 .
+w—k
+ 
+	gTSC_IRQHªdËr
+
+
+374 .
+thumb_£t
+ 
+	gTSC_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+376 .
+w—k
+ 
+	gEXTI15_10_IRQHªdËr
+
+
+377 .
+thumb_£t
+ 
+	gEXTI15_10_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+379 .
+w—k
+ 
+	gRTC_AÏrm_IRQHªdËr
+
+
+380 .
+thumb_£t
+ 
+	gRTC_AÏrm_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+382 .
+w—k
+ 
+	gCRS_IRQHªdËr
+
+
+383 .
+thumb_£t
+ 
+	gCRS_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+385 .
+w—k
+ 
+	gPWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+
+
+386 .
+thumb_£t
+ 
+	gPWR_SOTF_BLEACT_802ACT_RFPHASE_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+388 .
+w—k
+ 
+	gIPCC_C1_RX_IRQHªdËr
+
+
+389 .
+thumb_£t
+ 
+	gIPCC_C1_RX_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+391 .
+w—k
+ 
+	gIPCC_C1_TX_IRQHªdËr
+
+
+392 .
+thumb_£t
+ 
+	gIPCC_C1_TX_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+394 .
+w—k
+ 
+	gHSEM_IRQHªdËr
+
+
+395 .
+thumb_£t
+ 
+	gHSEM_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+397 .
+w—k
+ 
+	gLPTIM1_IRQHªdËr
+
+
+398 .
+thumb_£t
+ 
+	gLPTIM1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+400 .
+w—k
+ 
+	gLPTIM2_IRQHªdËr
+
+
+401 .
+thumb_£t
+ 
+	gLPTIM2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+403 .
+w—k
+ 
+	gLCD_IRQHªdËr
+
+
+404 .
+thumb_£t
+ 
+	gLCD_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+406 .
+w—k
+ 
+	gQUADSPI_IRQHªdËr
+
+
+407 .
+thumb_£t
+ 
+	gQUADSPI_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+409 .
+w—k
+ 
+	gAES1_IRQHªdËr
+
+
+410 .
+thumb_£t
+ 
+	gAES1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+412 .
+w—k
+ 
+	gAES2_IRQHªdËr
+
+
+413 .
+thumb_£t
+ 
+	gAES2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+415 .
+w—k
+ 
+	gRNG_IRQHªdËr
+
+
+416 .
+thumb_£t
+ 
+	gRNG_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+418 .
+w—k
+ 
+	gFPU_IRQHªdËr
+
+
+419 .
+thumb_£t
+ 
+	gFPU_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+421 .
+w—k
+ 
+	gDMA2_ChªÃl1_IRQHªdËr
+
+
+422 .
+thumb_£t
+ 
+	gDMA2_ChªÃl1_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+424 .
+w—k
+ 
+	gDMA2_ChªÃl2_IRQHªdËr
+
+
+425 .
+thumb_£t
+ 
+	gDMA2_ChªÃl2_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+427 .
+w—k
+ 
+	gDMA2_ChªÃl3_IRQHªdËr
+
+
+428 .
+thumb_£t
+ 
+	gDMA2_ChªÃl3_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+430 .
+w—k
+ 
+	gDMA2_ChªÃl4_IRQHªdËr
+
+
+431 .
+thumb_£t
+ 
+	gDMA2_ChªÃl4_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+433 .
+w—k
+ 
+	gDMA2_ChªÃl5_IRQHªdËr
+
+
+434 .
+thumb_£t
+ 
+	gDMA2_ChªÃl5_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+436 .
+w—k
+ 
+	gDMA2_ChªÃl6_IRQHªdËr
+
+
+437 .
+thumb_£t
+ 
+	gDMA2_ChªÃl6_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+439 .
+w—k
+ 
+	gDMA2_ChªÃl7_IRQHªdËr
+
+
+440 .
+thumb_£t
+ 
+	gDMA2_ChªÃl7_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+442 .
+w—k
+ 
+	gDMAMUX1_OVR_IRQHªdËr
+
+
+443 .
+thumb_£t
+ 
+	gDMAMUX1_OVR_IRQHªdËr
+,
+	gDeçuÉ_HªdËr
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_api.c
+
+1 
+	~"c_­i.h
+"
+
+2 
+	~"c_if.h
+"
+
+3 
+	~<¡ršg.h
+>
+
+4 
+	~"cmsis_os.h
+"
+
+6 
+	#IPC_TX_TASK_STACK
+ (256Uè
+
+	)
+
+7 
+	#IPC_RX_TASK_STACK
+ (256Uè
+
+	)
+
+8 
+	#IPC_TX_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+è
+
+	)
+
+9 
+	#IPC_RX_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+è
+
+	)
+
+10 
+	#IPC_QUEUE_TIMEOUT
+ (1000è
+
+	)
+
+12 
+QueueHªdË_t
+ 
+	gtxCmdQueue
+;
+
+13 
+QueueHªdË_t
+ 
+	grxCmdQueue
+;
+
+14 
+TaskHªdË_t
+ 
+	gtxTaskHªdË
+ = 
+NULL
+;
+
+15 
+TaskHªdË_t
+ 
+	grxTaskHªdË
+ = 
+NULL
+;
+
+16 
+cRxCb_t
+ 
+	grxMsgCb
+ = 
+NULL
+;
+
+17 
+ušt8_t
+ 
+	gpktFrmCÁ
+ = 0;
+
+26 
+ušt8_t
+ 
+	$ÿlcuÏ‹Checksum
+(
+ušt8_t
+ *
+d©a
+, ušt8_ˆ
+Ën
+)
+
+28 
+ušt8_t
+ 
+checksum
+ = 0U;
+
+29 
+ušt8_t
+ 
+i
+;
+
+31 
+i
+ = 0U; i < 
+Ën
+; i++) {
+
+32 
+checksum
+ +ð
+d©a
+[
+i
+];
+
+35  
+checksum
+;
+
+36 
+	}
+}
+
+44 
+	$v®id©ePack‘
+(
+cPack‘_t
+ *
+·ck‘
+)
+
+46 
+ušt8_t
+ 
+checksum
+;
+
+48 
+checksum
+ = 
+	`ÿlcuÏ‹Checksum
+(
+·ck‘
+->
+·ylßd
+,…ack‘->
+h—d”
+.
+d©aL’
+);
+
+49 ià(
+checksum
+ !ð
+·ck‘
+->
+·ylßdChecksum
+) {
+
+54 
+	}
+}
+
+61 
+	$cTxTask
+(*
+·¿m
+)
+
+63 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+64 
+Ba£Ty³_t
+ 
+»s
+;
+
+65 (è
+·¿m
+;
+
+68 
+»s
+ = 
+	`xQueueReûive
+(
+txCmdQueue
+, &
+·ck‘
+, 
+pÜtMAX_DELAY
+);
+
+69 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+71 
+	`cU¬tS’dD©a
+(
+·ck‘
+);
+
+74 
+	}
+}
+
+81 
+	$cRxTask
+(*
+·¿m
+)
+
+83 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+84 
+Ba£Ty³_t
+ 
+»s
+;
+
+85 (è
+·¿m
+;
+
+88 
+»s
+ = 
+	`xQueueReûive
+(
+rxCmdQueue
+, &
+·ck‘
+, 
+pÜtMAX_DELAY
+);
+
+89 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+90 ià(
+	`v®id©ePack‘
+(
+·ck‘
+) != 0) {
+
+93 ià(
+rxMsgCb
+ !ð
+NULL
+) {
+
+94 
+	`rxMsgCb
+(
+·ck‘
+);
+
+97 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+100 
+	}
+}
+
+107 
+	$cIn™
+()
+
+109 
+txCmdQueue
+ = 
+	`xQueueC»©e
+(
+IPC_TX_QUEUE_LEN
+, (
+cPack‘_t
+*));
+
+110 ià(
+txCmdQueue
+ == 0U){
+
+115 
+rxCmdQueue
+ = 
+	`xQueueC»©e
+(
+IPC_TX_QUEUE_LEN
+, (
+cPack‘_t
+*));
+
+116 ià(
+rxCmdQueue
+ == 0U){
+
+121 
+	`xTaskC»©e
+(
+cTxTask
+, "c_tx", 
+IPC_TX_TASK_STACK
+, 
+NULL
+, 
+IPC_TX_TASK_PRIO
+, &
+txTaskHªdË
+);
+
+122 ià(
+txTaskHªdË
+ == 0U) {
+
+126 
+	`xTaskC»©e
+(
+cRxTask
+, "c_rx", 
+IPC_RX_TASK_STACK
+, 
+NULL
+, 
+IPC_RX_TASK_PRIO
+, &
+rxTaskHªdË
+);
+
+127 ià(
+rxTaskHªdË
+ == 0U) {
+
+132 
+	}
+}
+
+140 
+	$cRegi¡”RxCb
+(
+cRxCb_t
+ 
+rxCb
+)
+
+142 ià(
+rxCb
+ =ð
+NULL
+) {
+
+146 
+rxMsgCb
+ = 
+rxCb
+;
+
+149 
+	}
+}
+
+161 
+	$cS’dCommªd
+(
+ušt8_t
+ 
+¤cId
+, ušt8_ˆ
+d¡Id
+, 
+ušt16_t
+ 
+cmdId
+, ušt8_ˆ*
+·ylßd
+, ušt8_ˆ
+Ën
+)
+
+163 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+164 
+Ba£Ty³_t
+ 
+»s
+;
+
+166 ià((
+Ën
+ > 0Uè&& (
+·ylßd
+ =ð
+NULL
+)) {
+
+170 
+·ck‘
+ = 
+	`pvPÜtM®loc
+(
+IPC_PACKET_LEN
+);
+
+171 ià(
+·ck‘
+ =ð
+NULL
+) {
+
+176 
+	`mem£t
+(
+·ck‘
+, 0, 
+IPC_PACKET_LEN
+);
+
+178 
+·ck‘
+->
+h—d”
+.
+äameCÁ
+ = 
+pktFrmCÁ
+;
+
+179 
+·ck‘
+->
+h—d”
+.
+¤cId
+ = srcId;
+
+180 
+·ck‘
+->
+h—d”
+.
+d¡Id
+ = dstId;
+
+181 
+·ck‘
+->
+h—d”
+.
+cmdId
+ = cmdId;
+
+182 
+·ck‘
+->
+h—d”
+.
+d©aL’
+ = 
+Ën
+;
+
+183 ià(
+Ën
+ > 0U) {
+
+185 (è
+	`memýy
+(
+·ck‘
+->
+·ylßd
+,…aylßd, 
+Ën
+);
+
+187 
+·ck‘
+->
+·ylßdChecksum
+ = 
+	`ÿlcuÏ‹Checksum
+(
+·ylßd
+, 
+Ën
+);
+
+189 
+»s
+ = 
+	`xQueueS’d
+(
+txCmdQueue
+, (*è&
+·ck‘
+, (
+TickTy³_t
+è
+IPC_QUEUE_TIMEOUT
+);
+
+190 ià(
+»s
+ !ð
+pdTRUE
+) {
+
+191 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+196 
+pktFrmCÁ
+++;
+
+199 
+	}
+}
+
+208 
+	$cProûssReûivedD©a
+(
+ušt8_t
+ *
+d©aPŒ
+, 
+ušt32_t
+ 
+d©aL’
+)
+
+210 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+211 
+Ba£Ty³_t
+ 
+»s
+;
+
+213 ià(
+d©aL’
+ !ð
+IPC_PACKET_LEN
+) {
+
+217 
+·ck‘
+ = 
+	`pvPÜtM®loc
+(
+IPC_PACKET_LEN
+);
+
+218 ià(
+·ck‘
+ =ð
+NULL
+) {
+
+223 (è
+	`memýy
+(
+·ck‘
+, 
+d©aPŒ
+, 
+d©aL’
+);
+
+225 
+»s
+ = 
+	`xQueueS’d
+(
+rxCmdQueue
+, (*è&
+·ck‘
+, (
+TickTy³_t
+è
+IPC_QUEUE_TIMEOUT
+);
+
+226 ià(
+»s
+ !ð
+pdTRUE
+) {
+
+227 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+232 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_api.h
+
+1 #iâdeà
+__IPC_API_H
+
+
+2 
+	#__IPC_API_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+9 
+	~"c_ty³s.h
+"
+
+11 
+cIn™
+();
+
+12 
+cRegi¡”RxCb
+(
+cRxCb_t
+ 
+rx_cb
+);
+
+13 
+cS’dCommªd
+(
+ušt8_t
+ 
+¤cId
+, ušt8_ˆ
+d¡Id
+, 
+ušt16_t
+ 
+cmdId
+, ušt8_ˆ*
+·ylßd
+, ušt8_ˆ
+Ën
+);
+
+14 
+cProûssReûivedD©a
+(
+ušt8_t
+ *
+d©aPŒ
+, 
+ušt32_t
+ 
+d©aL’
+);
+
+16 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_if.c
+
+1 
+	~"c_­i.h
+"
+
+2 
+	~"c_if.h
+"
+
+3 
+	~"¡m32wbxx_h®.h
+"
+
+4 
+	~<¡ršg.h
+>
+
+5 
+	~"cmsis_os.h
+"
+
+7 
+	#IPC_UART_TX_READY_EVT
+ (1 << 0è
+
+	)
+
+8 
+	#IPC_UART_TASK_STACK
+ (256Uè
+
+	)
+
+9 
+	#IPC_UART_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+ + 1Uè
+
+	)
+
+11 
+Ev’tGroupHªdË_t
+ 
+	gcU¬tEvt
+;
+
+12 
+UART_HªdËTy³Def
+ 
+	gcU¬tHªdË
+;
+
+13 
+DMA_HªdËTy³Def
+ 
+	gcU¬tDmaTx
+;
+
+14 
+DMA_HªdËTy³Def
+ 
+	gcU¬tDmaRx
+;
+
+15 
+TaskHªdË_t
+ 
+	gcU¬tTaskHªdË
+ = 
+NULL
+;
+
+17 
+ušt8_t
+ 
+	gdmaRxBuf
+[2][
+IPC_PACKET_LEN
+];
+
+18 
+ušt8_t
+ 
+	gdmaRxTmpBuf
+[
+IPC_PACKET_LEN
+];
+
+19 
+ušt8_t
+ *
+	gdmaR—dyBufPŒ
+;
+
+20 
+ušt8_t
+ *
+	gdmaAùiveBufPŒ
+;
+
+21 
+ušt8_t
+ 
+	gdmaTxBufãr
+[
+IPC_PACKET_LEN
+];
+
+26 
+	$DMA2_ChªÃl3_IRQHªdËr
+()
+
+28 
+	`HAL_DMA_IRQHªdËr
+(&
+cU¬tDmaTx
+);
+
+29 
+	}
+}
+
+34 
+	$DMA2_ChªÃl5_IRQHªdËr
+()
+
+36 
+	`HAL_DMA_IRQHªdËr
+(&
+cU¬tDmaRx
+);
+
+37 
+	}
+}
+
+42 
+	$UART4_IRQHªdËr
+()
+
+44 
+	`HAL_UART_IRQHªdËr
+(&
+cU¬tHªdË
+);
+
+45 
+	}
+}
+
+52 
+	$cU¬tTask
+(*
+·¿m
+)
+
+54 
+ušt32_t
+ 
+d©aL’
+ = 0U;
+
+55 
+Ba£Ty³_t
+ 
+»s
+;
+
+56 (è
+·¿m
+;
+
+59 
+»s
+ = 
+	`xTaskNÙifyWa™
+(0x00, 0x00, &
+d©aL’
+, 
+pÜtMAX_DELAY
+);
+
+60 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+61 
+	`cProûssReûivedD©a
+(
+dmaR—dyBufPŒ
+, 
+d©aL’
+);
+
+64 
+	}
+}
+
+72 
+	$cU¬tIn™
+(
+baud¿‹
+)
+
+74 
+cU¬tHªdË
+.
+In¡ªû
+ = 
+USART1
+;
+
+75 
+cU¬tHªdË
+.
+In™
+.
+BaudR©e
+ = 
+baud¿‹
+;
+
+76 
+cU¬tHªdË
+.
+In™
+.
+WÜdL’gth
+ = 
+UART_WORDLENGTH_8B
+;
+
+77 
+cU¬tHªdË
+.
+In™
+.
+StÝB™s
+ = 
+UART_STOPBITS_1
+;
+
+78 
+cU¬tHªdË
+.
+In™
+.
+P¬™y
+ = 
+UART_PARITY_NONE
+;
+
+79 
+cU¬tHªdË
+.
+In™
+.
+Mode
+ = 
+UART_MODE_TX_RX
+;
+
+80 
+cU¬tHªdË
+.
+In™
+.
+HwFlowCŽ
+ = 
+UART_HWCONTROL_NONE
+;
+
+81 
+cU¬tHªdË
+.
+In™
+.
+Ov”Sam¶šg
+ = 
+UART_OVERSAMPLING_16
+;
+
+82 
+cU¬tHªdË
+.
+In™
+.
+OÃB™Sam¶šg
+ = 
+UART_ONE_BIT_SAMPLE_DISABLE
+;
+
+83 
+cU¬tHªdË
+.
+AdvªûdIn™
+.
+AdvF—tu»In™
+ = 
+UART_ADVFEATURE_NO_INIT
+;
+
+84 ià(
+	`HAL_UART_In™
+(&
+cU¬tHªdË
+è!ð
+HAL_OK
+)
+
+90 
+	`__HAL_RCC_DMA2_CLK_ENABLE
+();
+
+93 
+cU¬tDmaRx
+.
+In¡ªû
+ = 
+DMA2_ChªÃl5
+;
+
+94 
+cU¬tDmaRx
+.
+In™
+.
+Reque¡
+ = 
+DMA_REQUEST_USART1_RX
+;
+
+95 
+cU¬tDmaRx
+.
+In™
+.
+DœeùiÚ
+ = 
+DMA_PERIPH_TO_MEMORY
+;
+
+96 
+cU¬tDmaRx
+.
+In™
+.
+P”hInc
+ = 
+DMA_PINC_DISABLE
+;
+
+97 
+cU¬tDmaRx
+.
+In™
+.
+MemInc
+ = 
+DMA_MINC_ENABLE
+;
+
+98 
+cU¬tDmaRx
+.
+In™
+.
+P”hD©aAlignm’t
+ = 
+DMA_PDATAALIGN_BYTE
+;
+
+99 
+cU¬tDmaRx
+.
+In™
+.
+MemD©aAlignm’t
+ = 
+DMA_MDATAALIGN_BYTE
+;
+
+100 
+cU¬tDmaRx
+.
+In™
+.
+Mode
+ = 
+DMA_CIRCULAR
+;
+
+101 
+cU¬tDmaRx
+.
+In™
+.
+PriÜ™y
+ = 
+DMA_PRIORITY_LOW
+;
+
+102 ià(
+	`HAL_DMA_In™
+(&
+cU¬tDmaRx
+è!ð
+HAL_OK
+)
+
+106 
+	`__HAL_LINKDMA
+(&
+cU¬tHªdË
+, 
+hdm¬x
+, 
+cU¬tDmaRx
+);
+
+109 
+cU¬tDmaTx
+.
+In¡ªû
+ = 
+DMA2_ChªÃl3
+;
+
+110 
+cU¬tDmaTx
+.
+In™
+.
+Reque¡
+ = 
+DMA_REQUEST_USART1_TX
+;
+
+111 
+cU¬tDmaTx
+.
+In™
+.
+DœeùiÚ
+ = 
+DMA_MEMORY_TO_PERIPH
+;
+
+112 
+cU¬tDmaTx
+.
+In™
+.
+P”hInc
+ = 
+DMA_PINC_DISABLE
+;
+
+113 
+cU¬tDmaTx
+.
+In™
+.
+MemInc
+ = 
+DMA_MINC_ENABLE
+;
+
+114 
+cU¬tDmaTx
+.
+In™
+.
+P”hD©aAlignm’t
+ = 
+DMA_PDATAALIGN_BYTE
+;
+
+115 
+cU¬tDmaTx
+.
+In™
+.
+MemD©aAlignm’t
+ = 
+DMA_MDATAALIGN_BYTE
+;
+
+116 
+cU¬tDmaTx
+.
+In™
+.
+Mode
+ = 
+DMA_NORMAL
+;
+
+117 
+cU¬tDmaTx
+.
+In™
+.
+PriÜ™y
+ = 
+DMA_PRIORITY_LOW
+;
+
+118 ià(
+	`HAL_DMA_In™
+(&
+cU¬tDmaTx
+è!ð
+HAL_OK
+)
+
+123 
+	`__HAL_LINKDMA
+(&
+cU¬tHªdË
+, 
+hdm©x
+, 
+cU¬tDmaTx
+);
+
+126 
+	`HAL_NVIC_S‘PriÜ™y
+(
+DMA2_ChªÃl3_IRQn
+, 5U, 1U);
+
+127 
+	`HAL_NVIC_EÇbËIRQ
+(
+DMA2_ChªÃl3_IRQn
+);
+
+130 
+	`HAL_NVIC_S‘PriÜ™y
+(
+DMA2_ChªÃl5_IRQn
+, 5U, 0U);
+
+131 
+	`HAL_NVIC_EÇbËIRQ
+(
+DMA2_ChªÃl5_IRQn
+);
+
+134 
+	`HAL_NVIC_S‘PriÜ™y
+(
+USART1_IRQn
+, 5U, 0U);
+
+135 
+	`HAL_NVIC_EÇbËIRQ
+(
+USART1_IRQn
+);
+
+137 
+cU¬tEvt
+ = 
+	`xEv’tGroupC»©e
+();
+
+138 
+	`xEv’tGroupS‘B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+);
+
+140 
+	`xTaskC»©e
+(
+cU¬tTask
+, "c_u¬t", 
+IPC_UART_TASK_STACK
+, 
+NULL
+, 
+IPC_UART_TASK_PRIO
+, &
+cU¬tTaskHªdË
+);
+
+141 ià(
+cU¬tTaskHªdË
+ == 0U) {
+
+146 
+dmaAùiveBufPŒ
+ = 
+dmaRxBuf
+[0];
+
+147 
+dmaR—dyBufPŒ
+ = 
+dmaRxBuf
+[1];
+
+148 ià(
+	`HAL_UARTEx_ReûiveToIdË_DMA
+(&
+cU¬tHªdË
+, 
+dmaRxTmpBuf
+, 
+IPC_PACKET_LEN
+è!ð
+HAL_OK
+) {
+
+153 
+	}
+}
+
+160 
+	$HAL_UART_TxC¶tC®lback
+(
+UART_HªdËTy³Def
+ *
+u¬t_hªdË
+)
+
+162 
+Ba£Ty³_t
+ 
+skWok’
+ = 
+pdFALSE
+;
+
+163 
+Ba£Ty³_t
+ 
+»s
+;
+
+165 
+»s
+ = 
+	`xEv’tGroupS‘B™sFromISR
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+, &
+skWok’
+);
+
+166 if(
+»s
+ =ð
+pdPASS
+) {
+
+167 
+	`pÜtYIELD_FROM_ISR
+(
+skWok’
+);
+
+169 
+	}
+}
+
+177 
+	$cU¬tS’dD©a
+(
+cPack‘_t
+ *
+·ck‘
+)
+
+179 
+HAL_StusTy³Def
+ 
+»s
+;
+
+181 
+	`xEv’tGroupWa™B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+, 
+pdFALSE
+,…dFALSE, 
+pÜtMAX_DELAY
+);
+
+183 (è
+	`memýy
+(
+dmaTxBufãr
+, (
+ušt8_t
+ *è
+·ck‘
+, 
+IPC_PACKET_LEN
+);
+
+185 
+»s
+ = 
+	`HAL_UART_T¿nsm™_DMA
+(&
+cU¬tHªdË
+, 
+dmaTxBufãr
+, 
+IPC_PACKET_LEN
+);
+
+186 ià(
+»s
+ !ð
+HAL_OK
+) {
+
+187  -
+»s
+;
+
+190 
+	`xEv’tGroupCË¬B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+);
+
+193 
+	}
+}
+
+202 
+	$bufãrD©aR—dy
+(
+UART_HªdËTy³Def
+ *
+hu¬t
+, 
+ušt8_t
+* 
+d©a
+, 
+ušt16_t
+ 
+Ën
+)
+
+212 
+Ba£Ty³_t
+ 
+skWok’
+ = 
+pdFALSE
+;
+
+213 
+	`xTaskNÙifyFromISR
+(
+cU¬tTaskHªdË
+, 
+Ën
+, 
+eS‘B™s
+, &
+skWok’
+);
+
+214 
+	`pÜtYIELD_FROM_ISR
+(
+skWok’
+);
+
+215 
+	}
+}
+
+224 
+	$HAL_UARTEx_RxEv’tC®lback
+(
+UART_HªdËTy³Def
+ *
+hu¬t
+, 
+ušt16_t
+ 
+size
+)
+
+226 
+ušt16_t
+ 
+ÞdSize
+ = 0;
+
+227 
+ušt8_t
+ *
+±emp
+;
+
+228 
+ušt16_t
+ 
+i
+;
+
+229 
+ušt16_t
+ 
+»ûivedD©a
+ = 0;
+
+232 ià(
+size
+ !ð
+ÞdSize
+) {
+
+233 ià(
+size
+ > 
+ÞdSize
+) {
+
+234 
+»ûivedD©a
+ = 
+size
+ - 
+ÞdSize
+;
+
+236 
+i
+ = 0U; i < 
+»ûivedD©a
+; i++) {
+
+237 
+dmaAùiveBufPŒ
+[
+ÞdSize
+ + 
+i
+] = 
+dmaRxTmpBuf
+[oldSize + i];
+
+241 
+ÞdSize
+ = 
+size
+;
+
+243 ià(
+size
+ =ð
+IPC_PACKET_LEN
+) {
+
+245 
+±emp
+ = 
+dmaR—dyBufPŒ
+;
+
+246 
+dmaR—dyBufPŒ
+ = 
+dmaAùiveBufPŒ
+;
+
+247 
+dmaAùiveBufPŒ
+ = 
+±emp
+;
+
+250 
+ÞdSize
+ = 0;
+
+253 
+	`bufãrD©aR—dy
+(
+hu¬t
+, 
+dmaR—dyBufPŒ
+, 
+size
+);
+
+256 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_if.h
+
+1 #iâdeà
+__IPC_IF_H
+
+
+2 
+	#__IPC_IF_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+9 
+	~"c_ty³s.h
+"
+
+11 
+cU¬tIn™
+(
+baud¿‹
+);
+
+12 
+cU¬tS’dD©a
+(
+cPack‘_t
+ *
+·ck‘
+);
+
+14 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_types.h
+
+1 #iâdeà
+__IPC_TYPES_H
+
+
+2 
+	#__IPC_TYPES_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+10 
+	#IPC_DATA_LEN
+ (64Uè
+
+	)
+
+11 
+	#IPC_HEADER_LEN
+ (6Uè
+
+	)
+
+12 
+	#IPC_PACKET_LEN
+ (72Uè
+
+	)
+
+13 
+	#IPC_TX_QUEUE_LEN
+ (10Uè
+
+	)
+
+14 
+	#IPC_RX_QUEUE_LEN
+ (10Uè
+
+	)
+
+21 
+ušt8_t
+ 
+äameCÁ
+;
+
+22 
+ušt8_t
+ 
+¤cId
+;
+
+23 
+ušt8_t
+ 
+d¡Id
+;
+
+24 
+ušt8_t
+ 
+d©aL’
+;
+
+25 
+ušt16_t
+ 
+cmdId
+;
+
+26 } 
+	tcPack‘H—d”_t
+;
+
+33 
+cPack‘H—d”_t
+ 
+h—d”
+;
+
+34 
+ušt8_t
+ 
+»£rved
+;
+
+35 
+ušt8_t
+ 
+·ylßdChecksum
+;
+
+36 
+ušt8_t
+ 
+·ylßd
+[
+IPC_DATA_LEN
+];
+
+37 } 
+	tcPack‘_t
+;
+
+43 (*
+cRxCb_t
+)(
+	tcPack‘_t
+ *
+	trx_cmd
+);
+
+45 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/syscalls.c
+
+25 
+	~<sys/¡©.h
+>
+
+26 
+	~<¡dlib.h
+>
+
+27 
+	~<”ºo.h
+>
+
+28 
+	~<¡dio.h
+>
+
+29 
+	~<sigÇl.h
+>
+
+30 
+	~<time.h
+>
+
+31 
+	~<sys/time.h
+>
+
+32 
+	~<sys/times.h
+>
+
+37 
+”ºo
+;
+
+38 
+	$__io_putch¬
+(
+ch
+è
+	`__©Œibu‹__
+((
+w—k
+));
+
+39 
+	$__io_g‘ch¬
+(è
+	`__©Œibu‹__
+((
+w—k
+));
+
+41 * 
+¡ack_±r
+ 
+	`asm
+("sp");
+
+43 *
+__’v
+[1] = { 0 
+	}
+};
+
+44 **
+	g’vœÚ
+ = 
+__’v
+;
+
+48 
+	$š™Ÿli£_mÚ™Ü_hªdËs
+()
+
+50 
+	}
+}
+
+52 
+	$_g‘pid
+()
+
+55 
+	}
+}
+
+57 
+	$_kžl
+(
+pid
+, 
+sig
+)
+
+59 
+”ºo
+ = 
+EINVAL
+;
+
+61 
+	}
+}
+
+63 
+	$_ex™
+ (
+¡©us
+)
+
+65 
+	`_kžl
+(
+¡©us
+, -1);
+
+67 
+	}
+}
+
+69 
+__©Œibu‹__
+((
+w—k
+)è
+	$_»ad
+(
+fže
+, *
+±r
+, 
+Ën
+)
+
+71 
+D©aIdx
+;
+
+73 
+D©aIdx
+ = 0; D©aIdx < 
+Ën
+; DataIdx++)
+
+75 *
+±r
+++ = 
+	`__io_g‘ch¬
+();
+
+78  
+Ën
+;
+
+79 
+	}
+}
+
+81 
+__©Œibu‹__
+((
+w—k
+)è
+	$_wr™e
+(
+fže
+, *
+±r
+, 
+Ën
+)
+
+83 
+D©aIdx
+;
+
+85 
+D©aIdx
+ = 0; D©aIdx < 
+Ën
+; DataIdx++)
+
+87 
+	`__io_putch¬
+(*
+±r
+++);
+
+89  
+Ën
+;
+
+90 
+	}
+}
+
+92 
+	$_þo£
+(
+fže
+)
+
+95 
+	}
+}
+
+98 
+	$_f¡©
+(
+fže
+, 
+¡©
+ *
+¡
+)
+
+100 
+¡
+->
+¡_mode
+ = 
+S_IFCHR
+;
+
+102 
+	}
+}
+
+104 
+	$_i§‰y
+(
+fže
+)
+
+107 
+	}
+}
+
+109 
+	$_l£ek
+(
+fže
+, 
+±r
+, 
+dœ
+)
+
+112 
+	}
+}
+
+114 
+	$_Ý’
+(*
+·th
+, 
+æags
+, ...)
+
+118 
+	}
+}
+
+120 
+	$_wa™
+(*
+¡©us
+)
+
+122 
+”ºo
+ = 
+ECHILD
+;
+
+124 
+	}
+}
+
+126 
+	$_uÆšk
+(*
+Çme
+)
+
+128 
+”ºo
+ = 
+ENOENT
+;
+
+130 
+	}
+}
+
+132 
+	$_times
+(
+tms
+ *
+buf
+)
+
+135 
+	}
+}
+
+137 
+	$_¡©
+(*
+fže
+, 
+¡©
+ *
+¡
+)
+
+139 
+¡
+->
+¡_mode
+ = 
+S_IFCHR
+;
+
+141 
+	}
+}
+
+143 
+	$_lšk
+(*
+Þd
+, *
+Ãw
+)
+
+145 
+”ºo
+ = 
+EMLINK
+;
+
+147 
+	}
+}
+
+149 
+	$_fÜk
+()
+
+151 
+”ºo
+ = 
+EAGAIN
+;
+
+153 
+	}
+}
+
+155 
+	$_execve
+(*
+Çme
+, **
+¬gv
+, **
+’v
+)
+
+157 
+”ºo
+ = 
+ENOMEM
+;
+
+159 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/sysmem.c
+
+25 
+	~<”ºo.h
+>
+
+26 
+	~<¡dio.h
+>
+
+29 
+”ºo
+;
+
+30 * 
+¡ack_±r
+ 
+asm
+("sp");
+
+38 
+ÿddr_t
+ 
+	$_sbrk
+(
+šü
+)
+
+40 
+’d
+ 
+	`asm
+("end");
+
+41 *
+h—p_’d
+;
+
+42 *
+´ev_h—p_’d
+;
+
+44 ià(
+h—p_’d
+ == 0)
+
+45 
+h—p_’d
+ = &
+’d
+;
+
+47 
+´ev_h—p_’d
+ = 
+h—p_’d
+;
+
+48 ià(
+h—p_’d
+ + 
+šü
+ > 
+¡ack_±r
+)
+
+50 
+”ºo
+ = 
+ENOMEM
+;
+
+51  (
+ÿddr_t
+) -1;
+
+54 
+h—p_’d
+ +ð
+šü
+;
+
+56  (
+ÿddr_t
+è
+´ev_h—p_’d
+;
+
+57 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/app_freertos.c
+
+49 
+	~"F»eRTOS.h
+"
+
+50 
+	~"sk.h
+"
+
+51 
+	~"maš.h
+"
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_api.c
+
+1 
+	~"c_­i.h
+"
+
+2 
+	~"c_if.h
+"
+
+3 
+	~<¡ršg.h
+>
+
+4 
+	~"cmsis_os.h
+"
+
+6 
+	#IPC_TX_TASK_STACK
+ (256Uè
+
+	)
+
+7 
+	#IPC_RX_TASK_STACK
+ (256Uè
+
+	)
+
+8 
+	#IPC_TX_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+è
+
+	)
+
+9 
+	#IPC_RX_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+è
+
+	)
+
+10 
+	#IPC_QUEUE_TIMEOUT
+ (1000è
+
+	)
+
+12 
+QueueHªdË_t
+ 
+	gtxCmdQueue
+;
+
+13 
+QueueHªdË_t
+ 
+	grxCmdQueue
+;
+
+14 
+TaskHªdË_t
+ 
+	gtxTaskHªdË
+ = 
+NULL
+;
+
+15 
+TaskHªdË_t
+ 
+	grxTaskHªdË
+ = 
+NULL
+;
+
+16 
+cRxCb_t
+ 
+	grxMsgCb
+ = 
+NULL
+;
+
+17 
+ušt8_t
+ 
+	gpktFrmCÁ
+ = 0;
+
+26 
+ušt8_t
+ 
+	$ÿlcuÏ‹Checksum
+(
+ušt8_t
+ *
+d©a
+, ušt8_ˆ
+Ën
+)
+
+28 
+ušt8_t
+ 
+checksum
+ = 0U;
+
+29 
+ušt8_t
+ 
+i
+;
+
+31 
+i
+ = 0U; i < 
+Ën
+; i++) {
+
+32 
+checksum
+ +ð
+d©a
+[
+i
+];
+
+35  
+checksum
+;
+
+36 
+	}
+}
+
+44 
+	$v®id©ePack‘
+(
+cPack‘_t
+ *
+·ck‘
+)
+
+46 
+ušt8_t
+ 
+checksum
+;
+
+48 
+checksum
+ = 
+	`ÿlcuÏ‹Checksum
+(
+·ck‘
+->
+·ylßd
+,…ack‘->
+h—d”
+.
+d©aL’
+);
+
+49 ià(
+checksum
+ !ð
+·ck‘
+->
+·ylßdChecksum
+) {
+
+54 
+	}
+}
+
+61 
+	$cTxTask
+(*
+·¿m
+)
+
+63 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+64 
+Ba£Ty³_t
+ 
+»s
+;
+
+65 (è
+·¿m
+;
+
+68 
+»s
+ = 
+	`xQueueReûive
+(
+txCmdQueue
+, &
+·ck‘
+, 
+pÜtMAX_DELAY
+);
+
+69 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+71 
+	`cU¬tS’dD©a
+(
+·ck‘
+);
+
+74 
+	}
+}
+
+81 
+	$cRxTask
+(*
+·¿m
+)
+
+83 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+84 
+Ba£Ty³_t
+ 
+»s
+;
+
+85 (è
+·¿m
+;
+
+88 
+»s
+ = 
+	`xQueueReûive
+(
+rxCmdQueue
+, &
+·ck‘
+, 
+pÜtMAX_DELAY
+);
+
+89 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+90 ià(
+	`v®id©ePack‘
+(
+·ck‘
+) != 0) {
+
+93 ià(
+rxMsgCb
+ !ð
+NULL
+) {
+
+94 
+	`rxMsgCb
+(
+·ck‘
+);
+
+97 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+100 
+	}
+}
+
+107 
+	$cIn™
+()
+
+109 
+txCmdQueue
+ = 
+	`xQueueC»©e
+(
+IPC_TX_QUEUE_LEN
+, (
+cPack‘_t
+*));
+
+110 ià(
+txCmdQueue
+ == 0U){
+
+115 
+rxCmdQueue
+ = 
+	`xQueueC»©e
+(
+IPC_TX_QUEUE_LEN
+, (
+cPack‘_t
+*));
+
+116 ià(
+rxCmdQueue
+ == 0U){
+
+121 
+	`xTaskC»©e
+(
+cTxTask
+, "c_tx", 
+IPC_TX_TASK_STACK
+, 
+NULL
+, 
+IPC_TX_TASK_PRIO
+, &
+txTaskHªdË
+);
+
+122 ià(
+txTaskHªdË
+ == 0U) {
+
+126 
+	`xTaskC»©e
+(
+cRxTask
+, "c_rx", 
+IPC_RX_TASK_STACK
+, 
+NULL
+, 
+IPC_RX_TASK_PRIO
+, &
+rxTaskHªdË
+);
+
+127 ià(
+rxTaskHªdË
+ == 0U) {
+
+132 
+	}
+}
+
+140 
+	$cRegi¡”RxCb
+(
+cRxCb_t
+ 
+rxCb
+)
+
+142 ià(
+rxCb
+ =ð
+NULL
+) {
+
+146 
+rxMsgCb
+ = 
+rxCb
+;
+
+149 
+	}
+}
+
+161 
+	$cS’dCommªd
+(
+ušt8_t
+ 
+¤cId
+, ušt8_ˆ
+d¡Id
+, 
+ušt16_t
+ 
+cmdId
+, ušt8_ˆ*
+·ylßd
+, ušt8_ˆ
+Ën
+)
+
+163 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+164 
+Ba£Ty³_t
+ 
+»s
+;
+
+166 ià((
+Ën
+ > 0Uè&& (
+·ylßd
+ =ð
+NULL
+)) {
+
+170 
+·ck‘
+ = 
+	`pvPÜtM®loc
+(
+IPC_PACKET_LEN
+);
+
+171 ià(
+·ck‘
+ =ð
+NULL
+) {
+
+176 
+	`mem£t
+(
+·ck‘
+, 0, 
+IPC_PACKET_LEN
+);
+
+178 
+·ck‘
+->
+h—d”
+.
+äameCÁ
+ = 
+pktFrmCÁ
+;
+
+179 
+·ck‘
+->
+h—d”
+.
+¤cId
+ = srcId;
+
+180 
+·ck‘
+->
+h—d”
+.
+d¡Id
+ = dstId;
+
+181 
+·ck‘
+->
+h—d”
+.
+cmdId
+ = cmdId;
+
+182 
+·ck‘
+->
+h—d”
+.
+d©aL’
+ = 
+Ën
+;
+
+183 ià(
+Ën
+ > 0U) {
+
+185 (è
+	`memýy
+(
+·ck‘
+->
+·ylßd
+,…aylßd, 
+Ën
+);
+
+187 
+·ck‘
+->
+·ylßdChecksum
+ = 
+	`ÿlcuÏ‹Checksum
+(
+·ylßd
+, 
+Ën
+);
+
+189 
+»s
+ = 
+	`xQueueS’d
+(
+txCmdQueue
+, (*è&
+·ck‘
+, (
+TickTy³_t
+è
+IPC_QUEUE_TIMEOUT
+);
+
+190 ià(
+»s
+ !ð
+pdTRUE
+) {
+
+191 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+196 
+pktFrmCÁ
+++;
+
+199 
+	}
+}
+
+208 
+	$cProûssReûivedD©a
+(
+ušt8_t
+ *
+d©aPŒ
+, 
+ušt32_t
+ 
+d©aL’
+)
+
+210 
+cPack‘_t
+ *
+·ck‘
+ = 
+NULL
+;
+
+211 
+Ba£Ty³_t
+ 
+»s
+;
+
+213 ià(
+d©aL’
+ !ð
+IPC_PACKET_LEN
+) {
+
+217 
+·ck‘
+ = 
+	`pvPÜtM®loc
+(
+IPC_PACKET_LEN
+);
+
+218 ià(
+·ck‘
+ =ð
+NULL
+) {
+
+223 (è
+	`memýy
+(
+·ck‘
+, 
+d©aPŒ
+, 
+d©aL’
+);
+
+225 
+»s
+ = 
+	`xQueueS’d
+(
+rxCmdQueue
+, (*è&
+·ck‘
+, (
+TickTy³_t
+è
+IPC_QUEUE_TIMEOUT
+);
+
+226 ià(
+»s
+ !ð
+pdTRUE
+) {
+
+227 
+	`vPÜtF»e
+(
+·ck‘
+);
+
+232 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_api.h
+
+1 #iâdeà
+__IPC_API_H
+
+
+2 
+	#__IPC_API_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+9 
+	~"c_ty³s.h
+"
+
+11 
+cIn™
+();
+
+12 
+cRegi¡”RxCb
+(
+cRxCb_t
+ 
+rx_cb
+);
+
+13 
+cS’dCommªd
+(
+ušt8_t
+ 
+¤cId
+, ušt8_ˆ
+d¡Id
+, 
+ušt16_t
+ 
+cmdId
+, ušt8_ˆ*
+·ylßd
+, ušt8_ˆ
+Ën
+);
+
+14 
+cProûssReûivedD©a
+(
+ušt8_t
+ *
+d©aPŒ
+, 
+ušt32_t
+ 
+d©aL’
+);
+
+16 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_if.c
+
+1 
+	~"c_­i.h
+"
+
+2 
+	~"c_if.h
+"
+
+3 
+	~"¡m32l4xx_h®.h
+"
+
+4 
+	~<¡ršg.h
+>
+
+5 
+	~"cmsis_os.h
+"
+
+7 
+	#IPC_UART_TX_READY_EVT
+ (1 << 0è
+
+	)
+
+8 
+	#IPC_UART_TASK_STACK
+ (256Uè
+
+	)
+
+9 
+	#IPC_UART_TASK_PRIO
+ (
+tskIDLE_PRIORITY
+ + 1Uè
+
+	)
+
+11 
+Ev’tGroupHªdË_t
+ 
+	gcU¬tEvt
+;
+
+12 
+UART_HªdËTy³Def
+ 
+	gcU¬tHªdË
+;
+
+13 
+DMA_HªdËTy³Def
+ 
+	gcU¬tDmaTx
+;
+
+14 
+DMA_HªdËTy³Def
+ 
+	gcU¬tDmaRx
+;
+
+15 
+TaskHªdË_t
+ 
+	gcU¬tTaskHªdË
+ = 
+NULL
+;
+
+17 
+ušt8_t
+ 
+	gdmaRxBuf
+[2][
+IPC_PACKET_LEN
+];
+
+18 
+ušt8_t
+ 
+	gdmaRxTmpBuf
+[
+IPC_PACKET_LEN
+];
+
+19 
+ušt8_t
+ *
+	gdmaR—dyBufPŒ
+;
+
+20 
+ušt8_t
+ *
+	gdmaAùiveBufPŒ
+;
+
+21 
+ušt8_t
+ 
+	gdmaTxBufãr
+[
+IPC_PACKET_LEN
+];
+
+26 
+	$DMA2_ChªÃl3_IRQHªdËr
+()
+
+28 
+	`HAL_DMA_IRQHªdËr
+(&
+cU¬tDmaTx
+);
+
+29 
+	}
+}
+
+34 
+	$DMA2_ChªÃl5_IRQHªdËr
+()
+
+36 
+	`HAL_DMA_IRQHªdËr
+(&
+cU¬tDmaRx
+);
+
+37 
+	}
+}
+
+42 
+	$UART4_IRQHªdËr
+()
+
+44 
+	`HAL_UART_IRQHªdËr
+(&
+cU¬tHªdË
+);
+
+45 
+	}
+}
+
+52 
+	$cU¬tTask
+(*
+·¿m
+)
+
+54 
+ušt32_t
+ 
+d©aL’
+ = 0U;
+
+55 
+Ba£Ty³_t
+ 
+»s
+;
+
+56 (è
+·¿m
+;
+
+59 
+»s
+ = 
+	`xTaskNÙifyWa™
+(0x00, 0x00, &
+d©aL’
+, 
+pÜtMAX_DELAY
+);
+
+60 ià(
+»s
+ =ð
+pdTRUE
+) {
+
+61 
+	`cProûssReûivedD©a
+(
+dmaR—dyBufPŒ
+, 
+d©aL’
+);
+
+64 
+	}
+}
+
+72 
+	$cU¬tIn™
+(
+baud¿‹
+)
+
+74 
+cU¬tHªdË
+.
+In¡ªû
+ = 
+USART1
+;
+
+75 
+cU¬tHªdË
+.
+In™
+.
+BaudR©e
+ = 
+baud¿‹
+;
+
+76 
+cU¬tHªdË
+.
+In™
+.
+WÜdL’gth
+ = 
+UART_WORDLENGTH_8B
+;
+
+77 
+cU¬tHªdË
+.
+In™
+.
+StÝB™s
+ = 
+UART_STOPBITS_1
+;
+
+78 
+cU¬tHªdË
+.
+In™
+.
+P¬™y
+ = 
+UART_PARITY_NONE
+;
+
+79 
+cU¬tHªdË
+.
+In™
+.
+Mode
+ = 
+UART_MODE_TX_RX
+;
+
+80 
+cU¬tHªdË
+.
+In™
+.
+HwFlowCŽ
+ = 
+UART_HWCONTROL_NONE
+;
+
+81 
+cU¬tHªdË
+.
+In™
+.
+Ov”Sam¶šg
+ = 
+UART_OVERSAMPLING_16
+;
+
+82 
+cU¬tHªdË
+.
+In™
+.
+OÃB™Sam¶šg
+ = 
+UART_ONE_BIT_SAMPLE_DISABLE
+;
+
+83 
+cU¬tHªdË
+.
+AdvªûdIn™
+.
+AdvF—tu»In™
+ = 
+UART_ADVFEATURE_NO_INIT
+;
+
+84 ià(
+	`HAL_UART_In™
+(&
+cU¬tHªdË
+è!ð
+HAL_OK
+)
+
+90 
+	`__HAL_RCC_DMA2_CLK_ENABLE
+();
+
+93 
+cU¬tDmaRx
+.
+In¡ªû
+ = 
+DMA2_ChªÃl5
+;
+
+94 
+cU¬tDmaRx
+.
+In™
+.
+Reque¡
+ = 
+DMA_REQUEST_2
+;
+
+95 
+cU¬tDmaRx
+.
+In™
+.
+DœeùiÚ
+ = 
+DMA_PERIPH_TO_MEMORY
+;
+
+96 
+cU¬tDmaRx
+.
+In™
+.
+P”hInc
+ = 
+DMA_PINC_DISABLE
+;
+
+97 
+cU¬tDmaRx
+.
+In™
+.
+MemInc
+ = 
+DMA_MINC_ENABLE
+;
+
+98 
+cU¬tDmaRx
+.
+In™
+.
+P”hD©aAlignm’t
+ = 
+DMA_PDATAALIGN_BYTE
+;
+
+99 
+cU¬tDmaRx
+.
+In™
+.
+MemD©aAlignm’t
+ = 
+DMA_MDATAALIGN_BYTE
+;
+
+100 
+cU¬tDmaRx
+.
+In™
+.
+Mode
+ = 
+DMA_CIRCULAR
+;
+
+101 
+cU¬tDmaRx
+.
+In™
+.
+PriÜ™y
+ = 
+DMA_PRIORITY_LOW
+;
+
+102 ià(
+	`HAL_DMA_In™
+(&
+cU¬tDmaRx
+è!ð
+HAL_OK
+)
+
+106 
+	`__HAL_LINKDMA
+(&
+cU¬tHªdË
+, 
+hdm¬x
+, 
+cU¬tDmaRx
+);
+
+109 
+cU¬tDmaTx
+.
+In¡ªû
+ = 
+DMA2_ChªÃl3
+;
+
+110 
+cU¬tDmaTx
+.
+In™
+.
+Reque¡
+ = 
+DMA_REQUEST_2
+;
+
+111 
+cU¬tDmaTx
+.
+In™
+.
+DœeùiÚ
+ = 
+DMA_MEMORY_TO_PERIPH
+;
+
+112 
+cU¬tDmaTx
+.
+In™
+.
+P”hInc
+ = 
+DMA_PINC_DISABLE
+;
+
+113 
+cU¬tDmaTx
+.
+In™
+.
+MemInc
+ = 
+DMA_MINC_ENABLE
+;
+
+114 
+cU¬tDmaTx
+.
+In™
+.
+P”hD©aAlignm’t
+ = 
+DMA_PDATAALIGN_BYTE
+;
+
+115 
+cU¬tDmaTx
+.
+In™
+.
+MemD©aAlignm’t
+ = 
+DMA_MDATAALIGN_BYTE
+;
+
+116 
+cU¬tDmaTx
+.
+In™
+.
+Mode
+ = 
+DMA_NORMAL
+;
+
+117 
+cU¬tDmaTx
+.
+In™
+.
+PriÜ™y
+ = 
+DMA_PRIORITY_LOW
+;
+
+118 ià(
+	`HAL_DMA_In™
+(&
+cU¬tDmaTx
+è!ð
+HAL_OK
+)
+
+123 
+	`__HAL_LINKDMA
+(&
+cU¬tHªdË
+, 
+hdm©x
+, 
+cU¬tDmaTx
+);
+
+126 
+	`HAL_NVIC_S‘PriÜ™y
+(
+DMA2_ChªÃl3_IRQn
+, 5U, 1U);
+
+127 
+	`HAL_NVIC_EÇbËIRQ
+(
+DMA2_ChªÃl3_IRQn
+);
+
+130 
+	`HAL_NVIC_S‘PriÜ™y
+(
+DMA2_ChªÃl5_IRQn
+, 5U, 0U);
+
+131 
+	`HAL_NVIC_EÇbËIRQ
+(
+DMA2_ChªÃl5_IRQn
+);
+
+134 
+	`HAL_NVIC_S‘PriÜ™y
+(
+UART4_IRQn
+, 5U, 0U);
+
+135 
+	`HAL_NVIC_EÇbËIRQ
+(
+UART4_IRQn
+);
+
+137 
+cU¬tEvt
+ = 
+	`xEv’tGroupC»©e
+();
+
+138 
+	`xEv’tGroupS‘B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+);
+
+140 
+	`xTaskC»©e
+(
+cU¬tTask
+, "c_u¬t", 
+IPC_UART_TASK_STACK
+, 
+NULL
+, 
+IPC_UART_TASK_PRIO
+, &
+cU¬tTaskHªdË
+);
+
+141 ià(
+cU¬tTaskHªdË
+ == 0U) {
+
+146 
+dmaAùiveBufPŒ
+ = 
+dmaRxBuf
+[0];
+
+147 
+dmaR—dyBufPŒ
+ = 
+dmaRxBuf
+[1];
+
+148 ià(
+	`HAL_UARTEx_ReûiveToIdË_DMA
+(&
+cU¬tHªdË
+, 
+dmaRxTmpBuf
+, 
+IPC_PACKET_LEN
+è!ð
+HAL_OK
+) {
+
+153 
+	}
+}
+
+160 
+	$HAL_UART_TxC¶tC®lback
+(
+UART_HªdËTy³Def
+ *
+u¬t_hªdË
+)
+
+162 
+Ba£Ty³_t
+ 
+skWok’
+ = 
+pdFALSE
+;
+
+163 
+Ba£Ty³_t
+ 
+»s
+;
+
+165 
+»s
+ = 
+	`xEv’tGroupS‘B™sFromISR
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+, &
+skWok’
+);
+
+166 if(
+»s
+ =ð
+pdPASS
+) {
+
+167 
+	`pÜtYIELD_FROM_ISR
+(
+skWok’
+);
+
+169 
+	}
+}
+
+177 
+	$cU¬tS’dD©a
+(
+cPack‘_t
+ *
+·ck‘
+)
+
+179 
+HAL_StusTy³Def
+ 
+»s
+;
+
+181 
+	`xEv’tGroupWa™B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+, 
+pdFALSE
+,…dFALSE, 
+pÜtMAX_DELAY
+);
+
+183 (è
+	`memýy
+(
+dmaTxBufãr
+, (
+ušt8_t
+ *è
+·ck‘
+, 
+IPC_PACKET_LEN
+);
+
+185 
+»s
+ = 
+	`HAL_UART_T¿nsm™_DMA
+(&
+cU¬tHªdË
+, 
+dmaTxBufãr
+, 
+IPC_PACKET_LEN
+);
+
+186 ià(
+»s
+ !ð
+HAL_OK
+) {
+
+187  -
+»s
+;
+
+190 
+	`xEv’tGroupCË¬B™s
+(
+cU¬tEvt
+, 
+IPC_UART_TX_READY_EVT
+);
+
+193 
+	}
+}
+
+202 
+	$bufãrD©aR—dy
+(
+UART_HªdËTy³Def
+ *
+hu¬t
+, 
+ušt8_t
+* 
+d©a
+, 
+ušt16_t
+ 
+Ën
+)
+
+212 
+Ba£Ty³_t
+ 
+skWok’
+ = 
+pdFALSE
+;
+
+213 
+	`xTaskNÙifyFromISR
+(
+cU¬tTaskHªdË
+, 
+Ën
+, 
+eS‘B™s
+, &
+skWok’
+);
+
+214 
+	`pÜtYIELD_FROM_ISR
+(
+skWok’
+);
+
+215 
+	}
+}
+
+224 
+	$HAL_UARTEx_RxEv’tC®lback
+(
+UART_HªdËTy³Def
+ *
+hu¬t
+, 
+ušt16_t
+ 
+size
+)
+
+226 
+ušt16_t
+ 
+ÞdSize
+ = 0;
+
+227 
+ušt8_t
+ *
+±emp
+;
+
+228 
+ušt16_t
+ 
+i
+;
+
+229 
+ušt16_t
+ 
+»ûivedD©a
+ = 0;
+
+232 ià(
+size
+ !ð
+ÞdSize
+) {
+
+233 ià(
+size
+ > 
+ÞdSize
+) {
+
+234 
+»ûivedD©a
+ = 
+size
+ - 
+ÞdSize
+;
+
+236 
+i
+ = 0U; i < 
+»ûivedD©a
+; i++) {
+
+237 
+dmaAùiveBufPŒ
+[
+ÞdSize
+ + 
+i
+] = 
+dmaRxTmpBuf
+[oldSize + i];
+
+241 
+ÞdSize
+ = 
+size
+;
+
+243 ià(
+size
+ =ð
+IPC_PACKET_LEN
+) {
+
+245 
+±emp
+ = 
+dmaR—dyBufPŒ
+;
+
+246 
+dmaR—dyBufPŒ
+ = 
+dmaAùiveBufPŒ
+;
+
+247 
+dmaAùiveBufPŒ
+ = 
+±emp
+;
+
+250 
+ÞdSize
+ = 0;
+
+253 
+	`bufãrD©aR—dy
+(
+hu¬t
+, 
+dmaR—dyBufPŒ
+, 
+size
+);
+
+256 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_if.h
+
+1 #iâdeà
+__IPC_IF_H
+
+
+2 
+	#__IPC_IF_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+9 
+	~"c_ty³s.h
+"
+
+11 
+cU¬tIn™
+(
+baud¿‹
+);
+
+12 
+cU¬tS’dD©a
+(
+cPack‘_t
+ *
+·ck‘
+);
+
+14 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_types.h
+
+1 #iâdeà
+__IPC_TYPES_H
+
+
+2 
+	#__IPC_TYPES_H
+
+
+	)
+
+4 #ifdeà
+__ýlu¥lus
+
+
+8 
+	~"¡dšt.h
+"
+
+10 
+	#IPC_DATA_LEN
+ (64Uè
+
+	)
+
+11 
+	#IPC_HEADER_LEN
+ (6Uè
+
+	)
+
+12 
+	#IPC_PACKET_LEN
+ (72Uè
+
+	)
+
+13 
+	#IPC_TX_QUEUE_LEN
+ (10Uè
+
+	)
+
+14 
+	#IPC_RX_QUEUE_LEN
+ (10Uè
+
+	)
+
+21 
+ušt8_t
+ 
+äameCÁ
+;
+
+22 
+ušt8_t
+ 
+¤cId
+;
+
+23 
+ušt8_t
+ 
+d¡Id
+;
+
+24 
+ušt8_t
+ 
+d©aL’
+;
+
+25 
+ušt16_t
+ 
+cmdId
+;
+
+26 } 
+	tcPack‘H—d”_t
+;
+
+33 
+cPack‘H—d”_t
+ 
+h—d”
+;
+
+34 
+ušt8_t
+ 
+»£rved
+;
+
+35 
+ušt8_t
+ 
+·ylßdChecksum
+;
+
+36 
+ušt8_t
+ 
+·ylßd
+[
+IPC_DATA_LEN
+];
+
+37 } 
+	tcPack‘_t
+;
+
+43 (*
+cRxCb_t
+)(
+	tcPack‘_t
+ *
+	trx_cmd
+);
+
+45 #ifdeà
+__ýlu¥lus
+
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/main.c
+
+48 
+	~"maš.h
+"
+
+49 
+	~"cmsis_os.h
+"
+
+50 
+	~"c_ty³s.h
+"
+
+51 
+	~"c_if.h
+"
+
+52 
+	~"c_­i.h
+"
+
+70 
+	#STACK_SIZE
+ 256u
+
+	)
+
+71 
+	#TASK_PRIORITY
+ (
+tskIDLE_PRIORITY
+ + 2)
+
+	)
+
+75 
+TaskHªdË_t
+ 
+	gS’dCmdTaskHªdË
+ = 
+NULL
+;
+
+76 
+TaskHªdË_t
+ 
+	gRecvCmdTaskHªdË
+ = 
+NULL
+;
+
+77 
+RecvPack‘
+(
+cPack‘_t
+ *
+rx_cmd
+);
+
+78 
+S’dCmdTask
+(*
+·¿m
+);
+
+79 
+RecvCmdTask
+(*
+·¿m
+);
+
+82 
+__IO
+ 
+ušt32_t
+ 
+	gOsStus
+ = 0;
+
+86 
+Sy¡emClock_CÚfig
+();
+
+87 
+LED_Th»ad1
+(cÚ¡ * 
+¬gum’t
+);
+
+88 
+LED_Th»ad2
+(cÚ¡ * 
+¬gum’t
+);
+
+103 
+	$maš
+()
+
+121 
+	`HAL_In™
+();
+
+128 
+	`Sy¡emClock_CÚfig
+();
+
+155 
+	`xTaskC»©e
+(
+S’dCmdTask
+, "S’dCmd", 
+STACK_SIZE
+, 
+NULL
+, 
+TASK_PRIORITY
+, &
+S’dCmdTaskHªdË
+);
+
+156 ià(
+S’dCmdTaskHªdË
+ == 0U) {
+
+160 
+	`xTaskC»©e
+(
+RecvCmdTask
+, "RecvCmd", 
+STACK_SIZE
+, 
+NULL
+, 
+TASK_PRIORITY
+, &
+RecvCmdTaskHªdË
+);
+
+161 ià(
+RecvCmdTaskHªdË
+ == 0U) {
+
+169 
+	`osK”ÃlS¹
+();
+
+181 
+	}
+}
+
+183 
+	$S’dCmdTask
+(*
+·¿m
+)
+
+186 cÚ¡ 
+TickTy³_t
+ 
+xD–ay
+ = 200 / 
+pÜtTICK_PERIOD_MS
+;
+
+189 
+ušt8_t
+ 
+·ylßd
+[4] = { 0x30, 0x31, 0x32, 0x30 };
+
+190 
+	`cS’dCommªd
+((
+UARTpHªdË
+ *)
+·¿m
+, 0x41, 0x42,
+
+191 0x4443, 
+·ylßd
+, (payload));
+
+193 
+	`vTaskD–ay
+(
+xD–ay
+);
+
+195 
+	}
+}
+
+198 
+	$RecvCmdTask
+(*
+·¿m
+)
+
+201 cÚ¡ 
+TickTy³_t
+ 
+xD–ay
+ = 200 / 
+pÜtTICK_PERIOD_MS
+;
+
+204 
+	`cReûiveCommªd
+((
+UARTpHªdË
+ *)
+·¿m
+);
+
+205 
+	`vTaskD–ay
+(
+xD–ay
+);
+
+207 
+	}
+}
+
+212 
+	$Sy¡emClock_CÚfig
+()
+
+214 
+RCC_OscIn™Ty³Def
+ 
+RCC_OscIn™SŒuù
+ = {0};
+
+215 
+RCC_ClkIn™Ty³Def
+ 
+RCC_ClkIn™SŒuù
+ = {0};
+
+220 
+RCC_OscIn™SŒuù
+.
+OscžÏtÜTy³
+ = 
+RCC_OSCILLATORTYPE_MSI
+;
+
+221 
+RCC_OscIn™SŒuù
+.
+MSIS‹
+ = 
+RCC_MSI_ON
+;
+
+222 
+RCC_OscIn™SŒuù
+.
+MSIC®ib¿tiÚV®ue
+ = 
+RCC_MSICALIBRATION_DEFAULT
+;
+
+223 
+RCC_OscIn™SŒuù
+.
+MSIClockRªge
+ = 
+RCC_MSIRANGE_6
+;
+
+224 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLS‹
+ = 
+RCC_PLL_ON
+;
+
+225 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLSourû
+ = 
+RCC_PLLSOURCE_MSI
+;
+
+226 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLM
+ = 
+RCC_PLLM_DIV1
+;
+
+227 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLN
+ = 32;
+
+228 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLP
+ = 
+RCC_PLLP_DIV5
+;
+
+229 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLR
+ = 
+RCC_PLLR_DIV2
+;
+
+230 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLQ
+ = 4;
+
+231 ià(
+	`HAL_RCC_OscCÚfig
+(&
+RCC_OscIn™SŒuù
+è!ð
+HAL_OK
+)
+
+233 
+	`E¼Ü_HªdËr
+();
+
+237 
+RCC_ClkIn™SŒuù
+.
+ClockTy³
+ = 
+RCC_CLOCKTYPE_HCLK4
+|
+RCC_CLOCKTYPE_HCLK2
+
+
+238 |
+RCC_CLOCKTYPE_HCLK
+|
+RCC_CLOCKTYPE_SYSCLK
+
+
+239 |
+RCC_CLOCKTYPE_PCLK1
+|
+RCC_CLOCKTYPE_PCLK2
+;
+
+240 
+RCC_ClkIn™SŒuù
+.
+SYSCLKSourû
+ = 
+RCC_SYSCLKSOURCE_PLLCLK
+;
+
+241 
+RCC_ClkIn™SŒuù
+.
+AHBCLKDivid”
+ = 
+RCC_SYSCLK_DIV1
+;
+
+242 
+RCC_ClkIn™SŒuù
+.
+APB1CLKDivid”
+ = 
+RCC_HCLK_DIV1
+;
+
+243 
+RCC_ClkIn™SŒuù
+.
+APB2CLKDivid”
+ = 
+RCC_HCLK_DIV1
+;
+
+244 
+RCC_ClkIn™SŒuù
+.
+AHBCLK2Divid”
+ = 
+RCC_SYSCLK_DIV2
+;
+
+245 
+RCC_ClkIn™SŒuù
+.
+AHBCLK4Divid”
+ = 
+RCC_SYSCLK_DIV1
+;
+
+247 ià(
+	`HAL_RCC_ClockCÚfig
+(&
+RCC_ClkIn™SŒuù
+, 
+FLASH_LATENCY_3
+è!ð
+HAL_OK
+)
+
+249 
+	`E¼Ü_HªdËr
+();
+
+256 
+	}
+}
+
+270 
+	$HAL_TIM_P”iodEÏp£dC®lback
+(
+TIM_HªdËTy³Def
+ *
+htim
+)
+
+275 ià(
+htim
+->
+In¡ªû
+ =ð
+TIM17
+) {
+
+276 
+	`HAL_IncTick
+();
+
+281 
+	}
+}
+
+287 
+	$E¼Ü_HªdËr
+()
+
+293 
+	}
+}
+
+295 #ifdeà 
+USE_FULL_ASSERT
+
+
+303 
+	$as£¹_çžed
+(
+ušt8_t
+ *
+fže
+, 
+ušt32_t
+ 
+lše
+)
+
+313 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/main_bk.c
+
+48 
+	~"maš.h
+"
+
+49 
+	~"cmsis_os.h
+"
+
+71 
+UART_HªdËTy³Def
+ 
+	ghu¬t1
+;
+
+73 
+osTh»adId
+ 
+	gdeçuÉTaskHªdË
+;
+
+75 
+__IO
+ 
+ušt32_t
+ 
+	gOsStus
+ = 0;
+
+79 
+Sy¡emClock_CÚfig
+();
+
+80 
+MX_GPIO_In™
+();
+
+81 
+MX_USART1_UART_In™
+();
+
+82 
+S¹DeçuÉTask
+(cÚ¡ * 
+¬gum’t
+);
+
+97 
+	$maš
+()
+
+115 
+	`HAL_In™
+();
+
+122 
+	`Sy¡emClock_CÚfig
+();
+
+126 
+	`BSP_LED_In™
+(
+LED1
+);
+
+127 
+	`BSP_LED_In™
+(
+LED2
+);
+
+131 
+	`MX_GPIO_In™
+();
+
+132 
+	`MX_USART1_UART_In™
+();
+
+160 
+	`osK”ÃlS¹
+();
+
+172 
+	}
+}
+
+178 
+	$Sy¡emClock_CÚfig
+()
+
+180 
+RCC_OscIn™Ty³Def
+ 
+RCC_OscIn™SŒuù
+ = {0};
+
+181 
+RCC_ClkIn™Ty³Def
+ 
+RCC_ClkIn™SŒuù
+ = {0};
+
+186 
+RCC_OscIn™SŒuù
+.
+OscžÏtÜTy³
+ = 
+RCC_OSCILLATORTYPE_MSI
+;
+
+187 
+RCC_OscIn™SŒuù
+.
+MSIS‹
+ = 
+RCC_MSI_ON
+;
+
+188 
+RCC_OscIn™SŒuù
+.
+MSIC®ib¿tiÚV®ue
+ = 
+RCC_MSICALIBRATION_DEFAULT
+;
+
+189 
+RCC_OscIn™SŒuù
+.
+MSIClockRªge
+ = 
+RCC_MSIRANGE_6
+;
+
+190 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLS‹
+ = 
+RCC_PLL_ON
+;
+
+191 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLSourû
+ = 
+RCC_PLLSOURCE_MSI
+;
+
+192 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLM
+ = 
+RCC_PLLM_DIV1
+;
+
+193 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLN
+ = 32;
+
+194 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLP
+ = 
+RCC_PLLP_DIV5
+;
+
+195 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLR
+ = 
+RCC_PLLR_DIV2
+;
+
+196 
+RCC_OscIn™SŒuù
+.
+PLL
+.
+PLLQ
+ = 4;
+
+197 ià(
+	`HAL_RCC_OscCÚfig
+(&
+RCC_OscIn™SŒuù
+è!ð
+HAL_OK
+)
+
+199 
+	`E¼Ü_HªdËr
+();
+
+203 
+RCC_ClkIn™SŒuù
+.
+ClockTy³
+ = 
+RCC_CLOCKTYPE_HCLK4
+|
+RCC_CLOCKTYPE_HCLK2
+
+
+204 |
+RCC_CLOCKTYPE_HCLK
+|
+RCC_CLOCKTYPE_SYSCLK
+
+
+205 |
+RCC_CLOCKTYPE_PCLK1
+|
+RCC_CLOCKTYPE_PCLK2
+;
+
+206 
+RCC_ClkIn™SŒuù
+.
+SYSCLKSourû
+ = 
+RCC_SYSCLKSOURCE_PLLCLK
+;
+
+207 
+RCC_ClkIn™SŒuù
+.
+AHBCLKDivid”
+ = 
+RCC_SYSCLK_DIV1
+;
+
+208 
+RCC_ClkIn™SŒuù
+.
+APB1CLKDivid”
+ = 
+RCC_HCLK_DIV1
+;
+
+209 
+RCC_ClkIn™SŒuù
+.
+APB2CLKDivid”
+ = 
+RCC_HCLK_DIV1
+;
+
+210 
+RCC_ClkIn™SŒuù
+.
+AHBCLK2Divid”
+ = 
+RCC_SYSCLK_DIV2
+;
+
+211 
+RCC_ClkIn™SŒuù
+.
+AHBCLK4Divid”
+ = 
+RCC_SYSCLK_DIV1
+;
+
+213 ià(
+	`HAL_RCC_ClockCÚfig
+(&
+RCC_ClkIn™SŒuù
+, 
+FLASH_LATENCY_3
+è!ð
+HAL_OK
+)
+
+215 
+	`E¼Ü_HªdËr
+();
+
+222 
+	}
+}
+
+229 
+	$MX_USART1_UART_In™
+()
+
+239 
+hu¬t1
+.
+In¡ªû
+ = 
+USART1
+;
+
+240 
+hu¬t1
+.
+In™
+.
+BaudR©e
+ = 115200;
+
+241 
+hu¬t1
+.
+In™
+.
+WÜdL’gth
+ = 
+UART_WORDLENGTH_8B
+;
+
+242 
+hu¬t1
+.
+In™
+.
+StÝB™s
+ = 
+UART_STOPBITS_1
+;
+
+243 
+hu¬t1
+.
+In™
+.
+P¬™y
+ = 
+UART_PARITY_NONE
+;
+
+244 
+hu¬t1
+.
+In™
+.
+Mode
+ = 
+UART_MODE_TX_RX
+;
+
+245 
+hu¬t1
+.
+In™
+.
+HwFlowCŽ
+ = 
+UART_HWCONTROL_NONE
+;
+
+246 
+hu¬t1
+.
+In™
+.
+Ov”Sam¶šg
+ = 
+UART_OVERSAMPLING_16
+;
+
+247 
+hu¬t1
+.
+In™
+.
+OÃB™Sam¶šg
+ = 
+UART_ONE_BIT_SAMPLE_DISABLE
+;
+
+248 
+hu¬t1
+.
+In™
+.
+ClockP»sÿËr
+ = 
+UART_PRESCALER_DIV1
+;
+
+249 
+hu¬t1
+.
+AdvªûdIn™
+.
+AdvF—tu»In™
+ = 
+UART_ADVFEATURE_NO_INIT
+;
+
+250 ià(
+	`HAL_UART_In™
+(&
+hu¬t1
+è!ð
+HAL_OK
+)
+
+252 
+	`E¼Ü_HªdËr
+();
+
+254 ià(
+	`HAL_UARTEx_S‘TxFifoTh»shÞd
+(&
+hu¬t1
+, 
+UART_TXFIFO_THRESHOLD_1_8
+è!ð
+HAL_OK
+)
+
+256 
+	`E¼Ü_HªdËr
+();
+
+258 ià(
+	`HAL_UARTEx_S‘RxFifoTh»shÞd
+(&
+hu¬t1
+, 
+UART_RXFIFO_THRESHOLD_1_8
+è!ð
+HAL_OK
+)
+
+260 
+	`E¼Ü_HªdËr
+();
+
+262 ià(
+	`HAL_UARTEx_Di§bËFifoMode
+(&
+hu¬t1
+è!ð
+HAL_OK
+)
+
+264 
+	`E¼Ü_HªdËr
+();
+
+270 
+	}
+}
+
+277 
+	$MX_GPIO_In™
+()
+
+281 
+	`__HAL_RCC_GPIOA_CLK_ENABLE
+();
+
+283 
+	}
+}
+
+296 
+	$S¹DeçuÉTask
+(cÚ¡ * 
+¬gum’t
+)
+
+299 
+ušt32_t
+ 
+couÁ
+ = 0;
+
+300 (è
+¬gum’t
+;
+
+304 
+couÁ
+ = 
+	`osK”ÃlSysTick
+() + 5000;
+
+307 
+couÁ
+ > 
+	`osK”ÃlSysTick
+())
+
+309 
+	`BSP_LED_ToggË
+(
+LED1
+);
+
+311 
+	`osD–ay
+(200);
+
+315 
+	`BSP_LED_Off
+(
+LED1
+);
+
+318 
+OsStus
+ = 
+	`osTh»adSu¥’d
+(
+NULL
+);
+
+320 
+couÁ
+ = 
+	`osK”ÃlSysTick
+() + 5000;
+
+323 
+couÁ
+ > 
+	`osK”ÃlSysTick
+())
+
+325 
+	`BSP_LED_ToggË
+(
+LED1
+);
+
+327 
+	`osD–ay
+(500);
+
+331 
+OsStus
+ = 
+	`osTh»adResume
+(
+THREAD2HªdË
+);
+
+334 
+	}
+}
+
+344 
+	$HAL_TIM_P”iodEÏp£dC®lback
+(
+TIM_HªdËTy³Def
+ *
+htim
+)
+
+349 ià(
+htim
+->
+In¡ªû
+ =ð
+TIM1
+) {
+
+350 
+	`HAL_IncTick
+();
+
+355 
+	}
+}
+
+361 
+	$E¼Ü_HªdËr
+()
+
+367 
+	}
+}
+
+369 #ifdeà 
+USE_FULL_ASSERT
+
+
+377 
+	$as£¹_çžed
+(
+ušt8_t
+ *
+fže
+, 
+ušt32_t
+ 
+lše
+)
+
+387 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_hal_msp.c
+
+50 
+	~"maš.h
+"
+
+91 
+	$HAL_M¥In™
+()
+
+99 
+	`HAL_NVIC_S‘PriÜ™y
+(
+P’dSV_IRQn
+, 15, 0);
+
+104 
+	}
+}
+
+112 
+	$HAL_UART_M¥In™
+(
+UART_HªdËTy³Def
+* 
+hu¬t
+)
+
+114 
+GPIO_In™Ty³Def
+ 
+GPIO_In™SŒuù
+ = {0};
+
+115 if(
+hu¬t
+->
+In¡ªû
+==
+USART1
+)
+
+121 
+	`__HAL_RCC_USART1_CLK_ENABLE
+();
+
+123 
+	`__HAL_RCC_GPIOA_CLK_ENABLE
+();
+
+128 
+GPIO_In™SŒuù
+.
+Pš
+ = 
+GPIO_PIN_9
+|
+GPIO_PIN_10
+;
+
+129 
+GPIO_In™SŒuù
+.
+Mode
+ = 
+GPIO_MODE_AF_PP
+;
+
+130 
+GPIO_In™SŒuù
+.
+PuÎ
+ = 
+GPIO_NOPULL
+;
+
+131 
+GPIO_In™SŒuù
+.
+S³ed
+ = 
+GPIO_SPEED_FREQ_LOW
+;
+
+132 
+GPIO_In™SŒuù
+.
+AÉ”Ç‹
+ = 
+GPIO_AF7_USART1
+;
+
+133 
+	`HAL_GPIO_In™
+(
+GPIOA
+, &
+GPIO_In™SŒuù
+);
+
+136 
+	`HAL_NVIC_S‘PriÜ™y
+(
+USART1_IRQn
+, 5, 0);
+
+137 
+	`HAL_NVIC_EÇbËIRQ
+(
+USART1_IRQn
+);
+
+143 
+	}
+}
+
+151 
+	$HAL_UART_M¥DeIn™
+(
+UART_HªdËTy³Def
+* 
+hu¬t
+)
+
+153 if(
+hu¬t
+->
+In¡ªû
+==
+USART1
+)
+
+159 
+	`__HAL_RCC_USART1_CLK_DISABLE
+();
+
+165 
+	`HAL_GPIO_DeIn™
+(
+GPIOA
+, 
+GPIO_PIN_9
+|
+GPIO_PIN_10
+);
+
+168 
+	`HAL_NVIC_Di§bËIRQ
+(
+USART1_IRQn
+);
+
+174 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_hal_timebase_tim.c
+
+60 
+	~"¡m32wbxx_h®.h
+"
+
+61 
+	~"¡m32wbxx_h®_tim.h
+"
+
+67 
+TIM_HªdËTy³Def
+ 
+	ghtim1
+;
+
+80 
+HAL_StusTy³Def
+ 
+	$HAL_In™Tick
+(
+ušt32_t
+ 
+TickPriÜ™y
+)
+
+82 
+RCC_ClkIn™Ty³Def
+ 
+þkcÚfig
+;
+
+83 
+ušt32_t
+ 
+uwTimþock
+ = 0;
+
+84 
+ušt32_t
+ 
+uwP»sÿËrV®ue
+ = 0;
+
+85 
+ušt32_t
+ 
+pFL©’cy
+;
+
+87 
+	`HAL_NVIC_S‘PriÜ™y
+(
+TIM1_UP_TIM16_IRQn
+, 
+TickPriÜ™y
+ ,0);
+
+90 
+	`HAL_NVIC_EÇbËIRQ
+(
+TIM1_UP_TIM16_IRQn
+);
+
+93 
+	`__HAL_RCC_TIM1_CLK_ENABLE
+();
+
+96 
+	`HAL_RCC_G‘ClockCÚfig
+(&
+þkcÚfig
+, &
+pFL©’cy
+);
+
+99 
+uwTimþock
+ = 
+	`HAL_RCC_G‘PCLK2F»q
+();
+
+101 
+uwP»sÿËrV®ue
+ = (
+ušt32_t
+è((
+uwTimþock
+ / 1000000U) - 1U);
+
+104 
+htim1
+.
+In¡ªû
+ = 
+TIM1
+;
+
+112 
+htim1
+.
+In™
+.
+P”iod
+ = (1000000U / 1000U) - 1U;
+
+113 
+htim1
+.
+In™
+.
+P»sÿËr
+ = 
+uwP»sÿËrV®ue
+;
+
+114 
+htim1
+.
+In™
+.
+ClockDivisiÚ
+ = 0;
+
+115 
+htim1
+.
+In™
+.
+CouÁ”Mode
+ = 
+TIM_COUNTERMODE_UP
+;
+
+117 if(
+	`HAL_TIM_Ba£_In™
+(&
+htim1
+è=ð
+HAL_OK
+)
+
+120  
+	`HAL_TIM_Ba£_S¹_IT
+(&
+htim1
+);
+
+124  
+HAL_ERROR
+;
+
+125 
+	}
+}
+
+133 
+	$HAL_Su¥’dTick
+()
+
+136 
+	`__HAL_TIM_DISABLE_IT
+(&
+htim1
+, 
+TIM_IT_UPDATE
+);
+
+137 
+	}
+}
+
+145 
+	$HAL_ResumeTick
+()
+
+148 
+	`__HAL_TIM_ENABLE_IT
+(&
+htim1
+, 
+TIM_IT_UPDATE
+);
+
+149 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_it.c
+
+25 
+	~"maš.h
+"
+
+26 
+	~"¡m32wbxx_™.h
+"
+
+63 
+UART_HªdËTy³Def
+ 
+hu¬t1
+;
+
+64 
+TIM_HªdËTy³Def
+ 
+htim1
+;
+
+75 
+	$NMI_HªdËr
+()
+
+83 
+	}
+}
+
+88 
+	$H¬dFauÉ_HªdËr
+()
+
+98 
+	}
+}
+
+103 
+	$MemMªage_HªdËr
+()
+
+113 
+	}
+}
+
+118 
+	$BusFauÉ_HªdËr
+()
+
+128 
+	}
+}
+
+133 
+	$U§geFauÉ_HªdËr
+()
+
+143 
+	}
+}
+
+148 
+	$DebugMÚ_HªdËr
+()
+
+156 
+	}
+}
+
+168 
+	$TIM1_UP_TIM16_IRQHªdËr
+()
+
+173 
+	`HAL_TIM_IRQHªdËr
+(&
+htim1
+);
+
+177 
+	}
+}
+
+182 
+	$USART1_IRQHªdËr
+()
+
+187 
+	`HAL_UART_IRQHªdËr
+(&
+hu¬t1
+);
+
+191 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/system_stm32wbxx.c
+
+86 
+	~"¡m32wbxx.h
+"
+
+88 #ià!
+defšed
+ (
+HSE_VALUE
+)
+
+89 
+	#HSE_VALUE
+ (32000000ULè
+
+	)
+
+92 #ià!
+defšed
+ (
+MSI_VALUE
+)
+
+93 
+	#MSI_VALUE
+ (4000000ULè
+
+	)
+
+96 #ià!
+defšed
+ (
+HSI_VALUE
+)
+
+97 
+	#HSI_VALUE
+ (16000000ULè
+
+	)
+
+100 #ià!
+defšed
+ (
+LSI_VALUE
+)
+
+101 
+	#LSI_VALUE
+ (32000ULè
+
+	)
+
+104 #ià!
+defšed
+ (
+LSE_VALUE
+)
+
+105 
+	#LSE_VALUE
+ (32768ULè
+
+	)
+
+127 
+	#VECT_TAB_OFFSET
+ 0x0U
+
+	)
+
+130 
+	#VECT_TAB_BASE_ADDRESS
+ 
+SRAM1_BASE
+
+
+	)
+
+155 
+ušt32_t
+ 
+	gSy¡emCÜeClock
+ = 4000000UL ;
+
+157 cÚ¡ 
+ušt32_t
+ 
+	gAHBP»scTabË
+[16UL] = {1UL, 3UL, 5UL, 1UL, 1UL, 6UL, 10UL, 32UL, 2UL, 4UL, 8UL, 16UL, 64UL, 128UL, 256UL, 512UL};
+
+159 cÚ¡ 
+ušt32_t
+ 
+	gAPBP»scTabË
+[8UL] = {0UL, 0UL, 0UL, 0UL, 1UL, 2UL, 3UL, 4UL};
+
+161 cÚ¡ 
+ušt32_t
+ 
+	gMSIRªgeTabË
+[16UL] = {100000UL, 200000UL, 400000UL, 800000UL, 1000000UL, 2000000UL, \
+
+164 cÚ¡ 
+ušt32_t
+ 
+	gSmpsP»sÿËrTabË
+[4UL][6UL]={{1UL,3UL,2UL,2UL,1UL,2UL}, \
+
+190 
+	$Sy¡emIn™
+()
+
+193 #ià
+	`defšed
+(
+VECT_TAB_SRAM
+è&& defšed(
+VECT_TAB_BASE_ADDRESS
+)
+
+195 
+SCB
+->
+VTOR
+ = 
+VECT_TAB_BASE_ADDRESS
+ | 
+VECT_TAB_OFFSET
+;
+
+197 
+SCB
+->
+VTOR
+ = 
+VECT_TAB_OFFSET
+;
+
+201 #ià(
+__FPU_PRESENT
+ =ð1è&& (
+__FPU_USED
+ == 1)
+
+202 
+SCB
+->
+CPACR
+ |= ((3UL << (10UL*2UL))|(3UL << (11UL*2UL)));
+
+207 
+RCC
+->
+CR
+ |ð
+RCC_CR_MSION
+;
+
+210 
+RCC
+->
+CFGR
+ = 0x00070000U;
+
+213 
+RCC
+->
+CR
+ &ð(
+ušt32_t
+)0xFAF6FEFBU;
+
+216 
+RCC
+->
+CSR
+ &ð(
+ušt32_t
+)0xFFFFFFFAU;
+
+219 
+RCC
+->
+CRRCR
+ &ð(
+ušt32_t
+)0xFFFFFFFEU;
+
+222 
+RCC
+->
+PLLCFGR
+ = 0x22041000U;
+
+225 
+RCC
+->
+PLLSAI1CFGR
+ = 0x22041000U;
+
+228 
+RCC
+->
+CR
+ &= 0xFFFBFFFFU;
+
+231 
+RCC
+->
+CIER
+ = 0x00000000;
+
+232 
+	}
+}
+
+276 
+	$Sy¡emCÜeClockUpd©e
+()
+
+278 
+ušt32_t
+ 
+tmp
+, 
+msœªge
+, 
+¶lvco
+, 
+¶Ì
+, 
+¶lsourû
+ , 
+¶lm
+;
+
+283 
+msœªge
+ = 
+MSIRªgeTabË
+[(
+RCC
+->
+CR
+ & 
+RCC_CR_MSIRANGE
+è>> 
+RCC_CR_MSIRANGE_Pos
+];
+
+286 
+RCC
+->
+CFGR
+ & 
+RCC_CFGR_SWS
+)
+
+289 
+Sy¡emCÜeClock
+ = 
+msœªge
+;
+
+294 
+Sy¡emCÜeClock
+ = 
+HSI_VALUE
+;
+
+298 
+Sy¡emCÜeClock
+ = 
+HSE_VALUE
+;
+
+305 
+¶lsourû
+ = (
+RCC
+->
+PLLCFGR
+ & 
+RCC_PLLCFGR_PLLSRC
+);
+
+306 
+¶lm
+ = ((
+RCC
+->
+PLLCFGR
+ & 
+RCC_PLLCFGR_PLLM
+è>> 
+RCC_PLLCFGR_PLLM_Pos
+) + 1UL ;
+
+308 if(
+¶lsourû
+ == 0x02UL)
+
+310 
+¶lvco
+ = (
+HSI_VALUE
+ / 
+¶lm
+);
+
+312 if(
+¶lsourû
+ == 0x03UL)
+
+314 
+¶lvco
+ = (
+HSE_VALUE
+ / 
+¶lm
+);
+
+318 
+¶lvco
+ = (
+msœªge
+ / 
+¶lm
+);
+
+321 
+¶lvco
+ =…ÎvcØ* ((
+RCC
+->
+PLLCFGR
+ & 
+RCC_PLLCFGR_PLLN
+è>> 
+RCC_PLLCFGR_PLLN_Pos
+);
+
+322 
+¶Ì
+ = (((
+RCC
+->
+PLLCFGR
+ & 
+RCC_PLLCFGR_PLLR
+è>> 
+RCC_PLLCFGR_PLLR_Pos
+) + 1UL);
+
+324 
+Sy¡emCÜeClock
+ = 
+¶lvco
+/
+¶Ì
+;
+
+328 
+Sy¡emCÜeClock
+ = 
+msœªge
+;
+
+334 
+tmp
+ = 
+AHBP»scTabË
+[((
+RCC
+->
+CFGR
+ & 
+RCC_CFGR_HPRE
+è>> 
+RCC_CFGR_HPRE_Pos
+)];
+
+336 
+Sy¡emCÜeClock
+ = Sy¡emCÜeClock / 
+tmp
+;
+
+338 
+	}
+}
+
+	@/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/readme.txt
+
+	@
+1
+.
+1
+/usr/include
+27
+4834
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/EWARM/startup_stm32wb55xx_cm4.s
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/FreeRTOSConfig.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/main.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/stm32wbxx_hal_conf.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Inc/stm32wbxx_it.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/MDK-ARM/startup_stm32wb55xx_cm4.s
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/Startup/startup_stm32wb55rgvx.s
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_api.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_api.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_if.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_if.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/ipc_types.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/syscalls.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/STM32CubeIDE/Application/User/sysmem.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/app_freertos.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_api.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_api.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_if.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_if.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/ipc_types.h
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/main.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/main_bk.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_hal_msp.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_hal_timebase_tim.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/stm32wbxx_it.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/Src/system_stm32wbxx.c
+/cygdrive/c/Users/bykowmar/Downloads/PASA/BLE_module/STmicro/stmicro_eval/STM32CubeWB-1/Projects/P-NUCLEO-WB55.Nucleo/Applications/FreeRTOS/FreeRTOS_IPC/readme.txt
