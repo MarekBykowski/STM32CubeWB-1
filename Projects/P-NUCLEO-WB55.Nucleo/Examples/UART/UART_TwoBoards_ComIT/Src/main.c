@@ -9,11 +9,11 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics. 
+  * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the 
+  * the "License"; You may not use this file except in compliance with the
   * License. You may obtain a copy of the License at:
   *                        opensource.org/licenses/BSD-3-Clause
   *
@@ -21,7 +21,24 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <string.h>
 #include "main.h"
+
+typedef struct {
+    uint8_t  frameCnt;              /** Frame counter           */
+    uint8_t  srcId;                 /** Source ID               */
+    uint8_t  dstId;                 /** Destination ID          */
+    uint8_t  dataLen;               /** Data Length             */
+    uint16_t cmdId;                 /** Command ID              */
+} ipcPacketHeader_t;
+
+typedef struct {
+    ipcPacketHeader_t header;       /** Packet header           */
+    uint8_t  reserved;              /** Padding                 */
+    uint8_t  payloadChecksum;       /** Data checksum           */
+#define IPC_DATA_LEN 4
+    uint8_t  payload[IPC_DATA_LEN]; /** Actual Data in Message  */
+} ipcPacket_t;
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -50,10 +67,12 @@ __IO ITStatus UartReady = RESET;
 __IO uint32_t UserButtonStatus = 0;  /* set to 1 after User Button interrupt  */
 
 /* Buffer used for transmission */
-uint8_t aTxBuffer[4] = {0};
+/*uint8_t aTxBuffer[sizeof(ipcPacket_t)] = {0};*/
+static ipcPacket_t TxPacket;
 
 /* Buffer used for reception */
-uint8_t aRxBuffer[4] = {0};
+/*uint8_t aRxBuffer[sizeof(ipcPacket_t)] = {0};*/
+static ipcPacket_t RxPacket;
 
 /* USER CODE END PV */
 
@@ -70,20 +89,39 @@ static uint16_t Buffercmp(uint8_t* pBuffer1, uint8_t* pBuffer2, uint16_t BufferL
 
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
+int ipcSendCommand(uint8_t srcId, uint8_t dstId, uint16_t cmdId);
+int ipcSendCommand(uint8_t srcId, uint8_t dstId, uint16_t cmdId)
+{
+    uint8_t payload[4] =  { 0x30, 0x31, 0x32, 0x30 };
+
+    /* TODO: remove hardcodes after testing */
+    TxPacket.header.frameCnt = 0x5b/*pktFrmCnt++*/;
+    TxPacket.header.srcId = srcId;
+    TxPacket.header.dstId = dstId;
+    TxPacket.header.dataLen = 0x34/*len*/;
+    TxPacket.header.cmdId = cmdId;
+    memcpy(TxPacket.payload, payload, IPC_DATA_LEN);
+    TxPacket.payloadChecksum = 0x34/*calculateChecksum(payload, len)*/;
+
+    return 0;
+}
+
 int main(void)
 {
-	*(volatile uint32_t *)(aTxBuffer) = 0xdeadbeef;
+
+	/**(volatile uint32_t *)(aTxBuffer) = 0xdeadbeef;*/
+
+    uint8_t srcId = 0x41, dstId = 0x42;
+    uint16_t cmdId = 0x4443;
+    ipcSendCommand(srcId, dstId, cmdId);
+
   /* USER CODE BEGIN 1 */
   /* STM32WBxx HAL library initialization:
        - Configure the Flash prefetch
-       - Systick timer is configured by default as source of time base, but user 
-         can eventually implement his proper time base source (a general purpose 
-         timer for example or other time source), keeping in mind that Time base 
-         duration should be kept 1ms since PPP_TIMEOUT_VALUEs are defined and 
+       - Systick timer is configured by default as source of time base, but user
+         can eventually implement his proper time base source (a general purpose
+         timer for example or other time source), keeping in mind that Time base
+         duration should be kept 1ms since PPP_TIMEOUT_VALUEs are defined and
          handled in milliseconds basis.
        - Set NVIC Group Priority to 4
        - Low Level Initialization
@@ -134,8 +172,8 @@ int main(void)
 
   /*##-1- Start the transmission process #####################################*/
   /* While the UART in reception process, user can transmit data through
-     "aTxBuffer" buffer */
-  if(HAL_UART_Transmit_IT(&huart1, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
+     "TxPacket" buffer */
+  if(HAL_UART_Transmit_IT(&huart1, (uint8_t*)&TxPacket, TXBUFFERSIZE)!= HAL_OK)
   {
     Error_Handler();
   }
@@ -149,7 +187,7 @@ int main(void)
   UartReady = RESET;
 
   /*##-3- Put UART peripheral in reception process ###########################*/
-  if(HAL_UART_Receive_IT(&huart1, (uint8_t *)aRxBuffer, RXBUFFERSIZE) != HAL_OK)
+  if(HAL_UART_Receive_IT(&huart1, (uint8_t *)&RxPacket, RXBUFFERSIZE) != HAL_OK)
   {
     Error_Handler();
   }
@@ -159,7 +197,7 @@ int main(void)
   /* The board receives the message and sends it back */
 
   /*##-1- Put UART peripheral in reception process ###########################*/
-  if(HAL_UART_Receive_IT(&huart1, (uint8_t *)aRxBuffer, RXBUFFERSIZE) != HAL_OK)
+  if(HAL_UART_Receive_IT(&huart1, (uint8_t *)&RxPacket, RXBUFFERSIZE) != HAL_OK)
   {
     Error_Handler();
   }
@@ -185,8 +223,8 @@ int main(void)
 
   /*##-3- Start the transmission process #####################################*/
   /* While the UART in reception process, user can transmit data through
-     "aTxBuffer" buffer */
-  if(HAL_UART_Transmit_IT(&huart1, (uint8_t*)aTxBuffer, TXBUFFERSIZE)!= HAL_OK)
+     "TxPacket" buffer */
+  if(HAL_UART_Transmit_IT(&huart1, (uint8_t*)&TxPacket, TXBUFFERSIZE)!= HAL_OK)
   {
     Error_Handler();
   }
@@ -202,7 +240,7 @@ int main(void)
   UartReady = RESET;
 
   /*##-5- Compare the sent and received buffers ##############################*/
-  if(Buffercmp((uint8_t*)aTxBuffer,(uint8_t*)aRxBuffer,RXBUFFERSIZE))
+  if(Buffercmp((uint8_t*)&TxPacket,(uint8_t*)&RxPacket,RXBUFFERSIZE))
   {
     Error_Handler();
   }
@@ -338,9 +376,9 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 /**
   * @brief  Tx Transfer completed callback
-  * @param  UartHandle: UART handle. 
-  * @note   This example shows a simple way to report end of IT Tx transfer, and 
-  *         you can add your own implementation. 
+  * @param  UartHandle: UART handle.
+  * @note   This example shows a simple way to report end of IT Tx transfer, and
+  *         you can add your own implementation.
   * @retval None
   */
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *UartHandle)
@@ -353,7 +391,7 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *UartHandle)
 /**
   * @brief  Rx Transfer completed callback
   * @param  UartHandle: UART handle
-  * @note   This example shows a simple way to report end of DMA Rx transfer, and 
+  * @note   This example shows a simple way to report end of DMA Rx transfer, and
   *         you can add your own implementation.
   * @retval None
   */
@@ -385,7 +423,7 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *UartHandle)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
   if(GPIO_Pin == BUTTON_SW1_PIN)
-  {  
+  {
     UserButtonStatus = 1;
   }
 }

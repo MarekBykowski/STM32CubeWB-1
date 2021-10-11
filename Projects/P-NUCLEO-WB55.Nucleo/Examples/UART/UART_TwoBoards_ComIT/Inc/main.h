@@ -60,7 +60,7 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 /* USER CODE BEGIN Private defines */
 /* Size of Trasmission buffer */
-#define TXBUFFERSIZE                      (COUNTOF(aTxBuffer))
+#define TXBUFFERSIZE                      (sizeof(TxPacket))
 /* Size of Reception buffer */
 #define RXBUFFERSIZE                      TXBUFFERSIZE
 /* USER CODE END Private defines */
